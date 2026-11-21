@@ -1,0 +1,45 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 30/09/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,20969080.48,
+Bank – Collections Account,1020,bank,179374.33,
+Petty Cash,1030,cash,35055.49,
+Accounts Receivable,1040,accounts_receivable,84016104.13,
+Allowance for Expected Credit Losses,1050,other_current_asset,,286342.07
+Inventory,1060,stock,32102219.50,
+Prepayments and Advances,1070,other_current_asset,191155.17,
+Employee Advances,1090,other_current_asset,0.02,
+Suspense Account,1100,other_current_asset,,9563.81
+Property and Equipment – Cost,1110,fixed_asset,54732598.55,
+Accumulated Depreciation,1120,fixed_asset,,38336354.60
+Accounts Payable,2010,accounts_payable,,53337434.77
+Accrued Expenses,2020,other_current_liability,,413732.31
+VAT Payable,2050,other_current_liability,7428.22,
+Zakat Payable,2060,other_current_liability,,1563767.39
+GOSI Payable,2070,other_current_liability,,157879.65
+Term Loan,2100,long_term_liability,,12468750.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,9165452.91
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,17179258.62
+Sales,4010,income,,258549340.94
+Sales Returns,4020,income,488218.30,
+Other Income,4030,other_income,,4765.01
+Cost of Goods Sold,5010,cost_of_goods_sold,196463716.99,
+Salaries and Allowances,6010,expense,21400163.92,
+GOSI Contributions,6020,expense,855574.60,
+End-of-Service Benefits Expense,6030,expense,963007.33,
+Rent and Service Charges,6040,expense,5172446.41,
+Utilities,6050,expense,1533744.84,
+Marketing and Advertising,6060,expense,1674602.21,
+Delivery and Fuel,6070,expense,7212665.60,
+General and Administrative,6080,expense,5121569.35,
+Bank Charges,6090,expense,20247.77,
+Depreciation,6100,expense,4799003.49,
+Expected Credit Loss Expense,6110,expense,129868.82,
+Interest Expense,7010,other_expense,1008855.40,
+Foreign Exchange Gains and Losses,7020,other_expense,232173.77,
+Zakat Expense,7030,other_expense,1563767.39,
+Total,,,440872642.08,440872642.08

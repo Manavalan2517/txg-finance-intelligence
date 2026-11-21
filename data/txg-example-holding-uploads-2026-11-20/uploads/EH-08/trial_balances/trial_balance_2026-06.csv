@@ -1,0 +1,44 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 30/06/2026,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,15732374.14,
+Current Account – Bank 2,1020,bank,822049.49,
+Petty Cash Float,1030,cash,38762.11,
+Trade Debtors,1040,accounts_receivable,85867996.40,
+Provision for Doubtful Debts,1050,other_current_asset,,135740.95
+Stock on Hand,1060,stock,39668888.98,
+Prepayments,1070,other_current_asset,404241.56,
+Staff Loans,1090,other_current_asset,4500.00,
+Suspense,1100,other_current_asset,,24321.68
+Fixed Assets – Cost,1110,fixed_asset,73749606.25,
+Fixed Assets – Depreciation,1120,fixed_asset,,55673950.64
+Trade Creditors,2010,accounts_payable,,50756858.02
+Accruals,2020,other_current_liability,,378701.67
+VAT Liability,2050,other_current_liability,,146063.79
+Zakat Liability,2060,other_current_liability,,1165348.70
+GOSI Control,2070,other_current_liability,,182940.76
+Gratuity Provision,2110,long_term_liability,,10241038.30
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,41311802.79
+Turnover,4010,income,,206692819.94
+Returns Inwards,4020,income,1608637.98,
+Cost of Sales,5010,cost_of_goods_sold,162508026.33,
+Stock Write-offs,5020,cost_of_goods_sold,119767.94,
+Wages and Salaries,6010,expense,16848339.01,
+Employer GOSI,6020,expense,674371.15,
+Gratuity Expense,6030,expense,758175.22,
+Rent and Rates,6040,expense,3814063.33,
+"Light, Heat and Water",6050,expense,1043901.76,
+Advertising and Promotions,6060,expense,743173.48,
+Motor and Delivery Expenses,6070,expense,4951323.74,
+Office and Admin Costs,6080,expense,3766672.51,
+Bank Charges and Commissions,6090,expense,16884.18,
+Depreciation Charge,6100,expense,4361824.11,
+Bad Debt Expense,6110,expense,,15218.71
+Loan Interest,7010,other_expense,114281.23,
+Exchange Gains and Losses,7020,other_expense,,58403.65
+Zakat Charge,7030,other_expense,1165348.70,
+Total,,,418783209.60,418783209.60

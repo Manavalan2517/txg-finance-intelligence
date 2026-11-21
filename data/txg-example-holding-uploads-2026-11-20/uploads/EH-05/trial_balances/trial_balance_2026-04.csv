@@ -1,0 +1,43 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 30/04/2026,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,36878332.94,
+Bank – Collections Account,1020,bank,112899.94,
+Petty Cash,1030,cash,33753.29,
+Accounts Receivable,1040,accounts_receivable,86301247.10,
+Allowance for Expected Credit Losses,1050,other_current_asset,,140932.01
+Inventory,1060,stock,31209013.96,
+Prepayments and Advances,1070,other_current_asset,1787033.57,
+Employee Advances,1090,other_current_asset,5666.68,
+Property and Equipment – Cost,1110,fixed_asset,62648767.07,
+Accumulated Depreciation,1120,fixed_asset,,49505869.11
+Accounts Payable,2010,accounts_payable,,54557541.32
+Accrued Expenses,2020,other_current_liability,,251343.17
+VAT Payable,2050,other_current_liability,,1155822.97
+Zakat Payable,2060,other_current_liability,,801040.56
+GOSI Payable,2070,other_current_liability,,174437.22
+Term Loan,2100,long_term_liability,,1781250.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,9455900.57
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,43560079.78
+Sales,4010,income,,128432189.15
+Sales Returns,4020,income,203770.60,
+Cost of Goods Sold,5010,cost_of_goods_sold,96197244.12,
+Salaries and Allowances,6010,expense,10582964.83,
+GOSI Contributions,6020,expense,426421.03,
+End-of-Service Benefits Expense,6030,expense,476233.40,
+Rent and Service Charges,6040,expense,2411643.54,
+Utilities,6050,expense,533961.88,
+Marketing and Advertising,6060,expense,522225.87,
+Delivery and Fuel,6070,expense,3144546.79,
+General and Administrative,6080,expense,2384076.30,
+Bank Charges,6090,expense,9468.06,
+Depreciation,6100,expense,2486631.08,
+Expected Credit Loss Expense,6110,expense,,138630.87
+Interest Expense,7010,other_expense,89250.48,
+Foreign Exchange Gains and Losses,7020,other_expense,108843.64,
+Zakat Expense,7030,other_expense,801040.56,
+Total,,,339355036.73,339355036.73

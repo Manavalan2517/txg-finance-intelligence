@@ -1,0 +1,46 @@
+Example Facility Management A Co. (made-up)
+Trial Balance
+As of 31/05/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,47246379.32,
+Bank – Collections Account,1020,bank,86154.91,
+Petty Cash,1030,cash,36102.58,
+Accounts Receivable,1040,accounts_receivable,80199757.96,
+Unbilled Revenue (Contract Assets),1050,other_current_asset,19356577.03,
+Allowance for Expected Credit Losses,1060,other_current_asset,,357916.76
+Prepayments and Advances,1070,other_current_asset,1067598.32,
+Employee Advances,1090,other_current_asset,19625.08,
+Advance – Mr. Khalid,1100,other_current_asset,23410.61,
+Suspense Account,1110,other_current_asset,,3440.62
+Property and Equipment – Cost,1120,fixed_asset,97985805.65,
+Accumulated Depreciation,1130,fixed_asset,,75211253.42
+Accounts Payable,2010,accounts_payable,,18271827.64
+Accrued Expenses,2020,other_current_liability,,173981.04
+VAT Payable,2050,other_current_liability,,2121811.47
+Zakat Payable,2060,other_current_liability,,1283242.08
+GOSI Payable,2070,other_current_liability,,307048.97
+Dividends Payable,2090,other_current_liability,,7600000.00
+Term Loan,2100,long_term_liability,,36853750.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,25108081.71
+Share Capital,3010,equity,,34667000.00
+Statutory Reserve,3020,equity,,10400000.00
+Retained Earnings,3030,equity,,30749275.72
+Contract Revenue,4010,income,,100144787.82
+Direct Materials,5010,cost_of_goods_sold,17414764.25,
+Direct Labour – Site Staff,5020,cost_of_goods_sold,41367227.14,
+Subcontractor Costs,5030,cost_of_goods_sold,10243051.33,
+Equipment Hire and Site Costs,5040,cost_of_goods_sold,6456272.98,
+Salaries and Allowances,6010,expense,7615983.37,
+GOSI Contributions,6020,expense,1063913.77,
+End-of-Service Benefits Expense,6030,expense,1951432.33,
+Rent and Service Charges,6040,expense,588861.24,
+Utilities,6050,expense,308574.47,
+Marketing and Advertising,6060,expense,80171.12,
+General and Administrative,6070,expense,2322912.94,
+Bank Charges,6080,expense,6408.18,
+Depreciation,6090,expense,5261683.30,
+Expected Credit Loss Expense,6100,expense,,21347.02
+Interest Expense,7010,other_expense,1288854.31,
+Zakat Expense,7030,other_expense,1283242.08,
+Total,,,343274764.27,343274764.27

@@ -1,0 +1,44 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 31/05/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,35681692.12,
+Petty Cash Float,1030,cash,34946.83,
+Trade Debtors,1040,accounts_receivable,79003090.17,
+Provision for Doubtful Debts,1050,other_current_asset,,127654.11
+Stock on Hand,1060,stock,29083932.14,
+Prepayments,1070,other_current_asset,1085964.96,
+Fixed Assets – Cost,1110,fixed_asset,53858089.81,
+Fixed Assets – Depreciation,1120,fixed_asset,,31645491.11
+Trade Creditors,2010,accounts_payable,,45208063.34
+Accruals,2020,other_current_liability,,305491.45
+VAT Liability,2050,other_current_liability,,1077923.13
+Zakat Liability,2060,other_current_liability,,977748.42
+GOSI Control,2070,other_current_liability,,162207.32
+Dividends Declared,2090,other_current_liability,,9000000.00
+Bank Loan,2100,long_term_liability,,22500000.00
+Gratuity Provision,2110,long_term_liability,,9656762.34
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,19074979.50
+Turnover,4010,income,,154637132.77
+Returns Inwards,4020,income,1363920.12,
+Sundry Income,4030,other_income,,7087.87
+Cost of Sales,5010,cost_of_goods_sold,116406872.04,
+Stock Write-offs,5020,cost_of_goods_sold,88361.92,
+Wages and Salaries,6010,expense,12233167.40,
+Employer GOSI,6020,expense,491757.50,
+Gratuity Expense,6030,expense,550492.50,
+Rent and Rates,6040,expense,2934315.20,
+"Light, Heat and Water",6050,expense,714257.09,
+Advertising and Promotions,6060,expense,789559.91,
+Motor and Delivery Expenses,6070,expense,4211918.82,
+Office and Admin Costs,6080,expense,2881887.63,
+Bank Charges and Commissions,6090,expense,13834.73,
+Depreciation Charge,6100,expense,2673355.19,
+Bad Debt Expense,6110,expense,9921.60,
+Loan Interest,7010,other_expense,822874.98,
+Exchange Gains and Losses,7020,other_expense,468580.28,
+Zakat Charge,7030,other_expense,977748.42,
+Total,,,346380541.36,346380541.36

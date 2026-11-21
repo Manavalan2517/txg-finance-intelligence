@@ -1,0 +1,45 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 30/04/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,32062909.92,
+Petty Cash Float,1030,cash,38586.96,
+Trade Debtors,1040,accounts_receivable,84722105.11,
+Provision for Doubtful Debts,1050,other_current_asset,,148425.53
+Stock on Hand,1060,stock,33533012.74,
+Prepayments,1070,other_current_asset,1794515.82,
+Staff Loans,1090,other_current_asset,625.00,
+Suspense,1100,other_current_asset,,106707.84
+Fixed Assets – Cost,1110,fixed_asset,67604445.66,
+Fixed Assets – Depreciation,1120,fixed_asset,,45696127.28
+Trade Creditors,2010,accounts_payable,,52150692.07
+Accruals,2020,other_current_liability,,267011.07
+VAT Liability,2050,other_current_liability,,112928.34
+Zakat Liability,2060,other_current_liability,,801069.75
+GOSI Control,2070,other_current_liability,,170306.96
+Bank Loan,2100,long_term_liability,,9375000.00
+Gratuity Provision,2110,long_term_liability,,9866549.06
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,42660760.69
+Turnover,4010,income,,134200830.52
+Returns Inwards,4020,income,1645228.35,
+Sundry Income,4030,other_income,,77565.37
+Cost of Sales,5010,cost_of_goods_sold,100760440.91,
+Stock Write-offs,5020,cost_of_goods_sold,52066.53,
+Wages and Salaries,6010,expense,10594303.28,
+Employer GOSI,6020,expense,421334.27,
+Gratuity Expense,6030,expense,476743.64,
+Rent and Rates,6040,expense,2472450.38,
+"Light, Heat and Water",6050,expense,564229.12,
+Advertising and Promotions,6060,expense,702989.69,
+Motor and Delivery Expenses,6070,expense,3443224.72,
+Office and Admin Costs,6080,expense,2502111.18,
+Bank Charges and Commissions,6090,expense,10203.08,
+Depreciation Charge,6100,expense,2680014.26,
+Bad Debt Expense,6110,expense,16206.30,
+Loan Interest,7010,other_expense,284166.65,
+Exchange Gains and Losses,7020,other_expense,450991.16,
+Zakat Charge,7030,other_expense,801069.75,
+Total,,,347633974.48,347633974.48

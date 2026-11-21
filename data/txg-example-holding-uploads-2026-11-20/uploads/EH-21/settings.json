@@ -1,0 +1,11 @@
+{
+ "company": "EH-21",
+ "legal_name": "Example Facility Management A Co. (made-up)",
+ "fiscal_year_end": "12-31",
+ "vat_filing": "monthly",
+ "zakat_payer": true,
+ "approval_limit_sar": 50000,
+ "approval_limit_note": "Delegation of authority: a single bill above this amount needs the CFO's approval.",
+ "minimum_cash_policy_sar": 4600000.0,
+ "note": "Made-up example settings; stands in for the delegation-of-authority document."
+}

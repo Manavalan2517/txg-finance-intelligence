@@ -1,0 +1,43 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 31/10/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,29021208.53,
+Bank – Collections Account,1020,bank,91230.18,
+Petty Cash,1030,cash,35578.69,
+Accounts Receivable,1040,accounts_receivable,85586814.79,
+Allowance for Expected Credit Losses,1050,other_current_asset,,104176.33
+Inventory,1060,stock,29232063.47,
+Prepayments and Advances,1070,other_current_asset,1297012.79,
+Employee Advances,1090,other_current_asset,1333.34,
+Property and Equipment – Cost,1110,fixed_asset,59942044.82,
+Accumulated Depreciation,1120,fixed_asset,,45802989.72
+Accounts Payable,2010,accounts_payable,,54536161.43
+Accrued Expenses,2020,other_current_liability,,400319.42
+VAT Payable,2050,other_current_liability,,38143.58
+Zakat Payable,2060,other_current_liability,,1814596.10
+GOSI Payable,2070,other_current_liability,,167645.99
+Term Loan,2100,long_term_liability,,5343750.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,9381518.67
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,25406966.40
+Sales,4010,income,,299608117.74
+Sales Returns,4020,income,868775.10,
+Cost of Goods Sold,5010,cost_of_goods_sold,226814280.77,
+Salaries and Allowances,6010,expense,25238478.87,
+GOSI Contributions,6020,expense,1014896.64,
+End-of-Service Benefits Expense,6030,expense,1135731.49,
+Rent and Service Charges,6040,expense,5908839.94,
+Utilities,6050,expense,1736091.45,
+Marketing and Advertising,6060,expense,1419618.51,
+Delivery and Fuel,6070,expense,8015026.49,
+General and Administrative,6080,expense,5876556.95,
+Bank Charges,6090,expense,21679.50,
+Depreciation,6100,expense,5805758.74,
+Expected Credit Loss Expense,6110,expense,,36215.79
+Interest Expense,7010,other_expense,562197.05,
+Foreign Exchange Gains and Losses,7020,other_expense,600786.96,
+Zakat Expense,7030,other_expense,1814596.10,
+Total,,,492040601.17,492040601.17

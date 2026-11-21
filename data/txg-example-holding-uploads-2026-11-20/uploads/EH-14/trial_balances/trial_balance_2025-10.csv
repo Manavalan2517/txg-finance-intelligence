@@ -1,0 +1,54 @@
+Example Home Retail A Co. (made-up)
+Trial Balance
+As of 31/10/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account / البنك - الحساب الجاري,1-01-002,bank,9173290.78,
+Bank – Collections Account / البنك - حساب التحصيلات,1-01-003,bank,670019.00,
+Petty Cash / الصندوق - النثرية,1-01-004,cash,28185.67,
+Accounts Receivable / الذمم المدينة,1-01-005,accounts_receivable,394032.77,
+Allowance for Expected Credit Losses / مخصص الخسائر الائتمانية المتوقعة,1-01-006,other_current_asset,,725.84
+Inventory / المخزون,1-01-007,stock,39238277.29,
+Prepayments and Advances / مصروفات مدفوعة مقدماً,1-01-008,other_current_asset,82161.05,
+Employee Advances / سلف الموظفين,1-01-010,other_current_asset,3000.00,
+Card Settlements in Transit / تسويات البطاقات قيد التحصيل,1-01-012,other_current_asset,1701184.06,
+Property and Equipment – Cost / الممتلكات والمعدات - التكلفة,1-01-013,fixed_asset,184248736.40,
+Accumulated Depreciation / مجمع الاستهلاك,1-01-014,fixed_asset,,155270304.71
+Right-of-Use Assets / أصول حق الاستخدام,1-01-015,fixed_asset,116553077.29,
+Accumulated Depreciation – Right-of-Use / مجمع استهلاك أصول حق الاستخدام,1-01-016,fixed_asset,,44673933.79
+Accounts Payable / الذمم الدائنة,2-01-002,accounts_payable,,14027019.29
+Accrued Expenses / مصروفات مستحقة,2-01-003,other_current_liability,,439438.46
+VAT Payable / ضريبة القيمة المضافة المستحقة,2-01-006,other_current_liability,,1335891.48
+Zakat Payable / الزكاة المستحقة,2-01-007,other_current_liability,,1055076.56
+GOSI Payable / التأمينات الاجتماعية المستحقة,2-01-008,other_current_liability,,235631.94
+Revolving Credit Facility / تسهيلات ائتمانية متجددة,2-01-009,other_current_liability,,1000000.00
+Term Loan / قرض لأجل,2-01-011,long_term_liability,,29166666.68
+Lease Liabilities / التزامات عقود الإيجار,2-01-012,long_term_liability,,67898840.15
+Provision for End-of-Service Benefits / مخصص مكافأة نهاية الخدمة,2-01-013,long_term_liability,,7009971.64
+Share Capital / رأس المال,3-01-002,equity,,50000000.00
+Statutory Reserve / الاحتياطي النظامي,3-01-003,equity,,15000000.00
+Retained Earnings / الأرباح المبقاة,3-01-004,equity,33307606.73,
+Sales – Home Décor / مبيعات - الديكور المنزلي,4-01-002,income,,75574902.37
+Sales – Kitchen and Dining / مبيعات - المطبخ والمائدة,4-01-003,income,,67180886.98
+Sales – Bed and Bath / مبيعات - غرف النوم والحمام,4-01-004,income,,47811032.88
+Other Income / إيرادات أخرى,4-01-006,other_income,,19635.83
+Cost of Sales – Home Décor / تكلفة مبيعات - الديكور المنزلي,5-01-002,cost_of_goods_sold,36278993.80,
+Cost of Sales – Kitchen and Dining / تكلفة مبيعات - المطبخ والمائدة,5-01-003,cost_of_goods_sold,36250855.85,
+Cost of Sales – Bed and Bath / تكلفة مبيعات - غرف النوم والحمام,5-01-004,cost_of_goods_sold,24400969.52,
+Inventory Adjustments – Damaged and Expired / تسويات المخزون - التالف والمنتهي,5-01-005,cost_of_goods_sold,624238.86,
+Salaries and Allowances / الرواتب والبدلات,6-01-002,expense,27594591.40,
+GOSI Contributions / اشتراكات التأمينات الاجتماعية,6-01-003,expense,1341980.79,
+End-of-Service Benefits Expense / مصروف مكافأة نهاية الخدمة,6-01-004,expense,1241756.55,
+Rent and Service Charges / الإيجار ورسوم الخدمات,6-01-005,expense,2749214.57,
+Utilities / المرافق,6-01-006,expense,2443802.94,
+Marketing and Advertising / التسويق والإعلان,6-01-007,expense,5155562.67,
+General and Administrative / مصروفات عمومية وإدارية,6-01-008,expense,6537004.57,
+Bank Charges / رسوم بنكية,6-01-009,expense,1819959.80,
+Depreciation / الاستهلاك,6-01-010,expense,20516929.82,
+Depreciation – Right-of-Use / استهلاك أصول حق الاستخدام,6-01-011,expense,18294176.65,
+Expected Credit Loss Expense / مصروف الخسائر الائتمانية المتوقعة,6-01-012,expense,,38.73
+Interest Expense / مصروف الفوائد,7-01-002,other_expense,2127952.68,
+Interest on Lease Liabilities / فوائد التزامات الإيجار,7-01-003,other_expense,3461094.57,
+Foreign Exchange Gains and Losses / أرباح وخسائر فروقات العملة,7-01-004,other_expense,406264.69,
+Zakat Expense / مصروف الزكاة,7-01-005,other_expense,1055076.56,
+Total,,,577699997.33,577699997.33

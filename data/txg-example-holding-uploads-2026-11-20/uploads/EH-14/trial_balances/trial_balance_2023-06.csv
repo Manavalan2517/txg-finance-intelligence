@@ -1,0 +1,51 @@
+Example Home Retail A Co. (made-up)
+Trial Balance
+As of 30/06/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account / البنك - الحساب الجاري,1-01-002,bank,22601502.72,
+Bank – Collections Account / البنك - حساب التحصيلات,1-01-003,bank,478837.63,
+Petty Cash / الصندوق - النثرية,1-01-004,cash,28681.96,
+Accounts Receivable / الذمم المدينة,1-01-005,accounts_receivable,550242.22,
+Allowance for Expected Credit Losses / مخصص الخسائر الائتمانية المتوقعة,1-01-006,other_current_asset,,1443.50
+Inventory / المخزون,1-01-007,stock,37956890.90,
+Prepayments and Advances / مصروفات مدفوعة مقدماً,1-01-008,other_current_asset,225677.66,
+Employee Advances / سلف الموظفين,1-01-010,other_current_asset,3666.67,
+Card Settlements in Transit / تسويات البطاقات قيد التحصيل,1-01-012,other_current_asset,2429193.77,
+Property and Equipment – Cost / الممتلكات والمعدات - التكلفة,1-01-013,fixed_asset,136437375.88,
+Accumulated Depreciation / مجمع الاستهلاك,1-01-014,fixed_asset,,104171936.99
+Right-of-Use Assets / أصول حق الاستخدام,1-01-015,fixed_asset,82268518.84,
+Accumulated Depreciation – Right-of-Use / مجمع استهلاك أصول حق الاستخدام,1-01-016,fixed_asset,,45536193.49
+Accounts Payable / الذمم الدائنة,2-01-002,accounts_payable,,23125395.84
+Accrued Expenses / مصروفات مستحقة,2-01-003,other_current_liability,,393786.16
+VAT Payable / ضريبة القيمة المضافة المستحقة,2-01-006,other_current_liability,218994.02,
+Zakat Payable / الزكاة المستحقة,2-01-007,other_current_liability,,605154.81
+GOSI Payable / التأمينات الاجتماعية المستحقة,2-01-008,other_current_liability,,186608.47
+Lease Liabilities / التزامات عقود الإيجار,2-01-012,long_term_liability,,33987189.48
+Provision for End-of-Service Benefits / مخصص مكافأة نهاية الخدمة,2-01-013,long_term_liability,,6404212.47
+Share Capital / رأس المال,3-01-002,equity,,50000000.00
+Statutory Reserve / الاحتياطي النظامي,3-01-003,equity,,15000000.00
+Retained Earnings / الأرباح المبقاة,3-01-004,equity,1061856.34,
+Sales – Home Décor / مبيعات - الديكور المنزلي,4-01-002,income,,40411065.60
+Sales – Kitchen and Dining / مبيعات - المطبخ والمائدة,4-01-003,income,,36204720.58
+Sales – Bed and Bath / مبيعات - غرف النوم والحمام,4-01-004,income,,24613079.60
+Cost of Sales – Home Décor / تكلفة مبيعات - الديكور المنزلي,5-01-002,cost_of_goods_sold,19390876.64,
+Cost of Sales – Kitchen and Dining / تكلفة مبيعات - المطبخ والمائدة,5-01-003,cost_of_goods_sold,19546582.34,
+Cost of Sales – Bed and Bath / تكلفة مبيعات - غرف النوم والحمام,5-01-004,cost_of_goods_sold,12547452.62,
+Inventory Adjustments – Damaged and Expired / تسويات المخزون - التالف والمنتهي,5-01-005,cost_of_goods_sold,406833.76,
+Salaries and Allowances / الرواتب والبدلات,6-01-002,expense,13513163.83,
+GOSI Contributions / اشتراكات التأمينات الاجتماعية,6-01-003,expense,658172.26,
+End-of-Service Benefits Expense / مصروف مكافأة نهاية الخدمة,6-01-004,expense,608092.34,
+Rent and Service Charges / الإيجار ورسوم الخدمات,6-01-005,expense,1448089.88,
+Utilities / المرافق,6-01-006,expense,1192619.95,
+Marketing and Advertising / التسويق والإعلان,6-01-007,expense,3136326.14,
+General and Administrative / مصروفات عمومية وإدارية,6-01-008,expense,3548276.68,
+Bank Charges / رسوم بنكية,6-01-009,expense,971092.28,
+Depreciation / الاستهلاك,6-01-010,expense,9533615.94,
+Depreciation – Right-of-Use / استهلاك أصول حق الاستخدام,6-01-011,expense,8217515.96,
+Expected Credit Loss Expense / مصروف الخسائر الائتمانية المتوقعة,6-01-012,expense,824.62,
+Interest Expense / مصروف الفوائد,7-01-002,other_expense,25138.85,
+Interest on Lease Liabilities / فوائد التزامات الإيجار,7-01-003,other_expense,1179178.95,
+Foreign Exchange Gains and Losses / أرباح وخسائر فروقات العملة,7-01-004,other_expense,,149659.47
+Zakat Expense / مصروف الزكاة,7-01-005,other_expense,605154.81,
+Total,,,380790446.46,380790446.46

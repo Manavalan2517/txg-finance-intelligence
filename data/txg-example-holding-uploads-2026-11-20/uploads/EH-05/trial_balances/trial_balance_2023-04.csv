@@ -1,0 +1,43 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 30/04/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,14606950.78,
+Petty Cash,1030,cash,35310.13,
+Accounts Receivable,1040,accounts_receivable,77632889.91,
+Allowance for Expected Credit Losses,1050,other_current_asset,,270082.32
+Inventory,1060,stock,28872281.10,
+Prepayments and Advances,1070,other_current_asset,1692378.45,
+Employee Advances,1090,other_current_asset,2583.36,
+Property and Equipment – Cost,1110,fixed_asset,50146757.53,
+Accumulated Depreciation,1120,fixed_asset,,29441282.33
+Accounts Payable,2010,accounts_payable,,42249612.24
+Accrued Expenses,2020,other_current_liability,,244154.51
+VAT Payable,2050,other_current_liability,,116124.55
+Zakat Payable,2060,other_current_liability,,650721.37
+GOSI Payable,2070,other_current_liability,,153182.51
+Term Loan,2100,long_term_liability,,23156250.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,8901649.17
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,13419144.09
+Sales,4010,income,,113328426.19
+Sales Returns,4020,income,147884.18,
+Other Income,4030,other_income,,9705.54
+Cost of Goods Sold,5010,cost_of_goods_sold,85653279.89,
+Salaries and Allowances,6010,expense,9229075.73,
+GOSI Contributions,6020,expense,370278.56,
+End-of-Service Benefits Expense,6030,expense,415308.38,
+Rent and Service Charges,6040,expense,2227901.26,
+Utilities,6050,expense,505026.19,
+Marketing and Advertising,6060,expense,418068.11,
+Delivery and Fuel,6070,expense,3282680.24,
+General and Administrative,6080,expense,2244995.74,
+Bank Charges,6090,expense,7982.94,
+Depreciation,6100,expense,1988812.62,
+Expected Credit Loss Expense,6110,expense,110872.99,
+Interest Expense,7010,other_expense,630186.43,
+Foreign Exchange Gains and Losses,7020,other_expense,468108.93,
+Zakat Expense,7030,other_expense,650721.37,
+Total,,,281340334.82,281340334.82

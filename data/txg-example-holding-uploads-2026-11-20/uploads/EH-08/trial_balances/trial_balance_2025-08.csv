@@ -1,0 +1,44 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 31/08/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,24367656.40,
+Petty Cash Float,1030,cash,36584.97,
+Trade Debtors,1040,accounts_receivable,76178925.33,
+Provision for Doubtful Debts,1050,other_current_asset,,124392.82
+Stock on Hand,1060,stock,34428435.79,
+Prepayments,1070,other_current_asset,833679.92,
+Staff Loans,1090,other_current_asset,750.01,
+Fixed Assets – Cost,1110,fixed_asset,69831797.85,
+Fixed Assets – Depreciation,1120,fixed_asset,,48467125.64
+Trade Creditors,2010,accounts_payable,,42459727.44
+Accruals,2020,other_current_liability,,430078.81
+VAT Liability,2050,other_current_liability,,1580735.77
+Zakat Liability,2060,other_current_liability,,1551774.16
+GOSI Control,2070,other_current_liability,,176128.13
+Bank Loan,2100,long_term_liability,,5625000.00
+Gratuity Provision,2110,long_term_liability,,9897901.39
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,34660760.69
+Turnover,4010,income,,259206379.34
+Returns Inwards,4020,income,2628958.75,
+Sundry Income,4030,other_income,,165446.11
+Cost of Sales,5010,cost_of_goods_sold,196736655.03,
+Stock Write-offs,5020,cost_of_goods_sold,234203.08,
+Wages and Salaries,6010,expense,21264428.17,
+Employer GOSI,6020,expense,848165.37,
+Gratuity Expense,6030,expense,956899.23,
+Rent and Rates,6040,expense,4965188.74,
+"Light, Heat and Water",6050,expense,1405052.49,
+Advertising and Promotions,6060,expense,1286553.90,
+Motor and Delivery Expenses,6070,expense,6666780.08,
+Office and Admin Costs,6080,expense,4994330.47,
+Bank Charges and Commissions,6090,expense,21460.88,
+Depreciation Charge,6100,expense,5451012.62,
+Bad Debt Expense,6110,expense,,7826.41
+Loan Interest,7010,other_expense,502843.71,
+Exchange Gains and Losses,7020,other_expense,1161139.76,
+Zakat Charge,7030,other_expense,1551774.16,
+Total,,,456353276.71,456353276.71

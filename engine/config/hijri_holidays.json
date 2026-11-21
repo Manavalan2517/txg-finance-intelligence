@@ -1,0 +1,14 @@
+{
+  "version": "1",
+  "source": "Dates as announced in Saudi Arabia, copied from the client's Example Holding generator (calendar_ksa.py) for 2021–2026. 2027 is an estimate (Umm al-Qura) and must be replaced by the announced dates (§8.4).",
+  "eid_days": 4,
+  "years": {
+    "2021": {"ramadan": ["2021-04-13", "2021-05-12"], "eid_fitr": "2021-05-13", "arafah": "2021-07-19"},
+    "2022": {"ramadan": ["2022-04-02", "2022-05-01"], "eid_fitr": "2022-05-02", "arafah": "2022-07-08"},
+    "2023": {"ramadan": ["2023-03-23", "2023-04-20"], "eid_fitr": "2023-04-21", "arafah": "2023-06-27"},
+    "2024": {"ramadan": ["2024-03-11", "2024-04-09"], "eid_fitr": "2024-04-10", "arafah": "2024-06-15"},
+    "2025": {"ramadan": ["2025-03-01", "2025-03-29"], "eid_fitr": "2025-03-30", "arafah": "2025-06-05"},
+    "2026": {"ramadan": ["2026-02-18", "2026-03-19"], "eid_fitr": "2026-03-20", "arafah": "2026-05-26"},
+    "2027": {"ramadan": ["2027-02-08", "2027-03-09"], "eid_fitr": "2027-03-10", "arafah": "2027-05-15", "estimated": true}
+  }
+}

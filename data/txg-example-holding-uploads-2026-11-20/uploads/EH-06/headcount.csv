@@ -1,0 +1,185 @@
+month,department,headcount,saudi,non_saudi,saudisation_rate
+2023-01,Drivers and helpers,65,6,59,0.092
+2023-01,Warehouse,55,7,48,0.127
+2023-01,Sales team,36,14,22,0.389
+2023-01,Head office,31,14,17,0.452
+2023-02,Drivers and helpers,65,6,59,0.092
+2023-02,Warehouse,55,7,48,0.127
+2023-02,Sales team,36,14,22,0.389
+2023-02,Head office,31,14,17,0.452
+2023-03,Drivers and helpers,66,7,59,0.106
+2023-03,Warehouse,55,7,48,0.127
+2023-03,Sales team,36,14,22,0.389
+2023-03,Head office,31,14,17,0.452
+2023-04,Drivers and helpers,67,7,60,0.104
+2023-04,Warehouse,55,7,48,0.127
+2023-04,Sales team,36,14,22,0.389
+2023-04,Head office,31,14,17,0.452
+2023-05,Drivers and helpers,67,7,60,0.104
+2023-05,Warehouse,56,7,49,0.125
+2023-05,Sales team,36,14,22,0.389
+2023-05,Head office,31,14,17,0.452
+2023-06,Drivers and helpers,67,7,60,0.104
+2023-06,Warehouse,55,7,48,0.127
+2023-06,Sales team,36,14,22,0.389
+2023-06,Head office,31,14,17,0.452
+2023-07,Drivers and helpers,67,7,60,0.104
+2023-07,Warehouse,56,7,49,0.125
+2023-07,Sales team,37,15,22,0.405
+2023-07,Head office,31,14,17,0.452
+2023-08,Drivers and helpers,67,7,60,0.104
+2023-08,Warehouse,56,7,49,0.125
+2023-08,Sales team,37,15,22,0.405
+2023-08,Head office,32,14,18,0.438
+2023-09,Drivers and helpers,66,7,59,0.106
+2023-09,Warehouse,56,7,49,0.125
+2023-09,Sales team,37,15,22,0.405
+2023-09,Head office,32,14,18,0.438
+2023-10,Drivers and helpers,66,7,59,0.106
+2023-10,Warehouse,56,7,49,0.125
+2023-10,Sales team,37,15,22,0.405
+2023-10,Head office,32,14,18,0.438
+2023-11,Drivers and helpers,66,7,59,0.106
+2023-11,Warehouse,56,7,49,0.125
+2023-11,Sales team,37,15,22,0.405
+2023-11,Head office,32,14,18,0.438
+2023-12,Drivers and helpers,67,7,60,0.104
+2023-12,Warehouse,56,7,49,0.125
+2023-12,Sales team,37,15,22,0.405
+2023-12,Head office,32,14,18,0.438
+2024-01,Drivers and helpers,67,7,60,0.104
+2024-01,Warehouse,57,7,50,0.123
+2024-01,Sales team,37,15,22,0.405
+2024-01,Head office,32,14,18,0.438
+2024-02,Drivers and helpers,67,7,60,0.104
+2024-02,Warehouse,58,7,51,0.121
+2024-02,Sales team,37,15,22,0.405
+2024-02,Head office,32,14,18,0.438
+2024-03,Drivers and helpers,67,7,60,0.104
+2024-03,Warehouse,58,7,51,0.121
+2024-03,Sales team,37,15,22,0.405
+2024-03,Head office,32,14,18,0.438
+2024-04,Drivers and helpers,67,7,60,0.104
+2024-04,Warehouse,58,7,51,0.121
+2024-04,Sales team,37,15,22,0.405
+2024-04,Head office,32,14,18,0.438
+2024-05,Drivers and helpers,67,7,60,0.104
+2024-05,Warehouse,58,7,51,0.121
+2024-05,Sales team,37,15,22,0.405
+2024-05,Head office,32,14,18,0.438
+2024-06,Drivers and helpers,67,7,60,0.104
+2024-06,Warehouse,58,7,51,0.121
+2024-06,Sales team,37,15,22,0.405
+2024-06,Head office,32,14,18,0.438
+2024-07,Drivers and helpers,67,7,60,0.104
+2024-07,Warehouse,58,7,51,0.121
+2024-07,Sales team,37,15,22,0.405
+2024-07,Head office,32,14,18,0.438
+2024-08,Drivers and helpers,68,7,61,0.103
+2024-08,Warehouse,58,7,51,0.121
+2024-08,Sales team,37,15,22,0.405
+2024-08,Head office,32,14,18,0.438
+2024-09,Drivers and helpers,68,7,61,0.103
+2024-09,Warehouse,58,7,51,0.121
+2024-09,Sales team,37,15,22,0.405
+2024-09,Head office,32,14,18,0.438
+2024-10,Drivers and helpers,69,7,62,0.101
+2024-10,Warehouse,59,7,52,0.119
+2024-10,Sales team,37,15,22,0.405
+2024-10,Head office,32,14,18,0.438
+2024-11,Drivers and helpers,69,7,62,0.101
+2024-11,Warehouse,59,7,52,0.119
+2024-11,Sales team,37,15,22,0.405
+2024-11,Head office,32,14,18,0.438
+2024-12,Drivers and helpers,69,7,62,0.101
+2024-12,Warehouse,59,7,52,0.119
+2024-12,Sales team,37,15,22,0.405
+2024-12,Head office,32,14,18,0.438
+2025-01,Drivers and helpers,68,7,61,0.103
+2025-01,Warehouse,59,7,52,0.119
+2025-01,Sales team,38,15,23,0.395
+2025-01,Head office,32,14,18,0.438
+2025-02,Drivers and helpers,68,7,61,0.103
+2025-02,Warehouse,58,7,51,0.121
+2025-02,Sales team,38,15,23,0.395
+2025-02,Head office,32,14,18,0.438
+2025-03,Drivers and helpers,69,7,62,0.101
+2025-03,Warehouse,58,7,51,0.121
+2025-03,Sales team,37,15,22,0.405
+2025-03,Head office,32,14,18,0.438
+2025-04,Drivers and helpers,70,7,63,0.100
+2025-04,Warehouse,58,7,51,0.121
+2025-04,Sales team,38,15,23,0.395
+2025-04,Head office,32,14,18,0.438
+2025-05,Drivers and helpers,70,7,63,0.100
+2025-05,Warehouse,58,7,51,0.121
+2025-05,Sales team,38,15,23,0.395
+2025-05,Head office,32,14,18,0.438
+2025-06,Drivers and helpers,70,7,63,0.100
+2025-06,Warehouse,59,7,52,0.119
+2025-06,Sales team,38,15,23,0.395
+2025-06,Head office,32,14,18,0.438
+2025-07,Drivers and helpers,70,7,63,0.100
+2025-07,Warehouse,59,7,52,0.119
+2025-07,Sales team,38,15,23,0.395
+2025-07,Head office,32,14,18,0.438
+2025-08,Drivers and helpers,70,7,63,0.100
+2025-08,Warehouse,58,7,51,0.121
+2025-08,Sales team,38,15,23,0.395
+2025-08,Head office,32,14,18,0.438
+2025-09,Drivers and helpers,70,7,63,0.100
+2025-09,Warehouse,59,7,52,0.119
+2025-09,Sales team,38,15,23,0.395
+2025-09,Head office,33,15,18,0.455
+2025-10,Drivers and helpers,70,7,63,0.100
+2025-10,Warehouse,60,7,53,0.117
+2025-10,Sales team,38,15,23,0.395
+2025-10,Head office,33,15,18,0.455
+2025-11,Drivers and helpers,70,7,63,0.100
+2025-11,Warehouse,60,7,53,0.117
+2025-11,Sales team,38,15,23,0.395
+2025-11,Head office,33,15,18,0.455
+2025-12,Drivers and helpers,71,7,64,0.099
+2025-12,Warehouse,59,7,52,0.119
+2025-12,Sales team,38,15,23,0.395
+2025-12,Head office,34,15,19,0.441
+2026-01,Drivers and helpers,70,7,63,0.100
+2026-01,Warehouse,60,7,53,0.117
+2026-01,Sales team,38,15,23,0.395
+2026-01,Head office,34,15,19,0.441
+2026-02,Drivers and helpers,71,7,64,0.099
+2026-02,Warehouse,60,7,53,0.117
+2026-02,Sales team,38,15,23,0.395
+2026-02,Head office,34,15,19,0.441
+2026-03,Drivers and helpers,72,7,65,0.097
+2026-03,Warehouse,60,7,53,0.117
+2026-03,Sales team,38,15,23,0.395
+2026-03,Head office,34,15,19,0.441
+2026-04,Drivers and helpers,72,7,65,0.097
+2026-04,Warehouse,61,7,54,0.115
+2026-04,Sales team,39,16,23,0.410
+2026-04,Head office,34,15,19,0.441
+2026-05,Drivers and helpers,72,7,65,0.097
+2026-05,Warehouse,61,7,54,0.115
+2026-05,Sales team,39,16,23,0.410
+2026-05,Head office,34,15,19,0.441
+2026-06,Drivers and helpers,73,7,66,0.096
+2026-06,Warehouse,61,7,54,0.115
+2026-06,Sales team,39,16,23,0.410
+2026-06,Head office,34,15,19,0.441
+2026-07,Drivers and helpers,73,7,66,0.096
+2026-07,Warehouse,62,7,55,0.113
+2026-07,Sales team,39,16,23,0.410
+2026-07,Head office,34,15,19,0.441
+2026-08,Drivers and helpers,73,7,66,0.096
+2026-08,Warehouse,62,7,55,0.113
+2026-08,Sales team,40,16,24,0.400
+2026-08,Head office,34,15,19,0.441
+2026-09,Drivers and helpers,72,7,65,0.097
+2026-09,Warehouse,62,7,55,0.113
+2026-09,Sales team,40,16,24,0.400
+2026-09,Head office,34,15,19,0.441
+2026-10,Drivers and helpers,73,7,66,0.096
+2026-10,Warehouse,62,7,55,0.113
+2026-10,Sales team,40,16,24,0.400
+2026-10,Head office,34,15,19,0.441

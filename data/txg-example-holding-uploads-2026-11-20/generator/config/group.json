@@ -1,0 +1,3831 @@
+{
+ "group": "Example Holding (made-up)",
+ "note": "Every name, number and identifier in Example Holding is invented. Identifiers use the reserved TEST- format.",
+ "generator_version": "0.1.0",
+ "sim_start": "2021-01-01",
+ "go_live": "2023-01-01",
+ "data_end": "2026-11-19",
+ "stories": [
+  {
+   "id": "S1",
+   "title": "Two government customers pay 38 days later than usual from January 2026",
+   "start": "2026-01-01",
+   "companies": {
+    "EH-01": {
+     "kind": "payment_delay",
+     "selector": "tagged",
+     "customers": 2,
+     "extra_days": 38,
+     "weight_boost": 1.6
+    }
+   }
+  },
+  {
+   "id": "S9",
+   "title": "Government payment delays rise across companies from early 2026",
+   "start": "2026-02-01",
+   "companies": {
+    "EH-01": {
+     "kind": "payment_delay",
+     "selector": "class:government",
+     "extra_days": 14
+    },
+    "EH-02": {
+     "kind": "payment_delay",
+     "selector": "class:government",
+     "extra_days": 14
+    },
+    "EH-03": {
+     "kind": "payment_delay",
+     "selector": "class:government",
+     "extra_days": 11
+    },
+    "EH-21": {
+     "kind": "payment_delay",
+     "selector": "class:government",
+     "extra_days": 13
+    }
+   }
+  },
+  {
+   "id": "S2",
+   "title": "Purchase prices of 60% of items rise 4.1% from October 2025; selling prices rise 1.2%",
+   "start": "2025-10-01",
+   "companies": {
+    "EH-08": {
+     "kind": "prices",
+     "share_of_items": 0.6,
+     "buy_rise": 0.041,
+     "sell_rise": 0.012
+    }
+   }
+  },
+  {
+   "id": "S11",
+   "title": "Budgets too high in 7 of the last 8 quarters, by about 9% on average",
+   "companies": {
+    "EH-08": {
+     "kind": "budget_optimism",
+     "quarters_high": 7,
+     "of_last": 8,
+     "mean_bias": 0.09,
+     "quarter_bias": {
+      "2024Q4": 0.11,
+      "2025Q1": 0.1,
+      "2025Q2": -0.04,
+      "2025Q3": 0.11,
+      "2025Q4": 0.12,
+      "2026Q1": 0.08,
+      "2026Q2": 0.1,
+      "2026Q3": 0.11
+     }
+    }
+   }
+  },
+  {
+   "id": "S4",
+   "title": "Normal Ramadan effect only, plus nine new stores opened in 2025 with weak returns",
+   "companies": {
+    "EH-14": {
+     "kind": "weak_new_stores",
+     "new_store_dates": [
+      "2025-01-15",
+      "2025-01-29",
+      "2025-02-05",
+      "2025-02-12",
+      "2025-02-19",
+      "2025-02-26",
+      "2025-09-10",
+      "2025-10-08",
+      "2025-11-05"
+     ],
+     "mature_density_factor": 0.6,
+     "ramp_start": 0.72,
+     "rent_to_sales": 0.14
+    }
+   }
+  },
+  {
+   "id": "S5",
+   "title": "Every trading company's gross margin rises about one point; EH-07, the lowest-margin company, grows about 45%",
+   "start": "2025-11-01",
+   "companies": {
+    "EH-05": {
+     "kind": "margin",
+     "sell_rise": 0.02
+    },
+    "EH-06": {
+     "kind": "margin",
+     "sell_rise": 0.02
+    },
+    "EH-07": {
+     "kind": "margin",
+     "sell_rise": 0.02
+    }
+   }
+  },
+  {
+   "id": "S6",
+   "title": "EH-05 records a receivable from EH-02 that EH-02 has only partly booked (one invoice missing)",
+   "companies": {
+    "EH-05": {
+     "kind": "intercompany"
+    },
+    "EH-02": {
+     "kind": "intercompany"
+    }
+   }
+  },
+  {
+   "id": "S7",
+   "title": "Bills bunched below the SAR 50,000 approval limit; 40 journals entered 30+ days late into closed months; Friday postings by a rarely-posting user",
+   "start": "2025-06-01",
+   "companies": {
+    "EH-21": {
+     "kind": "integrity",
+     "limit_sar": 50000,
+     "split_bills_per_month": [
+      10,
+      16
+     ],
+     "late_journals": 40,
+     "late_until": "2026-08-31",
+     "friday_postings": 25
+    }
+   }
+  },
+  {
+   "id": "S8",
+   "title": "One new customer grows from about 18% to about 52% of EH-07's revenue",
+   "start": "2024-07-01",
+   "companies": {
+    "EH-07": {
+     "kind": "concentration",
+     "ramp": [
+      [
+       "2024-07-01",
+       0.0
+      ],
+      [
+       "2025-01-01",
+       0.22
+      ],
+      [
+       "2025-07-01",
+       0.35
+      ],
+      [
+       "2026-01-01",
+       0.8
+      ],
+      [
+       "2026-06-01",
+       1.2
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "S13",
+   "title": "\"Miscellaneous income / إيرادات متنوعة\" carries recurring service revenue",
+   "start": "2021-01-01",
+   "companies": {
+    "EH-09": {
+     "kind": "misclassified_revenue",
+     "share_of_revenue": 0.015
+    }
+   }
+  },
+  {
+   "id": "S12",
+   "title": "One closed month's printed trial balance differs from the books (printed before the last closing entry)",
+   "companies": {
+    "EH-03": {
+     "kind": "tb_mismatch",
+     "month": "2026-08",
+     "journal_ref": "DEP-202608"
+    }
+   }
+  }
+ ],
+ "companies": [
+  {
+   "code": "EH-01",
+   "name": "Contracting A",
+   "legal_name": "Example Contracting A Co. (made-up)",
+   "org_num": 1,
+   "sector": "contracting",
+   "modules": [
+    "CON"
+   ],
+   "coa_variant": "B",
+   "city": "Riyadh",
+   "vat_no": "TEST-VAT-0001",
+   "cr_no": "TEST-CR-0001",
+   "year_end_month": 12,
+   "ownership": 1.0,
+   "params": {
+    "revenue_sar_m": 450,
+    "growth": 0.05,
+    "year_end_month": 12,
+    "customers": {
+     "government": 12,
+     "semi": 5,
+     "private": 12
+    },
+    "award_mix": {
+     "government": 0.55,
+     "semi": 0.22,
+     "private": 0.23
+    },
+    "project_size_sar_m": [
+     14,
+     8
+    ],
+    "project_size_clamp": [
+     3,
+     90
+    ],
+    "duration_months": [
+     10,
+     24
+    ],
+    "bid_margin": [
+     0.205,
+     0.018
+    ],
+    "margin_fade": [
+     -0.012,
+     0.018
+    ],
+    "labour_share": 0.2,
+    "cost_mix": {
+     "direct_materials": 0.31,
+     "subcontract": 0.25,
+     "other_direct": 0.07
+    },
+    "retention": 0.1,
+    "certify_lag_days": {
+     "government": [
+      40,
+      15
+     ],
+     "semi": [
+      28,
+      10
+     ],
+     "private": [
+      20,
+      8
+     ]
+    },
+    "certify_ratio": [
+     0.99,
+     0.02
+    ],
+    "terms": {
+     "government": 60,
+     "semi": 60,
+     "private": 45
+    },
+    "pay_delay": {
+     "government": [
+      50,
+      30
+     ],
+     "semi": [
+      28,
+      18
+     ],
+     "private": [
+      14,
+      14
+     ]
+    },
+    "pay_days": {
+     "government": [
+      3,
+      17
+     ]
+    },
+    "partial_p": {
+     "government": 0.12,
+     "semi": 0.08,
+     "private": 0.08
+    },
+    "calendar": {
+     "ramadan": 0.8,
+     "eid": 0.15,
+     "summer": 0.92
+    },
+    "backlog_years": 0.85,
+    "awards_per_month": 2.45,
+    "variation_rate": 0.02,
+    "person_advance_rate": 0.3,
+    "staff": [
+     {
+      "group": "site",
+      "label": "Site staff",
+      "heads": 1700,
+      "gross": 3250,
+      "saudi": 0.06,
+      "account": "direct_labour",
+      "levy_account": "direct_labour",
+      "flex": 0.8
+     },
+     {
+      "group": "office",
+      "label": "Head office",
+      "heads": 150,
+      "gross": 12500,
+      "saudi": 0.38,
+      "account": "salaries",
+      "levy_account": "ga",
+      "flex": 0.0
+     }
+    ],
+    "overheads": [
+     {
+      "key": "office_rent",
+      "label": "Head office rent",
+      "vendor": "office_landlord",
+      "account": "rent",
+      "annual_sar_m": 2.4,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "camp",
+      "label": "Labour accommodation and transport",
+      "vendor": "camp",
+      "account": "other_direct",
+      "annual_sar_m": 4.8,
+      "freq": "monthly",
+      "noise": 0.08
+     },
+     {
+      "key": "utilities",
+      "label": "Electricity",
+      "vendor": "utilities",
+      "account": "utilities",
+      "annual_sar_m": 1.1,
+      "freq": "monthly_arrears",
+      "season": [
+       0.75,
+       0.75,
+       0.85,
+       1.0,
+       1.2,
+       1.4,
+       1.5,
+       1.5,
+       1.3,
+       1.1,
+       0.85,
+       0.75
+      ]
+     },
+     {
+      "key": "water",
+      "label": "Water",
+      "vendor": "water",
+      "account": "utilities",
+      "annual_sar_m": 0.25,
+      "freq": "monthly_arrears"
+     },
+     {
+      "key": "telecom",
+      "label": "Telephone and internet",
+      "vendor": "telecom",
+      "account": "ga",
+      "annual_sar_m": 0.6,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "it",
+      "label": "Software subscriptions",
+      "vendor": "it",
+      "account": "ga",
+      "annual_sar_m": 0.9,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "insurance",
+      "label": "Contractors all-risk and staff insurance",
+      "vendor": "insurance",
+      "account": "ga",
+      "annual_sar_m": 3.2,
+      "freq": "annual_prepaid",
+      "month": 1
+     },
+     {
+      "key": "audit",
+      "label": "Statutory audit fee",
+      "vendor": "audit",
+      "account": "ga",
+      "annual_sar_m": 0.38,
+      "freq": "annual_accrued",
+      "month": 3,
+      "scale": 0.3
+     },
+     {
+      "key": "legal",
+      "label": "Legal fees",
+      "vendor": "legal",
+      "account": "ga",
+      "annual_sar_m": 0.5,
+      "freq": "monthly",
+      "noise": 0.6
+     },
+     {
+      "key": "security",
+      "label": "Site security services",
+      "vendor": "security",
+      "account": "ga",
+      "annual_sar_m": 0.9,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "travel",
+      "label": "Travel and tickets",
+      "vendor": "travel",
+      "account": "ga",
+      "annual_sar_m": 1.2,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "marketing",
+      "label": "Tender documents and advertising",
+      "vendor": "marketing",
+      "account": "marketing",
+      "annual_sar_m": 0.35,
+      "freq": "monthly",
+      "noise": 0.5
+     },
+     {
+      "key": "printing",
+      "label": "Printing and stationery",
+      "vendor": "printing",
+      "account": "ga",
+      "annual_sar_m": 0.2,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "maintenance",
+      "label": "Plant maintenance and repairs",
+      "vendor": "maintenance",
+      "account": "other_direct",
+      "annual_sar_m": 1.4,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "fleet",
+      "label": "Fuel and fleet services",
+      "vendor": "fleet",
+      "account": "other_direct",
+      "annual_sar_m": 2.4,
+      "freq": "monthly",
+      "noise": 0.12
+     }
+    ],
+    "capex": {
+     "pct_revenue": 0.028,
+     "vendor": "equipment",
+     "label": "Plant and equipment",
+     "items": [
+      "Excavator",
+      "Concrete mixer truck",
+      "Site cabins",
+      "Formwork system",
+      "Survey equipment",
+      "Pickup vehicles"
+     ],
+     "months": [
+      2,
+      4,
+      6,
+      9,
+      11
+     ]
+    },
+    "dep_rate": 0.13,
+    "loans": [
+     {
+      "name": "Term Loan 1 – Example Bank A",
+      "lender": "Example Bank A (made-up)",
+      "drawn": "2021-03-31",
+      "amount_sar_m": 75,
+      "frequency": "quarterly",
+      "instalments": 20,
+      "first_repayment": "2021-06-30",
+      "margin": 0.0225
+     },
+     {
+      "name": "Term Loan 2 – Example Bank A",
+      "lender": "Example Bank A (made-up)",
+      "drawn": "2024-06-30",
+      "amount_sar_m": 60,
+      "frequency": "quarterly",
+      "instalments": 16,
+      "first_repayment": "2024-09-30",
+      "margin": 0.0215
+     }
+    ],
+    "rcf": {
+     "limit_sar_m": 100,
+     "margin": 0.02,
+     "commitment_fee": 0.0025,
+     "lender": "Example Bank B (made-up)"
+    },
+    "treasury": {
+     "min_cash_sar_m": 8,
+     "target_sar_m": 14,
+     "ceiling_sar_m": 22
+    },
+    "opening": {
+     "bank1": 14,
+     "bank2": 2,
+     "cash": 0.08,
+     "ppe_cost": 105,
+     "ppe_dep": 52,
+     "eosb": 24,
+     "rcf": 25,
+     "vat_payable": 2.6,
+     "gosi_payable": 0.55,
+     "zakat_payable": 3.6,
+     "accrued_audit": 0.38,
+     "share_capital": 60,
+     "stat_reserve": 18
+    },
+    "dividend_payout": 0.6,
+    "eosb_rate": 0.05,
+    "leaver_rate": 0.1,
+    "close_days": [
+     8,
+     14
+    ],
+    "ecl_rates": [
+     0.003,
+     0.012,
+     0.04,
+     0.12,
+     0.3,
+     0.55
+    ],
+    "suspense_rate": 0.12,
+    "petty_cash": {
+     "float": 0.08,
+     "items": 14,
+     "avg": 420,
+     "accounts": [
+      "other_direct",
+      "ga",
+      "ga"
+     ]
+    },
+    "bank_fee_base": 1500,
+    "pay_rise": 0.03,
+    "covenants": {
+     "leverage": 3.5,
+     "dscr": 1.25,
+     "min_liquidity_sar_m": 40
+    }
+   }
+  },
+  {
+   "code": "EH-02",
+   "name": "Contracting B",
+   "legal_name": "Example Contracting B Co. (made-up)",
+   "org_num": 2,
+   "sector": "contracting",
+   "modules": [
+    "CON"
+   ],
+   "coa_variant": "A",
+   "city": "Jeddah",
+   "vat_no": "TEST-VAT-0002",
+   "cr_no": "TEST-CR-0002",
+   "year_end_month": 12,
+   "ownership": 1.0,
+   "params": {
+    "revenue_sar_m": 300.0,
+    "growth": 0.05,
+    "year_end_month": 12,
+    "customers": {
+     "government": 10,
+     "semi": 4,
+     "private": 10
+    },
+    "award_mix": {
+     "government": 0.55,
+     "semi": 0.22,
+     "private": 0.23
+    },
+    "project_size_sar_m": [
+     14,
+     8
+    ],
+    "project_size_clamp": [
+     3,
+     90
+    ],
+    "duration_months": [
+     10,
+     24
+    ],
+    "bid_margin": [
+     0.205,
+     0.018
+    ],
+    "margin_fade": [
+     -0.012,
+     0.018
+    ],
+    "labour_share": 0.2,
+    "cost_mix": {
+     "direct_materials": 0.31,
+     "subcontract": 0.25,
+     "other_direct": 0.07
+    },
+    "retention": 0.1,
+    "certify_lag_days": {
+     "government": [
+      40,
+      15
+     ],
+     "semi": [
+      28,
+      10
+     ],
+     "private": [
+      20,
+      8
+     ]
+    },
+    "certify_ratio": [
+     0.99,
+     0.02
+    ],
+    "terms": {
+     "government": 60,
+     "semi": 60,
+     "private": 45
+    },
+    "pay_delay": {
+     "government": [
+      50,
+      30
+     ],
+     "semi": [
+      28,
+      18
+     ],
+     "private": [
+      14,
+      14
+     ]
+    },
+    "pay_days": {
+     "government": [
+      3,
+      17
+     ]
+    },
+    "partial_p": {
+     "government": 0.12,
+     "semi": 0.08,
+     "private": 0.08
+    },
+    "calendar": {
+     "ramadan": 0.8,
+     "eid": 0.15,
+     "summer": 0.92
+    },
+    "backlog_years": 0.85,
+    "awards_per_month": 2.45,
+    "variation_rate": 0.02,
+    "person_advance_rate": 0.3,
+    "staff": [
+     {
+      "group": "site",
+      "label": "Site staff",
+      "heads": 1133,
+      "gross": 3250,
+      "saudi": 0.06,
+      "account": "direct_labour",
+      "levy_account": "direct_labour",
+      "flex": 0.8
+     },
+     {
+      "group": "office",
+      "label": "Head office",
+      "heads": 100,
+      "gross": 12500,
+      "saudi": 0.38,
+      "account": "salaries",
+      "levy_account": "ga",
+      "flex": 0.0
+     }
+    ],
+    "overheads": [
+     {
+      "key": "office_rent",
+      "label": "Head office rent",
+      "vendor": "office_landlord",
+      "account": "rent",
+      "annual_sar_m": 1.6,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "camp",
+      "label": "Labour accommodation and transport",
+      "vendor": "camp",
+      "account": "other_direct",
+      "annual_sar_m": 3.2,
+      "freq": "monthly",
+      "noise": 0.08
+     },
+     {
+      "key": "utilities",
+      "label": "Electricity",
+      "vendor": "utilities",
+      "account": "utilities",
+      "annual_sar_m": 0.733,
+      "freq": "monthly_arrears",
+      "season": [
+       0.75,
+       0.75,
+       0.85,
+       1.0,
+       1.2,
+       1.4,
+       1.5,
+       1.5,
+       1.3,
+       1.1,
+       0.85,
+       0.75
+      ]
+     },
+     {
+      "key": "water",
+      "label": "Water",
+      "vendor": "water",
+      "account": "utilities",
+      "annual_sar_m": 0.167,
+      "freq": "monthly_arrears"
+     },
+     {
+      "key": "telecom",
+      "label": "Telephone and internet",
+      "vendor": "telecom",
+      "account": "ga",
+      "annual_sar_m": 0.4,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "it",
+      "label": "Software subscriptions",
+      "vendor": "it",
+      "account": "ga",
+      "annual_sar_m": 0.6,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "insurance",
+      "label": "Contractors all-risk and staff insurance",
+      "vendor": "insurance",
+      "account": "ga",
+      "annual_sar_m": 2.133,
+      "freq": "annual_prepaid",
+      "month": 1
+     },
+     {
+      "key": "audit",
+      "label": "Statutory audit fee",
+      "vendor": "audit",
+      "account": "ga",
+      "annual_sar_m": 0.253,
+      "freq": "annual_accrued",
+      "month": 3,
+      "scale": 0.3
+     },
+     {
+      "key": "legal",
+      "label": "Legal fees",
+      "vendor": "legal",
+      "account": "ga",
+      "annual_sar_m": 0.333,
+      "freq": "monthly",
+      "noise": 0.6
+     },
+     {
+      "key": "security",
+      "label": "Site security services",
+      "vendor": "security",
+      "account": "ga",
+      "annual_sar_m": 0.6,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "travel",
+      "label": "Travel and tickets",
+      "vendor": "travel",
+      "account": "ga",
+      "annual_sar_m": 0.8,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "marketing",
+      "label": "Tender documents and advertising",
+      "vendor": "marketing",
+      "account": "marketing",
+      "annual_sar_m": 0.233,
+      "freq": "monthly",
+      "noise": 0.5
+     },
+     {
+      "key": "printing",
+      "label": "Printing and stationery",
+      "vendor": "printing",
+      "account": "ga",
+      "annual_sar_m": 0.133,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "maintenance",
+      "label": "Plant maintenance and repairs",
+      "vendor": "maintenance",
+      "account": "other_direct",
+      "annual_sar_m": 0.933,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "fleet",
+      "label": "Fuel and fleet services",
+      "vendor": "fleet",
+      "account": "other_direct",
+      "annual_sar_m": 1.6,
+      "freq": "monthly",
+      "noise": 0.12
+     }
+    ],
+    "capex": {
+     "pct_revenue": 0.028,
+     "vendor": "equipment",
+     "label": "Plant and equipment",
+     "items": [
+      "Excavator",
+      "Concrete mixer truck",
+      "Site cabins",
+      "Formwork system",
+      "Survey equipment",
+      "Pickup vehicles"
+     ],
+     "months": [
+      2,
+      4,
+      6,
+      9,
+      11
+     ]
+    },
+    "dep_rate": 0.13,
+    "loans": [
+     {
+      "name": "Term Loan – Example Bank B",
+      "lender": "Example Bank B (made-up)",
+      "drawn": "2024-06-30",
+      "amount_sar_m": 40.0,
+      "frequency": "quarterly",
+      "instalments": 16,
+      "first_repayment": "2024-09-30",
+      "margin": 0.0215
+     }
+    ],
+    "rcf": {
+     "limit_sar_m": 66.7,
+     "margin": 0.02,
+     "commitment_fee": 0.0025,
+     "lender": "Example Bank B (made-up)"
+    },
+    "treasury": {
+     "min_cash_sar_m": 5.3,
+     "target_sar_m": 9.3,
+     "ceiling_sar_m": 14.7
+    },
+    "opening": {
+     "bank1": 9.333,
+     "bank2": 1.333,
+     "cash": 0.053,
+     "ppe_cost": 70.0,
+     "ppe_dep": 34.667,
+     "eosb": 16.0,
+     "rcf": 16.667,
+     "vat_payable": 1.733,
+     "gosi_payable": 0.367,
+     "zakat_payable": 2.4,
+     "accrued_audit": 0.253,
+     "share_capital": 40.0,
+     "stat_reserve": 12.0
+    },
+    "dividend_payout": 0.6,
+    "eosb_rate": 0.05,
+    "leaver_rate": 0.1,
+    "close_days": [
+     8,
+     14
+    ],
+    "ecl_rates": [
+     0.003,
+     0.012,
+     0.04,
+     0.12,
+     0.3,
+     0.55
+    ],
+    "suspense_rate": 0.12,
+    "petty_cash": {
+     "float": 0.053,
+     "items": 14,
+     "avg": 420,
+     "accounts": [
+      "other_direct",
+      "ga",
+      "ga"
+     ]
+    },
+    "bank_fee_base": 1000,
+    "pay_rise": 0.03,
+    "materials_scale": 0.85
+   }
+  },
+  {
+   "code": "EH-03",
+   "name": "Contracting C",
+   "legal_name": "Example Contracting C Co. (made-up)",
+   "org_num": 3,
+   "sector": "contracting",
+   "modules": [
+    "CON"
+   ],
+   "coa_variant": "E",
+   "city": "Dammam",
+   "vat_no": "TEST-VAT-0003",
+   "cr_no": "TEST-CR-0003",
+   "year_end_month": 12,
+   "ownership": 1.0,
+   "params": {
+    "revenue_sar_m": 180.0,
+    "growth": 0.05,
+    "year_end_month": 12,
+    "customers": {
+     "government": 8,
+     "semi": 3,
+     "private": 8
+    },
+    "award_mix": {
+     "government": 0.55,
+     "semi": 0.22,
+     "private": 0.23
+    },
+    "project_size_sar_m": [
+     14,
+     8
+    ],
+    "project_size_clamp": [
+     3,
+     90
+    ],
+    "duration_months": [
+     10,
+     24
+    ],
+    "bid_margin": [
+     0.205,
+     0.018
+    ],
+    "margin_fade": [
+     -0.012,
+     0.018
+    ],
+    "labour_share": 0.2,
+    "cost_mix": {
+     "direct_materials": 0.31,
+     "subcontract": 0.25,
+     "other_direct": 0.07
+    },
+    "retention": 0.1,
+    "certify_lag_days": {
+     "government": [
+      40,
+      15
+     ],
+     "semi": [
+      28,
+      10
+     ],
+     "private": [
+      20,
+      8
+     ]
+    },
+    "certify_ratio": [
+     0.99,
+     0.02
+    ],
+    "terms": {
+     "government": 60,
+     "semi": 60,
+     "private": 45
+    },
+    "pay_delay": {
+     "government": [
+      50,
+      30
+     ],
+     "semi": [
+      28,
+      18
+     ],
+     "private": [
+      14,
+      14
+     ]
+    },
+    "pay_days": {
+     "government": [
+      3,
+      17
+     ]
+    },
+    "partial_p": {
+     "government": 0.12,
+     "semi": 0.08,
+     "private": 0.08
+    },
+    "calendar": {
+     "ramadan": 0.8,
+     "eid": 0.15,
+     "summer": 0.92
+    },
+    "backlog_years": 0.85,
+    "awards_per_month": 2.45,
+    "variation_rate": 0.02,
+    "person_advance_rate": 0.3,
+    "staff": [
+     {
+      "group": "site",
+      "label": "Site staff",
+      "heads": 680,
+      "gross": 3250,
+      "saudi": 0.06,
+      "account": "direct_labour",
+      "levy_account": "direct_labour",
+      "flex": 0.8
+     },
+     {
+      "group": "office",
+      "label": "Head office",
+      "heads": 60,
+      "gross": 12500,
+      "saudi": 0.38,
+      "account": "salaries",
+      "levy_account": "ga",
+      "flex": 0.0
+     }
+    ],
+    "overheads": [
+     {
+      "key": "office_rent",
+      "label": "Head office rent",
+      "vendor": "office_landlord",
+      "account": "rent",
+      "annual_sar_m": 0.96,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "camp",
+      "label": "Labour accommodation and transport",
+      "vendor": "camp",
+      "account": "other_direct",
+      "annual_sar_m": 1.92,
+      "freq": "monthly",
+      "noise": 0.08
+     },
+     {
+      "key": "utilities",
+      "label": "Electricity",
+      "vendor": "utilities",
+      "account": "utilities",
+      "annual_sar_m": 0.44,
+      "freq": "monthly_arrears",
+      "season": [
+       0.75,
+       0.75,
+       0.85,
+       1.0,
+       1.2,
+       1.4,
+       1.5,
+       1.5,
+       1.3,
+       1.1,
+       0.85,
+       0.75
+      ]
+     },
+     {
+      "key": "water",
+      "label": "Water",
+      "vendor": "water",
+      "account": "utilities",
+      "annual_sar_m": 0.1,
+      "freq": "monthly_arrears"
+     },
+     {
+      "key": "telecom",
+      "label": "Telephone and internet",
+      "vendor": "telecom",
+      "account": "ga",
+      "annual_sar_m": 0.24,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "it",
+      "label": "Software subscriptions",
+      "vendor": "it",
+      "account": "ga",
+      "annual_sar_m": 0.36,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "insurance",
+      "label": "Contractors all-risk and staff insurance",
+      "vendor": "insurance",
+      "account": "ga",
+      "annual_sar_m": 1.28,
+      "freq": "annual_prepaid",
+      "month": 1
+     },
+     {
+      "key": "audit",
+      "label": "Statutory audit fee",
+      "vendor": "audit",
+      "account": "ga",
+      "annual_sar_m": 0.152,
+      "freq": "annual_accrued",
+      "month": 3,
+      "scale": 0.3
+     },
+     {
+      "key": "legal",
+      "label": "Legal fees",
+      "vendor": "legal",
+      "account": "ga",
+      "annual_sar_m": 0.2,
+      "freq": "monthly",
+      "noise": 0.6
+     },
+     {
+      "key": "security",
+      "label": "Site security services",
+      "vendor": "security",
+      "account": "ga",
+      "annual_sar_m": 0.36,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "travel",
+      "label": "Travel and tickets",
+      "vendor": "travel",
+      "account": "ga",
+      "annual_sar_m": 0.48,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "marketing",
+      "label": "Tender documents and advertising",
+      "vendor": "marketing",
+      "account": "marketing",
+      "annual_sar_m": 0.14,
+      "freq": "monthly",
+      "noise": 0.5
+     },
+     {
+      "key": "printing",
+      "label": "Printing and stationery",
+      "vendor": "printing",
+      "account": "ga",
+      "annual_sar_m": 0.08,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "maintenance",
+      "label": "Plant maintenance and repairs",
+      "vendor": "maintenance",
+      "account": "other_direct",
+      "annual_sar_m": 0.56,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "fleet",
+      "label": "Fuel and fleet services",
+      "vendor": "fleet",
+      "account": "other_direct",
+      "annual_sar_m": 0.96,
+      "freq": "monthly",
+      "noise": 0.12
+     }
+    ],
+    "capex": {
+     "pct_revenue": 0.028,
+     "vendor": "equipment",
+     "label": "Plant and equipment",
+     "items": [
+      "Excavator",
+      "Concrete mixer truck",
+      "Site cabins",
+      "Formwork system",
+      "Survey equipment",
+      "Pickup vehicles"
+     ],
+     "months": [
+      2,
+      4,
+      6,
+      9,
+      11
+     ]
+    },
+    "dep_rate": 0.13,
+    "loans": [
+     {
+      "name": "Term Loan – Example Bank C",
+      "lender": "Example Bank C (made-up)",
+      "drawn": "2021-03-31",
+      "amount_sar_m": 30.0,
+      "frequency": "quarterly",
+      "instalments": 20,
+      "first_repayment": "2021-06-30",
+      "margin": 0.0225
+     }
+    ],
+    "rcf": {
+     "limit_sar_m": 40.0,
+     "margin": 0.02,
+     "commitment_fee": 0.0025,
+     "lender": "Example Bank B (made-up)"
+    },
+    "treasury": {
+     "min_cash_sar_m": 3.2,
+     "target_sar_m": 5.6,
+     "ceiling_sar_m": 8.8
+    },
+    "opening": {
+     "bank1": 5.6,
+     "bank2": 0.8,
+     "cash": 0.032,
+     "ppe_cost": 42.0,
+     "ppe_dep": 20.8,
+     "eosb": 9.6,
+     "rcf": 10.0,
+     "vat_payable": 1.04,
+     "gosi_payable": 0.22,
+     "zakat_payable": 1.44,
+     "accrued_audit": 0.152,
+     "share_capital": 24.0,
+     "stat_reserve": 7.2
+    },
+    "dividend_payout": 0.6,
+    "eosb_rate": 0.05,
+    "leaver_rate": 0.1,
+    "close_days": [
+     8,
+     14
+    ],
+    "ecl_rates": [
+     0.003,
+     0.012,
+     0.04,
+     0.12,
+     0.3,
+     0.55
+    ],
+    "suspense_rate": 0.12,
+    "petty_cash": {
+     "float": 0.04,
+     "items": 14,
+     "avg": 420,
+     "accounts": [
+      "other_direct",
+      "ga",
+      "ga"
+     ]
+    },
+    "bank_fee_base": 750,
+    "pay_rise": 0.03
+   }
+  },
+  {
+   "code": "EH-05",
+   "name": "Building Materials A",
+   "legal_name": "Example Building Materials A Co. (made-up)",
+   "org_num": 5,
+   "sector": "distribution",
+   "modules": [
+    "TRD"
+   ],
+   "coa_variant": "A",
+   "city": "Riyadh",
+   "vat_no": "TEST-VAT-0005",
+   "cr_no": "TEST-CR-0005",
+   "year_end_month": 12,
+   "ownership": 1.0,
+   "params": {
+    "revenue_sar_m": 380.0,
+    "growth": 0.045,
+    "year_end_month": 12,
+    "gm_uplift": 0.0,
+    "sell_inflation": 0.022,
+    "buy_inflation": 0.022,
+    "cover_days": 30,
+    "duty_rate": 0.05,
+    "clearing_rate": 0.018,
+    "return_rate": 0.03,
+    "promo_rate": 0.015,
+    "calendar": {
+     "month": [
+      1.0,
+      1.0,
+      1.0,
+      0.98,
+      1.0,
+      0.95,
+      0.9,
+      0.92,
+      1.02,
+      1.04,
+      1.06,
+      1.08
+     ],
+     "ramadan": 0.85,
+     "pre_ramadan": 1.0,
+     "eid_fitr": 0.3,
+     "eid_adha": 0.5
+    },
+    "pay_delay": {
+     "government": [
+      55,
+      30
+     ],
+     "private": [
+      12,
+      14
+     ]
+    },
+    "partial_p": {
+     "government": 0.1,
+     "private": 0.04
+    },
+    "staff": [
+     {
+      "group": "drivers",
+      "label": "Drivers and helpers",
+      "heads": 124,
+      "gross": 4200,
+      "saudi": 0.1,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "warehouse",
+      "label": "Warehouse",
+      "heads": 104,
+      "gross": 3900,
+      "saudi": 0.12,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "sales",
+      "label": "Sales team",
+      "heads": 66,
+      "gross": 9500,
+      "saudi": 0.4,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "office",
+      "label": "Head office",
+      "heads": 57,
+      "gross": 12000,
+      "saudi": 0.45,
+      "account": "salaries",
+      "levy_account": "ga"
+     }
+    ],
+    "overheads": [
+     {
+      "key": "warehouse_rent",
+      "label": "Warehouse and cold store rent",
+      "vendor": "warehouse_landlord",
+      "account": "rent",
+      "annual_sar_m": 6.08,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "office_rent",
+      "label": "Head office rent",
+      "vendor": "office_landlord",
+      "account": "rent",
+      "annual_sar_m": 0.855,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "utilities",
+      "label": "Electricity",
+      "vendor": "utilities",
+      "account": "utilities",
+      "annual_sar_m": 1.71,
+      "freq": "monthly_arrears",
+      "season": [
+       0.8,
+       0.8,
+       0.9,
+       1.0,
+       1.15,
+       1.3,
+       1.4,
+       1.4,
+       1.25,
+       1.1,
+       0.9,
+       0.8
+      ]
+     },
+     {
+      "key": "water",
+      "label": "Water",
+      "vendor": "water",
+      "account": "utilities",
+      "annual_sar_m": 0.114,
+      "freq": "monthly_arrears"
+     },
+     {
+      "key": "fleet",
+      "label": "Fuel, tyres and fleet maintenance",
+      "vendor": "fleet",
+      "account": "delivery",
+      "annual_sar_m": 7.125,
+      "freq": "monthly",
+      "noise": 0.1
+     },
+     {
+      "key": "fleet_rental",
+      "label": "Refrigerated truck rental",
+      "vendor": "fleet_rental",
+      "account": "delivery",
+      "annual_sar_m": 2.28,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "insurance",
+      "label": "Stock, fleet and staff insurance",
+      "vendor": "insurance",
+      "account": "ga",
+      "annual_sar_m": 0.95,
+      "freq": "annual_prepaid",
+      "month": 1
+     },
+     {
+      "key": "audit",
+      "label": "Statutory audit fee",
+      "vendor": "audit",
+      "account": "ga",
+      "annual_sar_m": 0.285,
+      "freq": "annual_accrued",
+      "month": 3,
+      "scale": 0.3
+     },
+     {
+      "key": "it",
+      "label": "Software subscriptions",
+      "vendor": "it",
+      "account": "ga",
+      "annual_sar_m": 0.665,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "telecom",
+      "label": "Telephone and internet",
+      "vendor": "telecom",
+      "account": "ga",
+      "annual_sar_m": 0.38,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "marketing",
+      "label": "Trade marketing and listing support",
+      "vendor": "marketing",
+      "account": "marketing",
+      "annual_sar_m": 1.71,
+      "freq": "monthly",
+      "noise": 0.4
+     },
+     {
+      "key": "travel",
+      "label": "Travel",
+      "vendor": "travel",
+      "account": "ga",
+      "annual_sar_m": 0.38,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "security",
+      "label": "Security services",
+      "vendor": "security",
+      "account": "ga",
+      "annual_sar_m": 0.475,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "cleaning",
+      "label": "Cleaning and pest control",
+      "vendor": "cleaning",
+      "account": "ga",
+      "annual_sar_m": 0.38,
+      "freq": "monthly",
+      "noise": 0.06
+     },
+     {
+      "key": "printing",
+      "label": "Printing and stationery",
+      "vendor": "printing",
+      "account": "ga",
+      "annual_sar_m": 0.19,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "legal",
+      "label": "Legal and collection fees",
+      "vendor": "legal",
+      "account": "ga",
+      "annual_sar_m": 0.19,
+      "freq": "monthly",
+      "noise": 0.6
+     }
+    ],
+    "capex": {
+     "pct_revenue": 0.015,
+     "vendor": "racking",
+     "label": "Warehouse and fleet equipment",
+     "items": [
+      "Racking extension",
+      "Forklifts",
+      "Cold room panels",
+      "Delivery van",
+      "Handheld scanners"
+     ],
+     "months": [
+      3,
+      6,
+      9,
+      12
+     ]
+    },
+    "dep_rate": 0.12,
+    "loans": [
+     {
+      "name": "Term Loan – Example Bank C",
+      "lender": "Example Bank C (made-up)",
+      "drawn": "2022-05-31",
+      "amount_sar_m": 28.5,
+      "frequency": "quarterly",
+      "instalments": 16,
+      "first_repayment": "2022-08-31",
+      "margin": 0.02
+     }
+    ],
+    "rcf": {
+     "limit_sar_m": 57.0,
+     "margin": 0.0185,
+     "commitment_fee": 0.002,
+     "lender": "Example Bank C (made-up)"
+    },
+    "treasury": {
+     "min_cash_sar_m": 5.7,
+     "target_sar_m": 9.5,
+     "ceiling_sar_m": 15.2
+    },
+    "opening": {
+     "bank1": 14.25,
+     "bank2": 1.9,
+     "cash": 0.048,
+     "ppe_cost": 38.0,
+     "ppe_dep": 17.1,
+     "eosb": 8.55,
+     "rcf": 0.0,
+     "vat_payable": 1.14,
+     "gosi_payable": 0.237,
+     "zakat_payable": 1.71,
+     "accrued_audit": 0.285,
+     "share_capital": 38.0,
+     "stat_reserve": 11.4
+    },
+    "dividend_payout": 0.5,
+    "excess_cash_dividend": {
+     "keep_ceilings": 1.5,
+     "share": 0.8
+    },
+    "eosb_rate": 0.045,
+    "leaver_rate": 0.12,
+    "close_days": [
+     5,
+     9
+    ],
+    "ecl_rates": [
+     0.002,
+     0.01,
+     0.05,
+     0.2,
+     0.5,
+     0.8
+    ],
+    "suspense_rate": 0.15,
+    "petty_cash": {
+     "float": 0.038,
+     "items": 10,
+     "avg": 260,
+     "accounts": [
+      "delivery",
+      "ga"
+     ]
+    },
+    "bank_fee_base": 1045,
+    "pay_rise": 0.03,
+    "catalogue": "building_materials"
+   }
+  },
+  {
+   "code": "EH-06",
+   "name": "Building Materials B",
+   "legal_name": "Example Building Materials B Co. (made-up)",
+   "org_num": 6,
+   "sector": "distribution",
+   "modules": [
+    "TRD"
+   ],
+   "coa_variant": "B",
+   "city": "Dammam",
+   "vat_no": "TEST-VAT-0006",
+   "cr_no": "TEST-CR-0006",
+   "year_end_month": 12,
+   "ownership": 1.0,
+   "params": {
+    "revenue_sar_m": 210.0,
+    "growth": 0.045,
+    "year_end_month": 12,
+    "gm_uplift": 0.02,
+    "sell_inflation": 0.022,
+    "buy_inflation": 0.022,
+    "cover_days": 30,
+    "duty_rate": 0.05,
+    "clearing_rate": 0.018,
+    "return_rate": 0.03,
+    "promo_rate": 0.015,
+    "calendar": {
+     "month": [
+      1.0,
+      1.0,
+      1.0,
+      0.98,
+      1.0,
+      0.95,
+      0.9,
+      0.92,
+      1.02,
+      1.04,
+      1.06,
+      1.08
+     ],
+     "ramadan": 0.85,
+     "pre_ramadan": 1.0,
+     "eid_fitr": 0.3,
+     "eid_adha": 0.5
+    },
+    "pay_delay": {
+     "government": [
+      55,
+      30
+     ],
+     "private": [
+      12,
+      14
+     ]
+    },
+    "partial_p": {
+     "government": 0.1,
+     "private": 0.04
+    },
+    "staff": [
+     {
+      "group": "drivers",
+      "label": "Drivers and helpers",
+      "heads": 68,
+      "gross": 4200,
+      "saudi": 0.1,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "warehouse",
+      "label": "Warehouse",
+      "heads": 58,
+      "gross": 3900,
+      "saudi": 0.12,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "sales",
+      "label": "Sales team",
+      "heads": 37,
+      "gross": 9500,
+      "saudi": 0.4,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "office",
+      "label": "Head office",
+      "heads": 32,
+      "gross": 12000,
+      "saudi": 0.45,
+      "account": "salaries",
+      "levy_account": "ga"
+     }
+    ],
+    "overheads": [
+     {
+      "key": "warehouse_rent",
+      "label": "Warehouse and cold store rent",
+      "vendor": "warehouse_landlord",
+      "account": "rent",
+      "annual_sar_m": 3.36,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "office_rent",
+      "label": "Head office rent",
+      "vendor": "office_landlord",
+      "account": "rent",
+      "annual_sar_m": 0.473,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "utilities",
+      "label": "Electricity",
+      "vendor": "utilities",
+      "account": "utilities",
+      "annual_sar_m": 0.945,
+      "freq": "monthly_arrears",
+      "season": [
+       0.8,
+       0.8,
+       0.9,
+       1.0,
+       1.15,
+       1.3,
+       1.4,
+       1.4,
+       1.25,
+       1.1,
+       0.9,
+       0.8
+      ]
+     },
+     {
+      "key": "water",
+      "label": "Water",
+      "vendor": "water",
+      "account": "utilities",
+      "annual_sar_m": 0.063,
+      "freq": "monthly_arrears"
+     },
+     {
+      "key": "fleet",
+      "label": "Fuel, tyres and fleet maintenance",
+      "vendor": "fleet",
+      "account": "delivery",
+      "annual_sar_m": 3.938,
+      "freq": "monthly",
+      "noise": 0.1
+     },
+     {
+      "key": "fleet_rental",
+      "label": "Refrigerated truck rental",
+      "vendor": "fleet_rental",
+      "account": "delivery",
+      "annual_sar_m": 1.26,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "insurance",
+      "label": "Stock, fleet and staff insurance",
+      "vendor": "insurance",
+      "account": "ga",
+      "annual_sar_m": 0.525,
+      "freq": "annual_prepaid",
+      "month": 1
+     },
+     {
+      "key": "audit",
+      "label": "Statutory audit fee",
+      "vendor": "audit",
+      "account": "ga",
+      "annual_sar_m": 0.158,
+      "freq": "annual_accrued",
+      "month": 3,
+      "scale": 0.3
+     },
+     {
+      "key": "it",
+      "label": "Software subscriptions",
+      "vendor": "it",
+      "account": "ga",
+      "annual_sar_m": 0.367,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "telecom",
+      "label": "Telephone and internet",
+      "vendor": "telecom",
+      "account": "ga",
+      "annual_sar_m": 0.21,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "marketing",
+      "label": "Trade marketing and listing support",
+      "vendor": "marketing",
+      "account": "marketing",
+      "annual_sar_m": 0.945,
+      "freq": "monthly",
+      "noise": 0.4
+     },
+     {
+      "key": "travel",
+      "label": "Travel",
+      "vendor": "travel",
+      "account": "ga",
+      "annual_sar_m": 0.21,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "security",
+      "label": "Security services",
+      "vendor": "security",
+      "account": "ga",
+      "annual_sar_m": 0.263,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "cleaning",
+      "label": "Cleaning and pest control",
+      "vendor": "cleaning",
+      "account": "ga",
+      "annual_sar_m": 0.21,
+      "freq": "monthly",
+      "noise": 0.06
+     },
+     {
+      "key": "printing",
+      "label": "Printing and stationery",
+      "vendor": "printing",
+      "account": "ga",
+      "annual_sar_m": 0.105,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "legal",
+      "label": "Legal and collection fees",
+      "vendor": "legal",
+      "account": "ga",
+      "annual_sar_m": 0.105,
+      "freq": "monthly",
+      "noise": 0.6
+     }
+    ],
+    "capex": {
+     "pct_revenue": 0.015,
+     "vendor": "racking",
+     "label": "Warehouse and fleet equipment",
+     "items": [
+      "Racking extension",
+      "Forklifts",
+      "Cold room panels",
+      "Delivery van",
+      "Handheld scanners"
+     ],
+     "months": [
+      3,
+      6,
+      9,
+      12
+     ]
+    },
+    "dep_rate": 0.12,
+    "loans": [
+     {
+      "name": "Term Loan – Example Bank C",
+      "lender": "Example Bank C (made-up)",
+      "drawn": "2022-05-31",
+      "amount_sar_m": 15.8,
+      "frequency": "quarterly",
+      "instalments": 16,
+      "first_repayment": "2022-08-31",
+      "margin": 0.02
+     }
+    ],
+    "rcf": {
+     "limit_sar_m": 31.5,
+     "margin": 0.0185,
+     "commitment_fee": 0.002,
+     "lender": "Example Bank C (made-up)"
+    },
+    "treasury": {
+     "min_cash_sar_m": 3.2,
+     "target_sar_m": 5.2,
+     "ceiling_sar_m": 8.4
+    },
+    "opening": {
+     "bank1": 7.875,
+     "bank2": 1.05,
+     "cash": 0.026,
+     "ppe_cost": 21.0,
+     "ppe_dep": 9.45,
+     "eosb": 4.725,
+     "rcf": 0.0,
+     "vat_payable": 0.63,
+     "gosi_payable": 0.131,
+     "zakat_payable": 0.945,
+     "accrued_audit": 0.158,
+     "share_capital": 21.0,
+     "stat_reserve": 6.3
+    },
+    "dividend_payout": 0.5,
+    "excess_cash_dividend": {
+     "keep_ceilings": 1.5,
+     "share": 0.8
+    },
+    "eosb_rate": 0.045,
+    "leaver_rate": 0.12,
+    "close_days": [
+     5,
+     9
+    ],
+    "ecl_rates": [
+     0.002,
+     0.01,
+     0.05,
+     0.2,
+     0.5,
+     0.8
+    ],
+    "suspense_rate": 0.15,
+    "petty_cash": {
+     "float": 0.021,
+     "items": 10,
+     "avg": 260,
+     "accounts": [
+      "delivery",
+      "ga"
+     ]
+    },
+    "bank_fee_base": 577,
+    "pay_rise": 0.03,
+    "catalogue": "building_materials"
+   }
+  },
+  {
+   "code": "EH-07",
+   "name": "Industrial Supplies",
+   "legal_name": "Example Industrial Supplies Co. (made-up)",
+   "org_num": 7,
+   "sector": "distribution",
+   "modules": [
+    "TRD"
+   ],
+   "coa_variant": "D",
+   "city": "Jubail",
+   "vat_no": "TEST-VAT-0007",
+   "cr_no": "TEST-CR-0007",
+   "year_end_month": 12,
+   "ownership": 1.0,
+   "params": {
+    "revenue_sar_m": 120.0,
+    "growth": 0.045,
+    "year_end_month": 12,
+    "gm_uplift": -0.03,
+    "sell_inflation": 0.022,
+    "buy_inflation": 0.022,
+    "cover_days": 30,
+    "duty_rate": 0.05,
+    "clearing_rate": 0.018,
+    "return_rate": 0.03,
+    "promo_rate": 0.015,
+    "calendar": {
+     "month": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.97,
+      0.93,
+      0.95,
+      1.02,
+      1.03,
+      1.04,
+      1.06
+     ],
+     "ramadan": 0.92,
+     "pre_ramadan": 1.0,
+     "eid_fitr": 0.3,
+     "eid_adha": 0.5
+    },
+    "pay_delay": {
+     "government": [
+      50,
+      25
+     ],
+     "private": [
+      10,
+      12
+     ]
+    },
+    "partial_p": {
+     "government": 0.1,
+     "private": 0.04
+    },
+    "staff": [
+     {
+      "group": "drivers",
+      "label": "Drivers and helpers",
+      "heads": 15,
+      "gross": 4200,
+      "saudi": 0.1,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "warehouse",
+      "label": "Warehouse",
+      "heads": 13,
+      "gross": 3900,
+      "saudi": 0.12,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "sales",
+      "label": "Sales team",
+      "heads": 7,
+      "gross": 9500,
+      "saudi": 0.4,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "office",
+      "label": "Head office",
+      "heads": 6,
+      "gross": 12000,
+      "saudi": 0.45,
+      "account": "salaries",
+      "levy_account": "ga"
+     }
+    ],
+    "overheads": [
+     {
+      "key": "warehouse_rent",
+      "label": "Warehouse and cold store rent",
+      "vendor": "warehouse_landlord",
+      "account": "rent",
+      "annual_sar_m": 0.668,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "office_rent",
+      "label": "Head office rent",
+      "vendor": "office_landlord",
+      "account": "rent",
+      "annual_sar_m": 0.094,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "utilities",
+      "label": "Electricity",
+      "vendor": "utilities",
+      "account": "utilities",
+      "annual_sar_m": 0.188,
+      "freq": "monthly_arrears",
+      "season": [
+       0.8,
+       0.8,
+       0.9,
+       1.0,
+       1.15,
+       1.3,
+       1.4,
+       1.4,
+       1.25,
+       1.1,
+       0.9,
+       0.8
+      ]
+     },
+     {
+      "key": "water",
+      "label": "Water",
+      "vendor": "water",
+      "account": "utilities",
+      "annual_sar_m": 0.013,
+      "freq": "monthly_arrears"
+     },
+     {
+      "key": "fleet",
+      "label": "Fuel, tyres and fleet maintenance",
+      "vendor": "fleet",
+      "account": "delivery",
+      "annual_sar_m": 0.783,
+      "freq": "monthly",
+      "noise": 0.1
+     },
+     {
+      "key": "fleet_rental",
+      "label": "Refrigerated truck rental",
+      "vendor": "fleet_rental",
+      "account": "delivery",
+      "annual_sar_m": 0.251,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "insurance",
+      "label": "Stock, fleet and staff insurance",
+      "vendor": "insurance",
+      "account": "ga",
+      "annual_sar_m": 0.104,
+      "freq": "annual_prepaid",
+      "month": 1
+     },
+     {
+      "key": "audit",
+      "label": "Statutory audit fee",
+      "vendor": "audit",
+      "account": "ga",
+      "annual_sar_m": 0.031,
+      "freq": "annual_accrued",
+      "month": 3,
+      "scale": 0.3
+     },
+     {
+      "key": "it",
+      "label": "Software subscriptions",
+      "vendor": "it",
+      "account": "ga",
+      "annual_sar_m": 0.073,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "telecom",
+      "label": "Telephone and internet",
+      "vendor": "telecom",
+      "account": "ga",
+      "annual_sar_m": 0.042,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "marketing",
+      "label": "Trade marketing and listing support",
+      "vendor": "marketing",
+      "account": "marketing",
+      "annual_sar_m": 0.188,
+      "freq": "monthly",
+      "noise": 0.4
+     },
+     {
+      "key": "travel",
+      "label": "Travel",
+      "vendor": "travel",
+      "account": "ga",
+      "annual_sar_m": 0.042,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "security",
+      "label": "Security services",
+      "vendor": "security",
+      "account": "ga",
+      "annual_sar_m": 0.052,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "cleaning",
+      "label": "Cleaning and pest control",
+      "vendor": "cleaning",
+      "account": "ga",
+      "annual_sar_m": 0.042,
+      "freq": "monthly",
+      "noise": 0.06
+     },
+     {
+      "key": "printing",
+      "label": "Printing and stationery",
+      "vendor": "printing",
+      "account": "ga",
+      "annual_sar_m": 0.021,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "legal",
+      "label": "Legal and collection fees",
+      "vendor": "legal",
+      "account": "ga",
+      "annual_sar_m": 0.021,
+      "freq": "monthly",
+      "noise": 0.6
+     }
+    ],
+    "capex": {
+     "pct_revenue": 0.015,
+     "vendor": "racking",
+     "label": "Warehouse and fleet equipment",
+     "items": [
+      "Racking extension",
+      "Forklifts",
+      "Cold room panels",
+      "Delivery van",
+      "Handheld scanners"
+     ],
+     "months": [
+      3,
+      6,
+      9,
+      12
+     ]
+    },
+    "dep_rate": 0.12,
+    "loans": [
+     {
+      "name": "Term Loan – Example Bank C",
+      "lender": "Example Bank C (made-up)",
+      "drawn": "2022-05-31",
+      "amount_sar_m": 9.0,
+      "frequency": "quarterly",
+      "instalments": 16,
+      "first_repayment": "2022-08-31",
+      "margin": 0.02
+     }
+    ],
+    "rcf": {
+     "limit_sar_m": 18.0,
+     "margin": 0.0185,
+     "commitment_fee": 0.002,
+     "lender": "Example Bank C (made-up)"
+    },
+    "treasury": {
+     "min_cash_sar_m": 1.8,
+     "target_sar_m": 3.0,
+     "ceiling_sar_m": 4.8
+    },
+    "opening": {
+     "bank1": 4.5,
+     "bank2": 0.6,
+     "cash": 0.015,
+     "ppe_cost": 12.0,
+     "ppe_dep": 5.4,
+     "eosb": 2.7,
+     "rcf": 0.0,
+     "vat_payable": 0.36,
+     "gosi_payable": 0.075,
+     "zakat_payable": 0.54,
+     "accrued_audit": 0.09,
+     "share_capital": 12.0,
+     "stat_reserve": 3.6
+    },
+    "dividend_payout": 0.5,
+    "excess_cash_dividend": {
+     "keep_ceilings": 1.5,
+     "share": 0.8
+    },
+    "eosb_rate": 0.045,
+    "leaver_rate": 0.12,
+    "close_days": [
+     5,
+     9
+    ],
+    "ecl_rates": [
+     0.002,
+     0.01,
+     0.05,
+     0.2,
+     0.5,
+     0.8
+    ],
+    "suspense_rate": 0.15,
+    "petty_cash": {
+     "float": 0.02,
+     "items": 10,
+     "avg": 260,
+     "accounts": [
+      "delivery",
+      "ga"
+     ]
+    },
+    "bank_fee_base": 550,
+    "pay_rise": 0.03,
+    "catalogue": "industrial"
+   }
+  },
+  {
+   "code": "EH-08",
+   "name": "Food Distribution A",
+   "legal_name": "Example Food Distribution A Co. (made-up)",
+   "org_num": 8,
+   "sector": "distribution",
+   "modules": [
+    "TRD"
+   ],
+   "coa_variant": "D",
+   "city": "Jeddah",
+   "vat_no": "TEST-VAT-0008",
+   "cr_no": "TEST-CR-0008",
+   "year_end_month": 12,
+   "ownership": 1.0,
+   "params": {
+    "revenue_sar_m": 400,
+    "growth": 0.045,
+    "year_end_month": 12,
+    "gm_uplift": 0.02,
+    "sell_inflation": 0.022,
+    "buy_inflation": 0.022,
+    "cover_days": 30,
+    "duty_rate": 0.05,
+    "clearing_rate": 0.018,
+    "return_rate": 0.03,
+    "promo_rate": 0.015,
+    "calendar": {
+     "month": [
+      1.0,
+      0.98,
+      1.02,
+      1.03,
+      0.99,
+      0.95,
+      0.9,
+      0.92,
+      1.02,
+      1.04,
+      1.05,
+      1.1
+     ],
+     "ramadan": 1.18,
+     "pre_ramadan": 1.08,
+     "eid_fitr": 0.5,
+     "eid_adha": 0.7
+    },
+    "pay_delay": {
+     "government": [
+      45,
+      25
+     ],
+     "private": [
+      8,
+      12
+     ]
+    },
+    "partial_p": {
+     "government": 0.1,
+     "private": 0.04
+    },
+    "staff": [
+     {
+      "group": "drivers",
+      "label": "Drivers and helpers",
+      "heads": 130,
+      "gross": 4200,
+      "saudi": 0.1,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "warehouse",
+      "label": "Warehouse",
+      "heads": 110,
+      "gross": 3900,
+      "saudi": 0.12,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "sales",
+      "label": "Sales team",
+      "heads": 70,
+      "gross": 9500,
+      "saudi": 0.4,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "office",
+      "label": "Head office",
+      "heads": 60,
+      "gross": 12000,
+      "saudi": 0.45,
+      "account": "salaries",
+      "levy_account": "ga"
+     }
+    ],
+    "overheads": [
+     {
+      "key": "warehouse_rent",
+      "label": "Warehouse and cold store rent",
+      "vendor": "warehouse_landlord",
+      "account": "rent",
+      "annual_sar_m": 6.4,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "office_rent",
+      "label": "Head office rent",
+      "vendor": "office_landlord",
+      "account": "rent",
+      "annual_sar_m": 0.9,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "utilities",
+      "label": "Electricity",
+      "vendor": "utilities",
+      "account": "utilities",
+      "annual_sar_m": 1.8,
+      "freq": "monthly_arrears",
+      "season": [
+       0.8,
+       0.8,
+       0.9,
+       1.0,
+       1.15,
+       1.3,
+       1.4,
+       1.4,
+       1.25,
+       1.1,
+       0.9,
+       0.8
+      ]
+     },
+     {
+      "key": "water",
+      "label": "Water",
+      "vendor": "water",
+      "account": "utilities",
+      "annual_sar_m": 0.12,
+      "freq": "monthly_arrears"
+     },
+     {
+      "key": "fleet",
+      "label": "Fuel, tyres and fleet maintenance",
+      "vendor": "fleet",
+      "account": "delivery",
+      "annual_sar_m": 7.5,
+      "freq": "monthly",
+      "noise": 0.1
+     },
+     {
+      "key": "fleet_rental",
+      "label": "Refrigerated truck rental",
+      "vendor": "fleet_rental",
+      "account": "delivery",
+      "annual_sar_m": 2.4,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "insurance",
+      "label": "Stock, fleet and staff insurance",
+      "vendor": "insurance",
+      "account": "ga",
+      "annual_sar_m": 1.0,
+      "freq": "annual_prepaid",
+      "month": 1
+     },
+     {
+      "key": "audit",
+      "label": "Statutory audit fee",
+      "vendor": "audit",
+      "account": "ga",
+      "annual_sar_m": 0.3,
+      "freq": "annual_accrued",
+      "month": 3,
+      "scale": 0.3
+     },
+     {
+      "key": "it",
+      "label": "Software subscriptions",
+      "vendor": "it",
+      "account": "ga",
+      "annual_sar_m": 0.7,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "telecom",
+      "label": "Telephone and internet",
+      "vendor": "telecom",
+      "account": "ga",
+      "annual_sar_m": 0.4,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "marketing",
+      "label": "Trade marketing and listing support",
+      "vendor": "marketing",
+      "account": "marketing",
+      "annual_sar_m": 1.8,
+      "freq": "monthly",
+      "noise": 0.4
+     },
+     {
+      "key": "travel",
+      "label": "Travel",
+      "vendor": "travel",
+      "account": "ga",
+      "annual_sar_m": 0.4,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "security",
+      "label": "Security services",
+      "vendor": "security",
+      "account": "ga",
+      "annual_sar_m": 0.5,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "cleaning",
+      "label": "Cleaning and pest control",
+      "vendor": "cleaning",
+      "account": "ga",
+      "annual_sar_m": 0.4,
+      "freq": "monthly",
+      "noise": 0.06
+     },
+     {
+      "key": "printing",
+      "label": "Printing and stationery",
+      "vendor": "printing",
+      "account": "ga",
+      "annual_sar_m": 0.2,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "legal",
+      "label": "Legal and collection fees",
+      "vendor": "legal",
+      "account": "ga",
+      "annual_sar_m": 0.2,
+      "freq": "monthly",
+      "noise": 0.6
+     }
+    ],
+    "capex": {
+     "pct_revenue": 0.015,
+     "vendor": "racking",
+     "label": "Warehouse and fleet equipment",
+     "items": [
+      "Racking extension",
+      "Forklifts",
+      "Cold room panels",
+      "Delivery van",
+      "Handheld scanners"
+     ],
+     "months": [
+      3,
+      6,
+      9,
+      12
+     ]
+    },
+    "dep_rate": 0.12,
+    "loans": [
+     {
+      "name": "Term Loan – Example Bank C",
+      "lender": "Example Bank C (made-up)",
+      "drawn": "2022-05-31",
+      "amount_sar_m": 30,
+      "frequency": "quarterly",
+      "instalments": 16,
+      "first_repayment": "2022-08-31",
+      "margin": 0.02
+     }
+    ],
+    "rcf": {
+     "limit_sar_m": 60,
+     "margin": 0.0185,
+     "commitment_fee": 0.002,
+     "lender": "Example Bank C (made-up)"
+    },
+    "treasury": {
+     "min_cash_sar_m": 6,
+     "target_sar_m": 10,
+     "ceiling_sar_m": 16
+    },
+    "opening": {
+     "bank1": 15,
+     "bank2": 2,
+     "cash": 0.05,
+     "ppe_cost": 40,
+     "ppe_dep": 18,
+     "eosb": 9,
+     "rcf": 0,
+     "vat_payable": 1.2,
+     "gosi_payable": 0.25,
+     "zakat_payable": 1.8,
+     "accrued_audit": 0.3,
+     "share_capital": 40,
+     "stat_reserve": 12
+    },
+    "dividend_payout": 0.5,
+    "excess_cash_dividend": {
+     "keep_ceilings": 1.5,
+     "share": 0.8
+    },
+    "eosb_rate": 0.045,
+    "leaver_rate": 0.12,
+    "close_days": [
+     5,
+     9
+    ],
+    "ecl_rates": [
+     0.002,
+     0.01,
+     0.05,
+     0.2,
+     0.5,
+     0.8
+    ],
+    "suspense_rate": 0.15,
+    "petty_cash": {
+     "float": 0.04,
+     "items": 10,
+     "avg": 260,
+     "accounts": [
+      "delivery",
+      "ga"
+     ]
+    },
+    "bank_fee_base": 1100,
+    "pay_rise": 0.03
+   }
+  },
+  {
+   "code": "EH-09",
+   "name": "Food Distribution B",
+   "legal_name": "Example Food Distribution B Co. (made-up)",
+   "org_num": 9,
+   "sector": "distribution",
+   "modules": [
+    "TRD"
+   ],
+   "coa_variant": "C",
+   "city": "Dammam",
+   "vat_no": "TEST-VAT-0009",
+   "cr_no": "TEST-CR-0009",
+   "year_end_month": 12,
+   "ownership": 1.0,
+   "params": {
+    "revenue_sar_m": 260.0,
+    "growth": 0.045,
+    "year_end_month": 12,
+    "gm_uplift": 0.02,
+    "sell_inflation": 0.022,
+    "buy_inflation": 0.022,
+    "cover_days": 30,
+    "duty_rate": 0.05,
+    "clearing_rate": 0.018,
+    "return_rate": 0.03,
+    "promo_rate": 0.015,
+    "calendar": {
+     "month": [
+      1.0,
+      0.98,
+      1.02,
+      1.03,
+      0.99,
+      0.95,
+      0.9,
+      0.92,
+      1.02,
+      1.04,
+      1.05,
+      1.1
+     ],
+     "ramadan": 1.18,
+     "pre_ramadan": 1.08,
+     "eid_fitr": 0.5,
+     "eid_adha": 0.7
+    },
+    "pay_delay": {
+     "government": [
+      45,
+      25
+     ],
+     "private": [
+      8,
+      12
+     ]
+    },
+    "partial_p": {
+     "government": 0.1,
+     "private": 0.04
+    },
+    "staff": [
+     {
+      "group": "drivers",
+      "label": "Drivers and helpers",
+      "heads": 84,
+      "gross": 4200,
+      "saudi": 0.1,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "warehouse",
+      "label": "Warehouse",
+      "heads": 72,
+      "gross": 3900,
+      "saudi": 0.12,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "sales",
+      "label": "Sales team",
+      "heads": 46,
+      "gross": 9500,
+      "saudi": 0.4,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "office",
+      "label": "Head office",
+      "heads": 39,
+      "gross": 12000,
+      "saudi": 0.45,
+      "account": "salaries",
+      "levy_account": "ga"
+     }
+    ],
+    "overheads": [
+     {
+      "key": "warehouse_rent",
+      "label": "Warehouse and cold store rent",
+      "vendor": "warehouse_landlord",
+      "account": "rent",
+      "annual_sar_m": 4.16,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "office_rent",
+      "label": "Head office rent",
+      "vendor": "office_landlord",
+      "account": "rent",
+      "annual_sar_m": 0.585,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "utilities",
+      "label": "Electricity",
+      "vendor": "utilities",
+      "account": "utilities",
+      "annual_sar_m": 1.17,
+      "freq": "monthly_arrears",
+      "season": [
+       0.8,
+       0.8,
+       0.9,
+       1.0,
+       1.15,
+       1.3,
+       1.4,
+       1.4,
+       1.25,
+       1.1,
+       0.9,
+       0.8
+      ]
+     },
+     {
+      "key": "water",
+      "label": "Water",
+      "vendor": "water",
+      "account": "utilities",
+      "annual_sar_m": 0.078,
+      "freq": "monthly_arrears"
+     },
+     {
+      "key": "fleet",
+      "label": "Fuel, tyres and fleet maintenance",
+      "vendor": "fleet",
+      "account": "delivery",
+      "annual_sar_m": 4.875,
+      "freq": "monthly",
+      "noise": 0.1
+     },
+     {
+      "key": "fleet_rental",
+      "label": "Refrigerated truck rental",
+      "vendor": "fleet_rental",
+      "account": "delivery",
+      "annual_sar_m": 1.56,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "insurance",
+      "label": "Stock, fleet and staff insurance",
+      "vendor": "insurance",
+      "account": "ga",
+      "annual_sar_m": 0.65,
+      "freq": "annual_prepaid",
+      "month": 1
+     },
+     {
+      "key": "audit",
+      "label": "Statutory audit fee",
+      "vendor": "audit",
+      "account": "ga",
+      "annual_sar_m": 0.195,
+      "freq": "annual_accrued",
+      "month": 3,
+      "scale": 0.3
+     },
+     {
+      "key": "it",
+      "label": "Software subscriptions",
+      "vendor": "it",
+      "account": "ga",
+      "annual_sar_m": 0.455,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "telecom",
+      "label": "Telephone and internet",
+      "vendor": "telecom",
+      "account": "ga",
+      "annual_sar_m": 0.26,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "marketing",
+      "label": "Trade marketing and listing support",
+      "vendor": "marketing",
+      "account": "marketing",
+      "annual_sar_m": 1.17,
+      "freq": "monthly",
+      "noise": 0.4
+     },
+     {
+      "key": "travel",
+      "label": "Travel",
+      "vendor": "travel",
+      "account": "ga",
+      "annual_sar_m": 0.26,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "security",
+      "label": "Security services",
+      "vendor": "security",
+      "account": "ga",
+      "annual_sar_m": 0.325,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "cleaning",
+      "label": "Cleaning and pest control",
+      "vendor": "cleaning",
+      "account": "ga",
+      "annual_sar_m": 0.26,
+      "freq": "monthly",
+      "noise": 0.06
+     },
+     {
+      "key": "printing",
+      "label": "Printing and stationery",
+      "vendor": "printing",
+      "account": "ga",
+      "annual_sar_m": 0.13,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "legal",
+      "label": "Legal and collection fees",
+      "vendor": "legal",
+      "account": "ga",
+      "annual_sar_m": 0.13,
+      "freq": "monthly",
+      "noise": 0.6
+     }
+    ],
+    "capex": {
+     "pct_revenue": 0.015,
+     "vendor": "racking",
+     "label": "Warehouse and fleet equipment",
+     "items": [
+      "Racking extension",
+      "Forklifts",
+      "Cold room panels",
+      "Delivery van",
+      "Handheld scanners"
+     ],
+     "months": [
+      3,
+      6,
+      9,
+      12
+     ]
+    },
+    "dep_rate": 0.12,
+    "loans": [
+     {
+      "name": "Term Loan – Example Bank C",
+      "lender": "Example Bank C (made-up)",
+      "drawn": "2022-05-31",
+      "amount_sar_m": 19.5,
+      "frequency": "quarterly",
+      "instalments": 16,
+      "first_repayment": "2022-08-31",
+      "margin": 0.02
+     }
+    ],
+    "rcf": {
+     "limit_sar_m": 39.0,
+     "margin": 0.0185,
+     "commitment_fee": 0.002,
+     "lender": "Example Bank C (made-up)"
+    },
+    "treasury": {
+     "min_cash_sar_m": 3.9,
+     "target_sar_m": 6.5,
+     "ceiling_sar_m": 10.4
+    },
+    "opening": {
+     "bank1": 9.75,
+     "bank2": 1.3,
+     "cash": 0.033,
+     "ppe_cost": 26.0,
+     "ppe_dep": 11.7,
+     "eosb": 5.85,
+     "rcf": 0.0,
+     "vat_payable": 0.78,
+     "gosi_payable": 0.163,
+     "zakat_payable": 1.17,
+     "accrued_audit": 0.195,
+     "share_capital": 26.0,
+     "stat_reserve": 7.8
+    },
+    "dividend_payout": 0.5,
+    "excess_cash_dividend": {
+     "keep_ceilings": 1.5,
+     "share": 0.8
+    },
+    "eosb_rate": 0.045,
+    "leaver_rate": 0.12,
+    "close_days": [
+     5,
+     9
+    ],
+    "ecl_rates": [
+     0.002,
+     0.01,
+     0.05,
+     0.2,
+     0.5,
+     0.8
+    ],
+    "suspense_rate": 0.15,
+    "petty_cash": {
+     "float": 0.026,
+     "items": 10,
+     "avg": 260,
+     "accounts": [
+      "delivery",
+      "ga"
+     ]
+    },
+    "bank_fee_base": 715,
+    "pay_rise": 0.03
+   },
+   "extra_accounts": [
+    "misc_income"
+   ]
+  },
+  {
+   "code": "EH-14",
+   "name": "Retail A (home and lifestyle)",
+   "legal_name": "Example Home Retail A Co. (made-up)",
+   "org_num": 14,
+   "sector": "retail",
+   "modules": [
+    "RET"
+   ],
+   "coa_variant": "C",
+   "city": "Riyadh",
+   "vat_no": "TEST-VAT-0014",
+   "cr_no": "TEST-CR-0014",
+   "year_end_month": 12,
+   "ownership": 1.0,
+   "params": {
+    "revenue_sar_m": 210,
+    "growth": 0.06,
+    "year_end_month": 12,
+    "stores": {
+     "existing": 31,
+     "normal_openings": [
+      "2023-10-12",
+      "2024-05-09"
+     ]
+    },
+    "density_sar_m2": 5000,
+    "ramp_start": 0.7,
+    "ramp_months": 18,
+    "lfl_growth": 0.025,
+    "rent_to_sales": 0.095,
+    "rent_escalation": 0.05,
+    "ibr": 0.065,
+    "fitout_sar_m2": [
+     2200,
+     3000
+    ],
+    "category_mix": [
+     0.4,
+     0.35,
+     0.25
+    ],
+    "category_margin": [
+     0.52,
+     0.46,
+     0.49
+    ],
+    "gross_margin": 0.49,
+    "calendar": {
+     "month": [
+      0.95,
+      0.93,
+      1.0,
+      0.98,
+      0.95,
+      0.88,
+      0.85,
+      0.92,
+      1.02,
+      1.0,
+      1.25,
+      1.12
+     ],
+     "ramadan": 1.85,
+     "eid_fitr": 0.6,
+     "eid_adha": 0.85
+    },
+    "month_noise": 0.02,
+    "ar1": 0.5,
+    "card_fee": 0.011,
+    "cash_share": 0.12,
+    "corporate_share": 0.015,
+    "service_charge_ratio": 0.015,
+    "shrink": [
+     0.008,
+     0.016
+    ],
+    "stock_days": 120,
+    "duty_rate": 0.05,
+    "clearing_rate": 0.02,
+    "purchase_currency_mix": {
+     "CNY": 0.42,
+     "USD": 0.14,
+     "EUR": 0.09,
+     "SAR": 0.35
+    },
+    "pay_delay": {
+     "private": [
+      10,
+      12
+     ],
+     "retail": [
+      0,
+      1
+     ]
+    },
+    "staff": [
+     {
+      "group": "stores",
+      "label": "Store staff",
+      "heads": 330,
+      "per_store": 10,
+      "gross": 4800,
+      "saudi": 0.4,
+      "account": "salaries",
+      "levy_account": "ga"
+     },
+     {
+      "group": "hq",
+      "label": "Head office and warehouse",
+      "heads": 60,
+      "gross": 10000,
+      "saudi": 0.42,
+      "account": "salaries",
+      "levy_account": "ga"
+     }
+    ],
+    "overheads": [
+     {
+      "key": "utilities",
+      "label": "Electricity",
+      "vendor": "utilities",
+      "account": "utilities",
+      "annual_sar_m": 2.5,
+      "freq": "monthly_arrears",
+      "season": [
+       0.8,
+       0.8,
+       0.9,
+       1.0,
+       1.15,
+       1.3,
+       1.4,
+       1.4,
+       1.25,
+       1.1,
+       0.9,
+       0.8
+      ]
+     },
+     {
+      "key": "marketing",
+      "label": "Advertising and campaigns",
+      "vendor": "marketing",
+      "account": "marketing",
+      "annual_sar_m": 6.3,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "it",
+      "label": "POS and software subscriptions",
+      "vendor": "it",
+      "account": "ga",
+      "annual_sar_m": 0.8,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "insurance",
+      "label": "Property and staff insurance",
+      "vendor": "insurance",
+      "account": "ga",
+      "annual_sar_m": 0.5,
+      "freq": "annual_prepaid",
+      "month": 1
+     },
+     {
+      "key": "audit",
+      "label": "Statutory audit fee",
+      "vendor": "audit",
+      "account": "ga",
+      "annual_sar_m": 0.25,
+      "freq": "annual_accrued",
+      "month": 3,
+      "scale": 0.3
+     },
+     {
+      "key": "security",
+      "label": "Security services",
+      "vendor": "security",
+      "account": "ga",
+      "annual_sar_m": 0.6,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "cleaning",
+      "label": "Store cleaning",
+      "vendor": "cleaning",
+      "account": "ga",
+      "annual_sar_m": 1.2,
+      "freq": "monthly",
+      "noise": 0.06
+     },
+     {
+      "key": "travel",
+      "label": "Travel",
+      "vendor": "travel",
+      "account": "ga",
+      "annual_sar_m": 0.3,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "telecom",
+      "label": "Telephone and internet",
+      "vendor": "telecom",
+      "account": "ga",
+      "annual_sar_m": 0.4,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "legal",
+      "label": "Legal fees",
+      "vendor": "legal",
+      "account": "ga",
+      "annual_sar_m": 0.2,
+      "freq": "monthly",
+      "noise": 0.6
+     },
+     {
+      "key": "printing",
+      "label": "Packaging, printing and stationery",
+      "vendor": "printing",
+      "account": "ga",
+      "annual_sar_m": 0.6,
+      "freq": "monthly",
+      "noise": 0.25
+     }
+    ],
+    "capex": {
+     "pct_revenue": 0.012,
+     "vendor": "it_hardware",
+     "label": "Store equipment and IT",
+     "items": [
+      "POS terminals",
+      "Store refurbishment",
+      "Display fixtures",
+      "Warehouse equipment"
+     ],
+     "months": [
+      3,
+      7,
+      11
+     ]
+    },
+    "dep_rate": 0.14,
+    "loans": [
+     {
+      "name": "Term Loan – Example Bank D",
+      "lender": "Example Bank D (made-up)",
+      "drawn": "2025-01-15",
+      "amount_sar_m": 35,
+      "frequency": "quarterly",
+      "instalments": 12,
+      "first_repayment": "2025-06-30",
+      "margin": 0.021
+     }
+    ],
+    "rcf": {
+     "limit_sar_m": 25,
+     "margin": 0.019,
+     "commitment_fee": 0.002,
+     "lender": "Example Bank D (made-up)"
+    },
+    "treasury": {
+     "min_cash_sar_m": 5,
+     "target_sar_m": 9,
+     "ceiling_sar_m": 15
+    },
+    "opening": {
+     "bank1": 18,
+     "bank2": 1,
+     "cash": 0.03,
+     "ppe_cost": 120,
+     "ppe_dep": 58,
+     "eosb": 6,
+     "rcf": 0,
+     "vat_payable": 1.6,
+     "gosi_payable": 0.2,
+     "zakat_payable": 2.2,
+     "accrued_audit": 0.25,
+     "share_capital": 50,
+     "stat_reserve": 15
+    },
+    "dividend_payout": 0.45,
+    "excess_cash_dividend": {
+     "keep_ceilings": 1.5,
+     "share": 0.8
+    },
+    "eosb_rate": 0.045,
+    "leaver_rate": 0.16,
+    "close_days": [
+     4,
+     7
+    ],
+    "ecl_rates": [
+     0.002,
+     0.01,
+     0.05,
+     0.2,
+     0.5,
+     0.8
+    ],
+    "suspense_rate": 0.1,
+    "petty_cash": {
+     "float": 0.03,
+     "items": 8,
+     "avg": 220,
+     "accounts": [
+      "ga"
+     ]
+    },
+    "bank_fee_base": 800,
+    "pay_rise": 0.03
+   }
+  },
+  {
+   "code": "EH-21",
+   "name": "Facility Management A",
+   "legal_name": "Example Facility Management A Co. (made-up)",
+   "org_num": 21,
+   "sector": "contracting",
+   "modules": [
+    "FM"
+   ],
+   "coa_variant": "A",
+   "city": "Riyadh",
+   "vat_no": "TEST-VAT-0021",
+   "cr_no": "TEST-CR-0021",
+   "year_end_month": 12,
+   "ownership": 1.0,
+   "params": {
+    "revenue_sar_m": 260.0,
+    "growth": 0.05,
+    "year_end_month": 12,
+    "customers": {
+     "government": 10,
+     "semi": 4,
+     "private": 10
+    },
+    "award_mix": {
+     "government": 0.55,
+     "semi": 0.22,
+     "private": 0.23
+    },
+    "project_size_sar_m": [
+     9,
+     6
+    ],
+    "project_size_clamp": [
+     2,
+     40
+    ],
+    "duration_months": [
+     24,
+     36
+    ],
+    "bid_margin": [
+     0.225,
+     0.015
+    ],
+    "margin_fade": [
+     -0.005,
+     0.01
+    ],
+    "labour_share": 0.46,
+    "cost_mix": {
+     "direct_materials": 0.12,
+     "subcontract": 0.07,
+     "other_direct": 0.03
+    },
+    "retention": 0.0,
+    "certify_lag_days": {
+     "government": [
+      14,
+      5
+     ],
+     "semi": [
+      10,
+      4
+     ],
+     "private": [
+      8,
+      3
+     ]
+    },
+    "certify_ratio": [
+     1.0,
+     0.005
+    ],
+    "terms": {
+     "government": 60,
+     "semi": 60,
+     "private": 45
+    },
+    "pay_delay": {
+     "government": [
+      50,
+      30
+     ],
+     "semi": [
+      28,
+      18
+     ],
+     "private": [
+      14,
+      14
+     ]
+    },
+    "pay_days": {
+     "government": [
+      3,
+      17
+     ]
+    },
+    "partial_p": {
+     "government": 0.12,
+     "semi": 0.08,
+     "private": 0.08
+    },
+    "calendar": {
+     "ramadan": 0.97,
+     "eid": 0.7,
+     "summer": 1.0
+    },
+    "backlog_years": 1.25,
+    "awards_per_month": 2.4,
+    "variation_rate": 0.01,
+    "person_advance_rate": 0.1,
+    "staff": [
+     {
+      "group": "site",
+      "label": "Site staff",
+      "heads": 2600,
+      "gross": 2500,
+      "saudi": 0.08,
+      "account": "direct_labour",
+      "levy_account": "direct_labour",
+      "flex": 0.9
+     },
+     {
+      "group": "office",
+      "label": "Head office",
+      "heads": 120,
+      "gross": 11000,
+      "saudi": 0.4,
+      "account": "salaries",
+      "levy_account": "ga",
+      "flex": 0.0
+     }
+    ],
+    "overheads": [
+     {
+      "key": "office_rent",
+      "label": "Head office rent",
+      "vendor": "office_landlord",
+      "account": "rent",
+      "annual_sar_m": 1.387,
+      "freq": "quarterly_advance",
+      "terms": 0
+     },
+     {
+      "key": "camp",
+      "label": "Labour accommodation and transport",
+      "vendor": "camp",
+      "account": "other_direct",
+      "annual_sar_m": 2.773,
+      "freq": "monthly",
+      "noise": 0.08
+     },
+     {
+      "key": "utilities",
+      "label": "Electricity",
+      "vendor": "utilities",
+      "account": "utilities",
+      "annual_sar_m": 0.636,
+      "freq": "monthly_arrears",
+      "season": [
+       0.75,
+       0.75,
+       0.85,
+       1.0,
+       1.2,
+       1.4,
+       1.5,
+       1.5,
+       1.3,
+       1.1,
+       0.85,
+       0.75
+      ]
+     },
+     {
+      "key": "water",
+      "label": "Water",
+      "vendor": "water",
+      "account": "utilities",
+      "annual_sar_m": 0.144,
+      "freq": "monthly_arrears"
+     },
+     {
+      "key": "telecom",
+      "label": "Telephone and internet",
+      "vendor": "telecom",
+      "account": "ga",
+      "annual_sar_m": 0.347,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "it",
+      "label": "Software subscriptions",
+      "vendor": "it",
+      "account": "ga",
+      "annual_sar_m": 0.52,
+      "freq": "monthly",
+      "noise": 0.04
+     },
+     {
+      "key": "insurance",
+      "label": "Contractors all-risk and staff insurance",
+      "vendor": "insurance",
+      "account": "ga",
+      "annual_sar_m": 1.849,
+      "freq": "annual_prepaid",
+      "month": 1
+     },
+     {
+      "key": "audit",
+      "label": "Statutory audit fee",
+      "vendor": "audit",
+      "account": "ga",
+      "annual_sar_m": 0.22,
+      "freq": "annual_accrued",
+      "month": 3,
+      "scale": 0.3
+     },
+     {
+      "key": "legal",
+      "label": "Legal fees",
+      "vendor": "legal",
+      "account": "ga",
+      "annual_sar_m": 0.289,
+      "freq": "monthly",
+      "noise": 0.6
+     },
+     {
+      "key": "security",
+      "label": "Site security services",
+      "vendor": "security",
+      "account": "ga",
+      "annual_sar_m": 0.52,
+      "freq": "monthly",
+      "noise": 0.05
+     },
+     {
+      "key": "travel",
+      "label": "Travel and tickets",
+      "vendor": "travel",
+      "account": "ga",
+      "annual_sar_m": 0.693,
+      "freq": "monthly",
+      "noise": 0.35
+     },
+     {
+      "key": "marketing",
+      "label": "Tender documents and advertising",
+      "vendor": "marketing",
+      "account": "marketing",
+      "annual_sar_m": 0.202,
+      "freq": "monthly",
+      "noise": 0.5
+     },
+     {
+      "key": "printing",
+      "label": "Printing and stationery",
+      "vendor": "printing",
+      "account": "ga",
+      "annual_sar_m": 0.116,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "maintenance",
+      "label": "Plant maintenance and repairs",
+      "vendor": "maintenance",
+      "account": "other_direct",
+      "annual_sar_m": 0.809,
+      "freq": "monthly",
+      "noise": 0.3
+     },
+     {
+      "key": "fleet",
+      "label": "Fuel and fleet services",
+      "vendor": "fleet",
+      "account": "other_direct",
+      "annual_sar_m": 1.387,
+      "freq": "monthly",
+      "noise": 0.12
+     }
+    ],
+    "capex": {
+     "pct_revenue": 0.028,
+     "vendor": "equipment",
+     "label": "Plant and equipment",
+     "items": [
+      "Excavator",
+      "Concrete mixer truck",
+      "Site cabins",
+      "Formwork system",
+      "Survey equipment",
+      "Pickup vehicles"
+     ],
+     "months": [
+      2,
+      4,
+      6,
+      9,
+      11
+     ]
+    },
+    "dep_rate": 0.13,
+    "loans": [
+     {
+      "name": "Term Loan 1 – Example Bank A",
+      "lender": "Example Bank A (made-up)",
+      "drawn": "2021-03-31",
+      "amount_sar_m": 43.3,
+      "frequency": "quarterly",
+      "instalments": 20,
+      "first_repayment": "2021-06-30",
+      "margin": 0.0225
+     },
+     {
+      "name": "Term Loan 2 – Example Bank A",
+      "lender": "Example Bank A (made-up)",
+      "drawn": "2024-06-30",
+      "amount_sar_m": 34.7,
+      "frequency": "quarterly",
+      "instalments": 16,
+      "first_repayment": "2024-09-30",
+      "margin": 0.0215
+     }
+    ],
+    "rcf": {
+     "limit_sar_m": 57.8,
+     "margin": 0.02,
+     "commitment_fee": 0.0025,
+     "lender": "Example Bank B (made-up)"
+    },
+    "treasury": {
+     "min_cash_sar_m": 4.6,
+     "target_sar_m": 8.1,
+     "ceiling_sar_m": 12.7
+    },
+    "opening": {
+     "bank1": 8.089,
+     "bank2": 1.156,
+     "cash": 0.046,
+     "ppe_cost": 60.667,
+     "ppe_dep": 30.044,
+     "eosb": 13.867,
+     "rcf": 14.444,
+     "vat_payable": 1.502,
+     "gosi_payable": 0.318,
+     "zakat_payable": 2.08,
+     "accrued_audit": 0.22,
+     "share_capital": 34.667,
+     "stat_reserve": 10.4
+    },
+    "dividend_payout": 0.6,
+    "eosb_rate": 0.05,
+    "leaver_rate": 0.1,
+    "close_days": [
+     8,
+     14
+    ],
+    "ecl_rates": [
+     0.003,
+     0.012,
+     0.04,
+     0.12,
+     0.3,
+     0.55
+    ],
+    "suspense_rate": 0.12,
+    "petty_cash": {
+     "float": 0.046,
+     "items": 14,
+     "avg": 420,
+     "accounts": [
+      "other_direct",
+      "ga",
+      "ga"
+     ]
+    },
+    "bank_fee_base": 866,
+    "pay_rise": 0.03,
+    "variant": "fm",
+    "profile": "flat"
+   },
+   "extra_users": [
+    [
+     "adhoc",
+     "Accountant – Projects",
+     "staff"
+    ]
+   ]
+  }
+ ],
+ "intercompany": [
+  {
+   "seller": "EH-05",
+   "buyer": "EH-02",
+   "start": "2022-01-01",
+   "monthly_sar_m": 1.15,
+   "invoices_per_month": [
+    2,
+    4
+   ],
+   "terms": 60,
+   "pay_lag_days": [
+    3,
+    15
+   ],
+   "unbooked": {
+    "date": "2026-09-13",
+    "net_sar": 956520.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+month,department,headcount,saudi,non_saudi,saudisation_rate
+2023-01,Store staff,307,123,184,0.401
+2023-01,Head office and warehouse,57,24,33,0.421
+2023-02,Store staff,308,123,185,0.399
+2023-02,Head office and warehouse,57,24,33,0.421
+2023-03,Store staff,306,122,184,0.399
+2023-03,Head office and warehouse,57,24,33,0.421
+2023-04,Store staff,309,124,185,0.401
+2023-04,Head office and warehouse,56,24,32,0.429
+2023-05,Store staff,311,124,187,0.399
+2023-05,Head office and warehouse,57,24,33,0.421
+2023-06,Store staff,309,124,185,0.401
+2023-06,Head office and warehouse,57,24,33,0.421
+2023-07,Store staff,310,124,186,0.400
+2023-07,Head office and warehouse,58,24,34,0.414
+2023-08,Store staff,309,124,185,0.401
+2023-08,Head office and warehouse,58,24,34,0.414
+2023-09,Store staff,307,123,184,0.401
+2023-09,Head office and warehouse,59,25,34,0.424
+2023-10,Store staff,309,124,185,0.401
+2023-10,Head office and warehouse,59,25,34,0.424
+2023-11,Store staff,312,125,187,0.401
+2023-11,Head office and warehouse,59,25,34,0.424
+2023-12,Store staff,315,126,189,0.400
+2023-12,Head office and warehouse,59,25,34,0.424
+2024-01,Store staff,320,128,192,0.400
+2024-01,Head office and warehouse,59,25,34,0.424
+2024-02,Store staff,317,127,190,0.401
+2024-02,Head office and warehouse,59,25,34,0.424
+2024-03,Store staff,319,128,191,0.401
+2024-03,Head office and warehouse,59,25,34,0.424
+2024-04,Store staff,319,128,191,0.401
+2024-04,Head office and warehouse,60,25,35,0.417
+2024-05,Store staff,321,128,193,0.399
+2024-05,Head office and warehouse,60,25,35,0.417
+2024-06,Store staff,323,129,194,0.399
+2024-06,Head office and warehouse,59,25,34,0.424
+2024-07,Store staff,329,132,197,0.401
+2024-07,Head office and warehouse,59,25,34,0.424
+2024-08,Store staff,328,131,197,0.399
+2024-08,Head office and warehouse,60,25,35,0.417
+2024-09,Store staff,330,132,198,0.400
+2024-09,Head office and warehouse,60,25,35,0.417
+2024-10,Store staff,327,131,196,0.401
+2024-10,Head office and warehouse,60,25,35,0.417
+2024-11,Store staff,328,131,197,0.399
+2024-11,Head office and warehouse,61,26,35,0.426
+2024-12,Store staff,330,132,198,0.400
+2024-12,Head office and warehouse,61,26,35,0.426
+2025-01,Store staff,338,135,203,0.399
+2025-01,Head office and warehouse,61,26,35,0.426
+2025-02,Store staff,354,142,212,0.401
+2025-02,Head office and warehouse,61,26,35,0.426
+2025-03,Store staff,371,148,223,0.399
+2025-03,Head office and warehouse,61,26,35,0.426
+2025-04,Store staff,384,154,230,0.401
+2025-04,Head office and warehouse,61,26,35,0.426
+2025-05,Store staff,383,153,230,0.399
+2025-05,Head office and warehouse,62,26,36,0.419
+2025-06,Store staff,388,155,233,0.399
+2025-06,Head office and warehouse,62,26,36,0.419
+2025-07,Store staff,391,156,235,0.399
+2025-07,Head office and warehouse,62,26,36,0.419
+2025-08,Store staff,388,155,233,0.399
+2025-08,Head office and warehouse,62,26,36,0.419
+2025-09,Store staff,395,158,237,0.400
+2025-09,Head office and warehouse,62,26,36,0.419
+2025-10,Store staff,398,159,239,0.399
+2025-10,Head office and warehouse,63,26,37,0.413
+2025-11,Store staff,405,162,243,0.400
+2025-11,Head office and warehouse,63,26,37,0.413
+2025-12,Store staff,409,164,245,0.401
+2025-12,Head office and warehouse,63,26,37,0.413
+2026-01,Store staff,412,165,247,0.400
+2026-01,Head office and warehouse,63,26,37,0.413
+2026-02,Store staff,416,166,250,0.399
+2026-02,Head office and warehouse,64,27,37,0.422
+2026-03,Store staff,417,167,250,0.400
+2026-03,Head office and warehouse,64,27,37,0.422
+2026-04,Store staff,420,168,252,0.400
+2026-04,Head office and warehouse,64,27,37,0.422
+2026-05,Store staff,424,170,254,0.401
+2026-05,Head office and warehouse,64,27,37,0.422
+2026-06,Store staff,421,168,253,0.399
+2026-06,Head office and warehouse,64,27,37,0.422
+2026-07,Store staff,422,169,253,0.400
+2026-07,Head office and warehouse,65,27,38,0.415
+2026-08,Store staff,418,167,251,0.400
+2026-08,Head office and warehouse,65,27,38,0.415
+2026-09,Store staff,417,167,250,0.400
+2026-09,Head office and warehouse,64,27,37,0.422
+2026-10,Store staff,414,166,248,0.401
+2026-10,Head office and warehouse,64,27,37,0.422

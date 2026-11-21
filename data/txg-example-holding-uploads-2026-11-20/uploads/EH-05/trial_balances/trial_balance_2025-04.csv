@@ -1,0 +1,42 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 30/04/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,30579083.05,
+Petty Cash,1030,cash,34948.84,
+Accounts Receivable,1040,accounts_receivable,77858875.71,
+Allowance for Expected Credit Losses,1050,other_current_asset,,100900.20
+Inventory,1060,stock,27408625.02,
+Prepayments and Advances,1070,other_current_asset,1740194.89,
+Employee Advances,1090,other_current_asset,1625.02,
+Property and Equipment – Cost,1110,fixed_asset,57426162.32,
+Accumulated Depreciation,1120,fixed_asset,,42278203.06
+Accounts Payable,2010,accounts_payable,,43957876.96
+Accrued Expenses,2020,other_current_liability,,252502.46
+VAT Payable,2050,other_current_liability,,1199146.98
+Zakat Payable,2060,other_current_liability,,746316.38
+GOSI Payable,2070,other_current_liability,,165361.98
+Term Loan,2100,long_term_liability,,8906250.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,9412322.95
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,33506966.40
+Sales,4010,income,,114768075.41
+Sales Returns,4020,income,388474.34,
+Cost of Goods Sold,5010,cost_of_goods_sold,86086833.89,
+Salaries and Allowances,6010,expense,10026861.25,
+GOSI Contributions,6020,expense,402003.69,
+End-of-Service Benefits Expense,6030,expense,451208.73,
+Rent and Service Charges,6040,expense,2348827.87,
+Utilities,6050,expense,573378.59,
+Marketing and Advertising,6060,expense,468394.04,
+Delivery and Fuel,6070,expense,3099964.67,
+General and Administrative,6080,expense,2316543.59,
+Bank Charges,6090,expense,9068.99,
+Depreciation,6100,expense,2280972.08,
+Expected Credit Loss Expense,6110,expense,,39491.92
+Interest Expense,7010,other_expense,269958.29,
+Foreign Exchange Gains and Losses,7020,other_expense,215093.45,
+Zakat Expense,7030,other_expense,746316.38,
+Total,,,304733414.70,304733414.70

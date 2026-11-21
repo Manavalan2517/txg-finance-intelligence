@@ -1,0 +1,44 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 30/06/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,27014629.96,
+Petty Cash Float,1030,cash,36923.09,
+Trade Debtors,1040,accounts_receivable,74171284.58,
+Provision for Doubtful Debts,1050,other_current_asset,,137743.71
+Stock on Hand,1060,stock,34669817.84,
+Prepayments,1070,other_current_asset,420037.56,
+Staff Loans,1090,other_current_asset,7166.67,
+Suspense,1100,other_current_asset,,14098.14
+Fixed Assets – Cost,1110,fixed_asset,63965431.82,
+Fixed Assets – Depreciation,1120,fixed_asset,,39127442.52
+Trade Creditors,2010,accounts_payable,,48760481.22
+Accruals,2020,other_current_liability,,345539.96
+VAT Liability,2050,other_current_liability,157983.17,
+Zakat Liability,2060,other_current_liability,,1161618.87
+GOSI Control,2070,other_current_liability,,164787.62
+Bank Loan,2100,long_term_liability,,15000000.00
+Gratuity Provision,2110,long_term_liability,,9784495.47
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,26476879.91
+Turnover,4010,income,,184820470.92
+Returns Inwards,4020,income,2004081.48,
+Cost of Sales,5010,cost_of_goods_sold,139819141.10,
+Stock Write-offs,5020,cost_of_goods_sold,97899.62,
+Wages and Salaries,6010,expense,15004860.35,
+Employer GOSI,6020,expense,603404.85,
+Gratuity Expense,6030,expense,675218.69,
+Rent and Rates,6040,expense,3617832.06,
+"Light, Heat and Water",6050,expense,922323.74,
+Advertising and Promotions,6060,expense,936819.36,
+Motor and Delivery Expenses,6070,expense,4650510.97,
+Office and Admin Costs,6080,expense,3562433.00,
+Bank Charges and Commissions,6090,expense,16552.23,
+Depreciation Charge,6100,expense,3561076.24,
+Bad Debt Expense,6110,expense,,8473.51
+Loan Interest,7010,other_expense,747416.64,
+Exchange Gains and Losses,7020,other_expense,,22432.04
+Zakat Charge,7030,other_expense,1161618.87,
+Total,,,377824463.89,377824463.89

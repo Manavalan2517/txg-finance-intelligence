@@ -1,0 +1,45 @@
+Example Food Distribution B Co. (made-up)
+Trial Balance
+As of 31/10/2026,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account / البنك - الحساب الجاري,1-01-002,bank,21823533.70,
+Bank – Collections Account / البنك - حساب التحصيلات,1-01-003,bank,463548.96,
+Petty Cash / الصندوق - النثرية,1-01-004,cash,23628.80,
+Accounts Receivable / الذمم المدينة,1-01-005,accounts_receivable,56648154.54,
+Allowance for Expected Credit Losses / مخصص الخسائر الائتمانية المتوقعة,1-01-006,other_current_asset,,160505.48
+Inventory / المخزون,1-01-007,stock,24054954.03,
+Prepayments and Advances / مصروفات مدفوعة مقدماً,1-01-008,other_current_asset,894589.07,
+Employee Advances / سلف الموظفين,1-01-010,other_current_asset,3916.67,
+Suspense Account / حساب معلق,1-01-011,other_current_asset,,3647.61
+Property and Equipment – Cost / الممتلكات والمعدات - التكلفة,1-01-012,fixed_asset,48784315.06,
+Accumulated Depreciation / مجمع الاستهلاك,1-01-013,fixed_asset,,38386328.40
+Accounts Payable / الذمم الدائنة,2-01-002,accounts_payable,,36391337.29
+Accrued Expenses / مصروفات مستحقة,2-01-003,other_current_liability,,274738.14
+VAT Payable / ضريبة القيمة المضافة المستحقة,2-01-006,other_current_liability,,422197.26
+Zakat Payable / الزكاة المستحقة,2-01-007,other_current_liability,,1341570.84
+GOSI Payable / التأمينات الاجتماعية المستحقة,2-01-008,other_current_liability,,118816.88
+Provision for End-of-Service Benefits / مخصص مكافأة نهاية الخدمة,2-01-012,long_term_liability,,6796955.35
+Share Capital / رأس المال,3-01-002,equity,,26000000.00
+Statutory Reserve / الاحتياطي النظامي,3-01-003,equity,,7800000.00
+Retained Earnings / الأرباح المبقاة,3-01-004,equity,,26721513.67
+Sales / المبيعات,4-01-002,income,,219858875.73
+Sales Returns / مردودات المبيعات,4-01-003,income,2302282.08,
+Miscellaneous Income / إيرادات متنوعة,4-01-005,other_income,,3533237.93
+Cost of Goods Sold / تكلفة البضاعة المباعة,5-01-002,cost_of_goods_sold,170120805.15,
+Inventory Adjustments – Damaged and Expired / تسويات المخزون - التالف والمنتهي,5-01-003,cost_of_goods_sold,150757.69,
+Salaries and Allowances / الرواتب والبدلات,6-01-002,expense,18353590.22,
+GOSI Contributions / اشتراكات التأمينات الاجتماعية,6-01-003,expense,730354.23,
+End-of-Service Benefits Expense / مصروف مكافأة نهاية الخدمة,6-01-004,expense,825911.51,
+Rent and Service Charges / الإيجار ورسوم الخدمات,6-01-005,expense,4151011.14,
+Utilities / المرافق,6-01-006,expense,1229622.91,
+Marketing and Advertising / التسويق والإعلان,6-01-007,expense,946980.15,
+Delivery and Fuel / التوصيل والوقود,6-01-008,expense,5902487.55,
+General and Administrative / مصروفات عمومية وإدارية,6-01-009,expense,4164585.68,
+Bank Charges / رسوم بنكية,6-01-010,expense,24105.62,
+Depreciation / الاستهلاك,6-01-011,expense,4704996.56,
+Expected Credit Loss Expense / مصروف الخسائر الائتمانية المتوقعة,6-01-012,expense,71841.38,
+Interest Expense / مصروف الفوائد,7-01-002,other_expense,100932.75,
+Foreign Exchange Gains and Losses / أرباح وخسائر فروقات العملة,7-01-003,other_expense,,8751.71
+Zakat Expense / مصروف الزكاة,7-01-004,other_expense,1341570.84,
+Total,,,367818476.29,367818476.29

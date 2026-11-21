@@ -1,0 +1,43 @@
+Example Contracting C Co. (made-up)
+Trial Balance
+As of 28/02/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+البنك - الحساب الجاري,100001,bank,49490720.81,
+الصندوق - النثرية,100003,cash,33443.75,
+الذمم المدينة,100004,accounts_receivable,116759802.63,
+إيرادات غير مفوترة,100005,other_current_asset,43125614.64,
+مخصص الخسائر الائتمانية المتوقعة,100006,other_current_asset,,259632.50
+مصروفات مدفوعة مقدماً,100007,other_current_asset,995381.26,
+سلف الموظفين,100009,other_current_asset,3583.34,
+سلفة - السيد خالد,100010,other_current_asset,194870.68,
+حساب معلق,100011,other_current_asset,,23568.12
+الممتلكات والمعدات - التكلفة,100012,fixed_asset,62298143.22,
+مجمع الاستهلاك,100013,fixed_asset,,48614405.66
+الذمم الدائنة,200001,accounts_payable,,47534095.20
+مصروفات مستحقة,200002,other_current_liability,,211215.32
+VAT مستحقة,200005,other_current_liability,,3140.86
+الزكاة المستحقة,200006,other_current_liability,,4477750.03
+GOSI مستحق,200007,other_current_liability,,155895.17
+قرض لأجل,200010,long_term_liability,,7500000.00
+مخصص EOSB,200011,long_term_liability,,13954539.40
+رأس المال,300001,equity,,24000000.00
+الاحتياطي النظامي,300002,equity,,7200000.00
+الأرباح المبقاة,300003,equity,,113609583.46
+إيرادات العقود,400001,income,,50414704.33
+مواد مباشرة,500001,cost_of_goods_sold,15178856.63,
+عمالة مباشرة - الموقع,500002,cost_of_goods_sold,8242460.74,
+تكاليف مقاولي الباطن,500003,cost_of_goods_sold,12232970.13,
+استئجار معدات وتكاليف الموقع,500004,cost_of_goods_sold,4059339.09,
+الرواتب والبدلات,600001,expense,1715686.60,
+مصروف GOSI,600002,expense,216083.74,
+مصروف EOSB,600003,expense,419531.00,
+الإيجار ورسوم الخدمات,600004,expense,162559.34,
+المرافق,600005,expense,69408.70,
+التسويق والإعلان,600006,expense,34928.17,
+مصروفات عمومية وإدارية,600007,expense,623042.91,
+رسوم بنكية,600008,expense,2159.30,
+الاستهلاك,600009,expense,1333796.49,
+مصروف الفوائد,700001,other_expense,111065.96,
+مصروف الزكاة,700003,other_expense,655080.92,
+Total,,,317958530.05,317958530.05

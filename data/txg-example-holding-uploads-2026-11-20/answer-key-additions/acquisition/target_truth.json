@@ -1,0 +1,47 @@
+{
+ "target": {
+  "id": "TGT-01",
+  "name": "Example Cold Chain Logistics Co. (made-up)",
+  "city": "Dammam",
+  "region": "Eastern Province",
+  "cr": "TEST-CR-T001",
+  "vat": "TEST-VAT-T001",
+  "founded": 2009
+ },
+ "asking_enterprise_value_sar": 520000000,
+ "ebitda_fy2025_sar": 44164000.0,
+ "asking_multiple_fy2025_ebitda": 11.77,
+ "debt_like_items": [
+  "borrowings repayable on change of control",
+  "lease liabilities",
+  "end-of-service benefits",
+  "Zakat assessment under appeal SAR 3.1m (not provided)",
+  "Zakat payable"
+ ],
+ "planted_facts": [
+  "related-party rent for the Dammam warehouse",
+  "largest customer 14%, top five 47%, largest contract ends 31 March 2027",
+  "route overlap with EH-08 and EH-09 deliveries"
+ ],
+ "statement_checks": [
+  {
+   "year": 2023,
+   "balance_sheet_balances": true,
+   "cash_flow_ties": true,
+   "cash": 7586169.88
+  },
+  {
+   "year": 2024,
+   "balance_sheet_balances": true,
+   "cash_flow_ties": true,
+   "cash": 22111832.89
+  },
+  {
+   "year": 2025,
+   "balance_sheet_balances": true,
+   "cash_flow_ties": true,
+   "cash": 17940477.55
+  }
+ ],
+ "story": "S10: the asking price is above what credible synergies support; the verdict is the engines' to compute."
+}

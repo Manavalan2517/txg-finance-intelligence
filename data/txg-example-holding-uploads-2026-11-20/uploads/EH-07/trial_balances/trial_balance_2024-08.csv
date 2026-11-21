@@ -1,0 +1,44 @@
+Example Industrial Supplies Co. (made-up)
+Trial Balance
+As of 31/08/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,2905842.82,
+Current Account – Bank 2,1020,bank,16504.01,
+Petty Cash Float,1030,cash,19039.21,
+Trade Debtors,1040,accounts_receivable,25384738.69,
+Provision for Doubtful Debts,1050,other_current_asset,,52448.92
+Stock on Hand,1060,stock,12667751.65,
+Prepayments,1070,other_current_asset,62345.35,
+Fixed Assets – Cost,1110,fixed_asset,16984326.62,
+Fixed Assets – Depreciation,1120,fixed_asset,,11892662.88
+Trade Creditors,2010,accounts_payable,,14968312.22
+Accruals,2020,other_current_liability,,44107.66
+VAT Liability,2050,other_current_liability,,85458.21
+Zakat Liability,2060,other_current_liability,,418208.47
+GOSI Control,2070,other_current_liability,,14477.98
+Bank Overdraft / RCF,2080,other_current_liability,,1000000.00
+Bank Loan,2100,long_term_liability,,3937500.00
+Gratuity Provision,2110,long_term_liability,,2102516.25
+Ordinary Share Capital,3010,equity,,12000000.00
+Statutory Reserve,3020,equity,,3600000.00
+Profit and Loss Reserve,3030,equity,,7038283.67
+Turnover,4010,income,,74007513.62
+Returns Inwards,4020,income,245256.14,
+Sundry Income,4030,other_income,,45124.88
+Cost of Sales,5010,cost_of_goods_sold,66759013.77,
+Wages and Salaries,6010,expense,1959554.63,
+Employer GOSI,6020,expense,72335.61,
+Gratuity Expense,6030,expense,88179.92,
+Rent and Rates,6040,expense,504770.77,
+"Light, Heat and Water",6050,expense,142325.32,
+Advertising and Promotions,6060,expense,101248.07,
+Motor and Delivery Expenses,6070,expense,711578.37,
+Office and Admin Costs,6080,expense,514601.99,
+Bank Charges and Commissions,6090,expense,9792.71,
+Depreciation Charge,6100,expense,1333666.42,
+Bad Debt Expense,6110,expense,7751.96,
+Loan Interest,7010,other_expense,340801.46,
+Exchange Gains and Losses,7020,other_expense,,43019.20
+Zakat Charge,7030,other_expense,418208.47,
+Total,,,131249633.96,131249633.96

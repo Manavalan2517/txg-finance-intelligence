@@ -1,0 +1,44 @@
+Example Contracting B Co. (made-up)
+Trial Balance
+As of 31/08/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,6560132.33,
+Bank – Collections Account,1020,bank,1029395.75,
+Petty Cash,1030,cash,42062.07,
+Accounts Receivable,1040,accounts_receivable,148626264.84,
+Unbilled Revenue (Contract Assets),1050,other_current_asset,36065267.96,
+Allowance for Expected Credit Losses,1060,other_current_asset,,565040.21
+Prepayments and Advances,1070,other_current_asset,812367.62,
+Employee Advances,1090,other_current_asset,9625.01,
+Advance – Mr. Khalid,1100,other_current_asset,69802.54,
+Property and Equipment – Cost,1120,fixed_asset,89299376.58,
+Accumulated Depreciation,1130,fixed_asset,,62303699.14
+Accounts Payable,2010,accounts_payable,,41848850.20
+Accrued Expenses,2020,other_current_liability,,265554.59
+VAT Payable,2050,other_current_liability,,2069235.14
+Zakat Payable,2060,other_current_liability,,2452971.70
+GOSI Payable,2070,other_current_liability,,200009.48
+Provision for End-of-Service Benefits,2110,long_term_liability,,19619856.57
+Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Retained Earnings,3030,equity,,92636148.64
+Contract Revenue,4010,income,,209788717.13
+Other Income,4020,other_income,,13037.93
+Direct Materials,5010,cost_of_goods_sold,61850875.38,
+Direct Labour – Site Staff,5020,cost_of_goods_sold,40282763.20,
+Subcontractor Costs,5030,cost_of_goods_sold,50838285.09,
+Equipment Hire and Site Costs,5040,cost_of_goods_sold,18664185.56,
+Salaries and Allowances,6010,expense,10612832.02,
+GOSI Contributions,6020,expense,1147230.09,
+End-of-Service Benefits Expense,6030,expense,2126922.23,
+Rent and Service Charges,6040,expense,1028567.74,
+Utilities,6050,expense,632124.84,
+Marketing and Advertising,6060,expense,159564.43,
+General and Administrative,6070,expense,3824920.25,
+Bank Charges,6080,expense,11309.64,
+Depreciation,6090,expense,7559254.54,
+Expected Credit Loss Expense,6100,expense,,55536.88
+Interest Expense,7010,other_expense,112556.20,
+Zakat Expense,7030,other_expense,2452971.70,
+Total,,,483818657.61,483818657.61

@@ -1,0 +1,41 @@
+[project]
+name = "txg-engine"
+version = "0.1.0"
+description = "Group Finance Intelligence engine for the TXG proposal (Example Holding, made-up data). Standalone."
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.7",
+  "python-ulid>=2.7",
+  "duckdb>=1.1",
+  "numpy>=2.1",
+  "scipy>=1.14",
+  "statsmodels>=0.14.4",
+  "fastapi>=0.115",
+  "uvicorn>=0.32",
+  "httpx>=0.27",
+  "python-pptx>=1.0.2",
+  "pypdf>=5.1",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3",
+  "pytest-cov>=5.0",
+  "ruff>=0.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/txg"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["slow: reads the full Example Holding data set"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"

@@ -1,0 +1,45 @@
+Example Contracting B Co. (made-up)
+Trial Balance
+As of 31/08/2026,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,44016861.37,
+Bank – Collections Account,1020,bank,784714.12,
+Petty Cash,1030,cash,48125.86,
+Accounts Receivable,1040,accounts_receivable,163687863.83,
+Unbilled Revenue (Contract Assets),1050,other_current_asset,51547459.77,
+Allowance for Expected Credit Losses,1060,other_current_asset,,648239.77
+Prepayments and Advances,1070,other_current_asset,872019.69,
+Employee Advances,1090,other_current_asset,15333.36,
+Advance – Mr. Khalid,1100,other_current_asset,136516.52,
+Suspense Account,1110,other_current_asset,,22468.40
+Property and Equipment – Cost,1120,fixed_asset,112187486.36,
+Accumulated Depreciation,1130,fixed_asset,,101581048.07
+Accounts Payable,2010,accounts_payable,,53739230.42
+Accrued Expenses,2020,other_current_liability,,285053.80
+VAT Payable,2050,other_current_liability,,1473511.37
+Zakat Payable,2060,other_current_liability,,3331646.82
+GOSI Payable,2070,other_current_liability,,246511.89
+Term Loan,2100,long_term_liability,,20000000.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,23213633.97
+Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Retained Earnings,3030,equity,,108792569.76
+Contract Revenue,4010,income,,229600842.03
+Direct Materials,5010,cost_of_goods_sold,66742327.57,
+Direct Labour – Site Staff,5020,cost_of_goods_sold,43631830.84,
+Subcontractor Costs,5030,cost_of_goods_sold,54657231.62,
+Equipment Hire and Site Costs,5040,cost_of_goods_sold,20440816.62,
+Salaries and Allowances,6010,expense,12326826.53,
+GOSI Contributions,6020,expense,1291658.48,
+End-of-Service Benefits Expense,6030,expense,2372136.18,
+Rent and Service Charges,6040,expense,1123006.66,
+Utilities,6050,expense,705856.33,
+Marketing and Advertising,6060,expense,147655.43,
+General and Administrative,6070,expense,4084632.50,
+Bank Charges,6080,expense,11123.50,
+Depreciation,6090,expense,9574453.32,
+Expected Credit Loss Expense,6100,expense,46026.56,
+Interest Expense,7010,other_expense,1151146.46,
+Zakat Expense,7030,other_expense,3331646.82,
+Total,,,594934756.30,594934756.30

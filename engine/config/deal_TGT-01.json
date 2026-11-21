@@ -1,0 +1,9 @@
+{
+  "note": "Deal-team inputs (§14.2): the target is named with its CR number; the asking price comes from the process letter. Made-up example.",
+  "target_id": "TGT-01",
+  "name": "Example Cold Chain Logistics Co. (made-up)",
+  "cr_number": "TEST-CR-T001",
+  "ask_ev_sar": 520000000,
+  "board_confidence": 0.70,
+  "year": "2025"
+}

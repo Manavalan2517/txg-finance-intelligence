@@ -1,0 +1,238 @@
+[
+ {
+  "file": "facility_letter_01_example_bank_a.pdf",
+  "lender": "Example Bank A (made-up)",
+  "reference": "FOL/EH-01/2021/01",
+  "dated": "2021-03-10",
+  "facilities": [
+   {
+    "facility": "Term Loan 1 \u2013 Example Bank A",
+    "type": "term_loan",
+    "amount_sar": 75000000.0,
+    "drawn": "2021-03-31",
+    "margin_over_saibor": 0.0225,
+    "schedule": [
+     {
+      "date": "2021-06-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2021-09-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2021-12-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2022-03-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2022-06-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2022-09-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2022-12-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2023-03-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2023-06-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2023-09-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2023-12-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2024-03-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2024-06-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2024-09-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2024-12-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2025-03-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2025-06-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2025-09-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2025-12-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2026-03-31",
+      "principal_sar": 3750000.0
+     }
+    ]
+   },
+   {
+    "facility": "Term Loan 2 \u2013 Example Bank A",
+    "type": "term_loan",
+    "amount_sar": 60000000.0,
+    "drawn": "2024-06-30",
+    "margin_over_saibor": 0.0215,
+    "schedule": [
+     {
+      "date": "2024-09-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2024-12-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2025-03-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2025-06-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2025-09-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2025-12-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2026-03-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2026-06-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2026-09-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2026-12-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2027-03-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2027-06-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2027-09-30",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2027-12-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2028-03-31",
+      "principal_sar": 3750000.0
+     },
+     {
+      "date": "2028-06-30",
+      "principal_sar": 3750000.0
+     }
+    ]
+   }
+  ],
+  "covenants": [
+   {
+    "name": "Leverage",
+    "test": "net_debt_to_ebitda_max",
+    "threshold": 3.5,
+    "frequency": "quarterly, last twelve months"
+   },
+   {
+    "name": "Debt service cover",
+    "test": "dscr_min",
+    "threshold": 1.25,
+    "frequency": "quarterly, last twelve months"
+   },
+   {
+    "name": "Minimum liquidity",
+    "test": "cash_plus_undrawn_min",
+    "threshold_sar": 40000000.0,
+    "frequency": "at all times"
+   }
+  ],
+  "definitions": {
+   "ebitda_before_ifrs16": false,
+   "lease_liabilities_in_net_debt": false,
+   "cfads": "EBITDA less Zakat paid"
+  }
+ },
+ {
+  "file": "facility_letter_02_example_bank_b.pdf",
+  "lender": "Example Bank B (made-up)",
+  "reference": "FOL/EH-01/2025/02",
+  "dated": "2025-11-24",
+  "facilities": [
+   {
+    "facility": "Revolving credit facility",
+    "type": "rcf",
+    "limit_sar": 100000000.0,
+    "margin_over_saibor": 0.02,
+    "commitment_fee": 0.0025,
+    "available_until": "2027-12-31"
+   }
+  ],
+  "covenants": [
+   {
+    "name": "Leverage",
+    "test": "net_debt_to_ebitda_max",
+    "threshold": 3.5,
+    "frequency": "quarterly, last twelve months"
+   },
+   {
+    "name": "Debt service cover",
+    "test": "dscr_min",
+    "threshold": 1.25,
+    "frequency": "quarterly, last twelve months"
+   },
+   {
+    "name": "Minimum liquidity",
+    "test": "cash_plus_undrawn_min",
+    "threshold_sar": 40000000.0,
+    "frequency": "at all times"
+   }
+  ],
+  "definitions": {
+   "ebitda_before_ifrs16": false,
+   "lease_liabilities_in_net_debt": false,
+   "cfads": "EBITDA less Zakat paid"
+  }
+ }
+]

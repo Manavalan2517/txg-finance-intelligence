@@ -1,0 +1,44 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 31/07/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,15777923.11,
+Petty Cash Float,1030,cash,38012.77,
+Trade Debtors,1040,accounts_receivable,78547081.26,
+Provision for Doubtful Debts,1050,other_current_asset,,137743.71
+Stock on Hand,1060,stock,36174806.90,
+Prepayments,1070,other_current_asset,1556206.70,
+Staff Loans,1090,other_current_asset,8458.34,
+Suspense,1100,other_current_asset,,14098.14
+Fixed Assets – Cost,1110,fixed_asset,63965431.82,
+Fixed Assets – Depreciation,1120,fixed_asset,,39767096.83
+Trade Creditors,2010,accounts_payable,,42649853.39
+Accruals,2020,other_current_liability,,409067.98
+VAT Liability,2050,other_current_liability,,145632.14
+Zakat Liability,2060,other_current_liability,,1343743.48
+GOSI Control,2070,other_current_liability,,164657.64
+Bank Loan,2100,long_term_liability,,15000000.00
+Gratuity Provision,2110,long_term_liability,,9813872.64
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,26476879.91
+Turnover,4010,income,,216023170.92
+Returns Inwards,4020,income,2611752.08,
+Cost of Sales,5010,cost_of_goods_sold,163567098.19,
+Stock Write-offs,5020,cost_of_goods_sold,107534.96,
+Wages and Salaries,6010,expense,17524549.70,
+Employer GOSI,6020,expense,704631.34,
+Gratuity Expense,6030,expense,788604.71,
+Rent and Rates,6040,expense,4226781.51,
+"Light, Heat and Water",6050,expense,1156780.46,
+Advertising and Promotions,6060,expense,1123475.86,
+Motor and Delivery Expenses,6070,expense,5502599.15,
+Office and Admin Costs,6080,expense,4167900.80,
+Bank Charges and Commissions,6090,expense,19301.06,
+Depreciation Charge,6100,expense,4200730.55,
+Bad Debt Expense,6110,expense,,8473.51
+Loan Interest,7010,other_expense,863666.63,
+Exchange Gains and Losses,7020,other_expense,,22781.09
+Zakat Charge,7030,other_expense,1343743.48,
+Total,,,403977071.38,403977071.38

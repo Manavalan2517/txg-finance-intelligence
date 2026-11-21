@@ -1,0 +1,30 @@
+candidate_id,name,region,city,revenue_band_sar_m,listed,cr_number,description
+CAND-01,Example Cold Chain Logistics Co. (made-up),Eastern Province,Al-Ahsa,150–200,False,TEST-CR-C001,"We move and store chilled and frozen food for manufacturers, distributors and restaurant chains. Our 214 refrigerated trucks and three cold stores in Dammam, Riyadh and Jeddah run around the clock."
+CAND-02,Polar Line Transport Co.,Central,Al-Kharj,200–300,False,TEST-CR-C002,"Temperature-controlled trucking for dairy, poultry and frozen foods, with a fleet of 260 reefer trucks and cross-docks in Riyadh and Al-Kharj."
+CAND-03,Frostway Cold Stores Est.,Western,Jeddah,50–100,False,TEST-CR-C003,"Public cold storage in Jeddah with 22,000 pallet positions, blast freezing and order picking for importers."
+CAND-04,Najd Chilled Distribution Co.,Central,Riyadh,100–150,False,TEST-CR-C004,Last-mile delivery of chilled and frozen products to supermarkets and restaurants across Riyadh.
+CAND-05,Gulf Reefer Services Co.,Eastern Province,Jubail,100–150,False,TEST-CR-C005,"Refrigerated haulage between the Eastern Province ports and inland cities, plus a 9,000-pallet cold store in Dammam."
+CAND-06,Coldchain Pharma Logistics Co.,Central,Riyadh,50–100,False,TEST-CR-C006,Good-distribution-practice storage and delivery of vaccines and medicines for hospitals and pharmacies.
+CAND-07,Red Sea Cold Logistics Co.,Western,Makkah,100–150,False,TEST-CR-C007,Port-side cold storage and reefer transport for seafood and fruit importers on the Red Sea coast.
+CAND-08,Ice Route Transport Est.,Southern,Jazan,20–50,False,TEST-CR-C008,"A regional fleet of 45 refrigerated vans serving bakeries, dairies and restaurants in the south."
+CAND-09,Polar Trading Co.,Eastern Province,Khobar,50–100,False,TEST-CR-C009,"We sell and install air conditioners, chillers and refrigeration units for homes and shops."
+CAND-10,Frost Line Contracting Est.,Central,Buraidah,20–50,False,TEST-CR-C010,MEP contractor specialising in cold-room construction and HVAC installation for warehouses.
+CAND-11,Sanabel Food Distribution Co.,Central,Riyadh,300–500,False,TEST-CR-C011,"Distributes rice, oils, dairy and frozen foods to supermarkets and caterers nationwide."
+CAND-12,Golden Basket Trading Co.,Western,Makkah,200–300,False,TEST-CR-C012,Wholesale and modern-trade distribution of packaged food brands in the Western region.
+CAND-13,Al-Reef Provisions Co.,Eastern Province,Al-Ahsa,100–150,False,TEST-CR-C013,"Food service distribution to hotels, restaurants and hospital caterers."
+CAND-14,Tamr Foodstuff Trading Est.,Central,Riyadh,50–100,False,TEST-CR-C014,"Distribution of dates, nuts and confectionery to retailers."
+CAND-15,Bayside Frozen Foods Co.,Western,Makkah,100–150,False,TEST-CR-C015,"Imports and distributes frozen poultry, meat and seafood."
+CAND-16,Desert Rose Catering Supplies,Southern,Jazan,20–50,False,TEST-CR-C016,Supplies dry goods and disposables to restaurants and canteens.
+CAND-17,Rimal Building Materials Co.,Central,Al-Kharj,300–500,False,TEST-CR-C017,"Cement, steel and blocks for contractors, with six yards around Riyadh."
+CAND-18,Coastline Tiles and Sanitary Co.,Western,Makkah,100–150,False,TEST-CR-C018,"Showrooms and project sales of tiles, sanitary ware and fittings."
+CAND-19,Ironbridge Steel Trading Co.,Eastern Province,Khobar,200–300,False,TEST-CR-C019,Rebar and structural steel trading for contractors and fabricators.
+CAND-20,Brightwall Paints Trading Est.,Central,Riyadh,50–100,False,TEST-CR-C020,"Distribution of paints, coatings and construction chemicals."
+CAND-21,Palmyard Building Supplies,Southern,Abha,20–50,False,TEST-CR-C021,General building materials for small contractors and homeowners.
+CAND-22,Granite House Co.,Western,Madinah,50–100,False,TEST-CR-C022,Imports and processes granite and marble for projects.
+CAND-23,Pipeline Supplies Co.,Eastern Province,Khobar,100–150,False,TEST-CR-C023,"Pipes, valves and fittings for contractors and industry."
+CAND-24,Shifa Medical Centres Co.,Central,Riyadh,150–200,False,TEST-CR-C024,"Five polyclinics in Riyadh with dental, paediatrics and family medicine."
+CAND-25,Al-Afiya Pharmacies Co.,Western,Makkah,100–150,False,TEST-CR-C025,A chain of 48 community pharmacies in Jeddah and Makkah.
+CAND-26,Coastal Diagnostic Labs Co.,Eastern Province,Al-Ahsa,50–100,False,TEST-CR-C026,Laboratory testing and radiology for clinics and insurers.
+CAND-27,Najd Home Care Est.,Central,Al-Kharj,20–50,False,TEST-CR-C027,Home nursing and physiotherapy services.
+CAND-28,Al-Salama Day Surgery Co.,Western,Jeddah,50–100,False,TEST-CR-C028,Day-surgery centres for ophthalmology and orthopaedics.
+CAND-29,Summit Dental Clinics Co.,Southern,Jazan,20–50,False,TEST-CR-C029,Dental clinics in Abha and Khamis Mushait.

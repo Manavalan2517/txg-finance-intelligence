@@ -1,0 +1,42 @@
+Example Industrial Supplies Co. (made-up)
+Trial Balance
+As of 31/03/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,1931841.71,
+Petty Cash Float,1030,cash,18389.98,
+Trade Debtors,1040,accounts_receivable,26851106.69,
+Provision for Doubtful Debts,1050,other_current_asset,,54361.42
+Stock on Hand,1060,stock,13708591.74,
+Prepayments,1070,other_current_asset,42637.27,
+Fixed Assets – Cost,1110,fixed_asset,16583496.63,
+Fixed Assets – Depreciation,1120,fixed_asset,,11051463.18
+Trade Creditors,2010,accounts_payable,,15717356.68
+Accruals,2020,other_current_liability,,21151.90
+VAT Liability,2050,other_current_liability,353863.09,
+Zakat Liability,2060,other_current_liability,,790201.55
+GOSI Control,2070,other_current_liability,,14515.78
+Bank Overdraft / RCF,2080,other_current_liability,,1000000.00
+Bank Loan,2100,long_term_liability,,5062500.00
+Gratuity Provision,2110,long_term_liability,,2168875.43
+Ordinary Share Capital,3010,equity,,12000000.00
+Statutory Reserve,3020,equity,,3600000.00
+Profit and Loss Reserve,3030,equity,,7538283.67
+Turnover,4010,income,,27043446.71
+Returns Inwards,4020,income,89227.78,
+Cost of Sales,5010,cost_of_goods_sold,24184160.94,
+Wages and Salaries,6010,expense,731410.09,
+Employer GOSI,6020,expense,26840.89,
+Gratuity Expense,6030,expense,32913.44,
+Rent and Rates,6040,expense,188199.87,
+"Light, Heat and Water",6050,expense,40246.03,
+Advertising and Promotions,6060,expense,39765.37,
+Motor and Delivery Expenses,6070,expense,262503.83,
+Office and Admin Costs,6080,expense,190930.18,
+Bank Charges and Commissions,6090,expense,3748.87,
+Depreciation Charge,6100,expense,492466.72,
+Bad Debt Expense,6110,expense,9664.46,
+Loan Interest,7010,other_expense,124983.99,
+Exchange Gains and Losses,7020,other_expense,,4038.64
+Zakat Charge,7030,other_expense,159205.39,
+Total,,,86066194.96,86066194.96

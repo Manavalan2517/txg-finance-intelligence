@@ -1,0 +1,44 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 30/04/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,39189119.91,
+Petty Cash Float,1030,cash,36576.21,
+Trade Debtors,1040,accounts_receivable,78351354.19,
+Provision for Doubtful Debts,1050,other_current_asset,,127654.11
+Stock on Hand,1060,stock,30178653.13,
+Prepayments,1070,other_current_asset,1754431.95,
+Staff Loans,1090,other_current_asset,2500.00,
+Fixed Assets – Cost,1110,fixed_asset,53858089.81,
+Fixed Assets – Depreciation,1120,fixed_asset,,31106910.22
+Trade Creditors,2010,accounts_payable,,50613076.62
+Accruals,2020,other_current_liability,,245434.99
+VAT Liability,2050,other_current_liability,,631350.24
+Zakat Liability,2060,other_current_liability,,793968.60
+GOSI Control,2070,other_current_liability,,159848.05
+Bank Loan,2100,long_term_liability,,24375000.00
+Gratuity Provision,2110,long_term_liability,,9646193.22
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,28074979.50
+Turnover,4010,income,,123822890.16
+Returns Inwards,4020,income,1332288.17,
+Sundry Income,4030,other_income,,7087.87
+Cost of Sales,5010,cost_of_goods_sold,92997929.82,
+Stock Write-offs,5020,cost_of_goods_sold,52704.84,
+Wages and Salaries,6010,expense,9771141.92,
+Employer GOSI,6020,expense,392188.65,
+Gratuity Expense,6030,expense,439701.36,
+Rent and Rates,6040,expense,2345159.23,
+"Light, Heat and Water",6050,expense,531713.90,
+Advertising and Promotions,6060,expense,719440.68,
+Motor and Delivery Expenses,6070,expense,3413968.81,
+Office and Admin Costs,6080,expense,2298971.10,
+Bank Charges and Commissions,6090,expense,10792.29,
+Depreciation Charge,6100,expense,2134774.30,
+Bad Debt Expense,6110,expense,9921.60,
+Loan Interest,7010,other_expense,663354.15,
+Exchange Gains and Losses,7020,other_expense,325648.96,
+Zakat Charge,7030,other_expense,793968.60,
+Total,,,321604393.58,321604393.58

@@ -1,0 +1,220 @@
+{
+ "cut": "2026-11-01T00:00:00+0300",
+ "events": 5454,
+ "by_company": {
+  "EH-14 part A": {
+   "create salesreceipts": 840,
+   "create journals": 39,
+   "create vendorpayments": 38,
+   "create customerpayments": 6,
+   "create bills": 64,
+   "create purchaseorders": 12,
+   "create expenses": 4,
+   "create invoices": 2
+  },
+  "EH-08 part A": {
+   "create invoices": 327,
+   "create journals": 20,
+   "create vendorpayments": 61,
+   "create customerpayments": 304,
+   "create purchaseorders": 46,
+   "create bills": 65,
+   "create creditnotes": 7,
+   "create expenses": 8
+  },
+  "EH-07 part A": {
+   "create journals": 23,
+   "create invoices": 131,
+   "create vendorpayments": 22,
+   "create purchaseorders": 13,
+   "create bills": 27,
+   "create customerpayments": 82,
+   "create creditnotes": 4,
+   "create expenses": 13
+  },
+  "EH-09 part A": {
+   "create vendorpayments": 56,
+   "create customerpayments": 283,
+   "create journals": 18,
+   "create invoices": 318,
+   "create purchaseorders": 45,
+   "create bills": 65,
+   "create expenses": 13,
+   "create creditnotes": 12
+  },
+  "EH-01 part A": {
+   "create bills": 169,
+   "create customerpayments": 35,
+   "create vendorpayments": 45,
+   "create journals": 26,
+   "create invoices": 35,
+   "create expenses": 10,
+   "create projects": 2
+  },
+  "EH-02 part A": {
+   "create customerpayments": 31,
+   "create vendorpayments": 53,
+   "create bills": 157,
+   "create journals": 26,
+   "create expenses": 15,
+   "create invoices": 28,
+   "create projects": 1
+  },
+  "EH-21 part A": {
+   "create bills": 215,
+   "create journals": 28,
+   "create vendorpayments": 46,
+   "create expenses": 12,
+   "create customerpayments": 29,
+   "create invoices": 61,
+   "create projects": 2
+  },
+  "EH-06 part A": {
+   "create invoices": 318,
+   "create vendorpayments": 35,
+   "create customerpayments": 186,
+   "create purchaseorders": 20,
+   "create journals": 19,
+   "create creditnotes": 7,
+   "create bills": 41,
+   "create expenses": 11
+  },
+  "EH-05 part A": {
+   "create vendorpayments": 33,
+   "create invoices": 320,
+   "create customerpayments": 175,
+   "create purchaseorders": 20,
+   "create journals": 20,
+   "create bills": 39,
+   "create creditnotes": 4,
+   "create expenses": 10
+  },
+  "EH-03 part A": {
+   "create vendorpayments": 37,
+   "create bills": 83,
+   "create journals": 20,
+   "create invoices": 20,
+   "create customerpayments": 22,
+   "create expenses": 8
+  },
+  "EH-01 part B": {
+   "create journals": 1,
+   "update invoices": 1
+  },
+  "EH-08 part B": {
+   "create invoices": 1,
+   "update invoices": 2,
+   "create customerpayments": 1
+  },
+  "EH-02 part B": {
+   "create bills": 1
+  },
+  "EH-03 part B": {
+   "upload trial_balance": 1
+  },
+  "EH-14 part B": {
+   "create salesreceipts": 3
+  },
+  "EH-21 part B": {
+   "update journals": 1
+  }
+ },
+ "part_b": [
+  {
+   "seq": 5443,
+   "ts": "2026-11-20T09:42:11+0300",
+   "company": "EH-01",
+   "op": "create",
+   "record_type": "journals",
+   "why": "A back-dated journal into September, a month already closed and locked."
+  },
+  {
+   "seq": 5444,
+   "ts": "2026-11-20T10:21:44+0300",
+   "company": "EH-01",
+   "op": "update",
+   "record_type": "invoices",
+   "why": "The consultant reduced a certificate after it was invoiced; revenue and receivables fall."
+  },
+  {
+   "seq": 5445,
+   "ts": "2026-11-20T11:05:37+0300",
+   "company": "EH-08",
+   "op": "create",
+   "record_type": "invoices",
+   "why": "A new sales invoice."
+  },
+  {
+   "seq": 5446,
+   "ts": "2026-11-20T12:40:15+0300",
+   "company": "EH-08",
+   "op": "update",
+   "record_type": "invoices",
+   "why": "Invoice settled by the payment above."
+  },
+  {
+   "seq": 5447,
+   "ts": "2026-11-20T12:40:15+0300",
+   "company": "EH-08",
+   "op": "update",
+   "record_type": "invoices",
+   "why": "Invoice settled by the payment above."
+  },
+  {
+   "seq": 5448,
+   "ts": "2026-11-20T12:40:15+0300",
+   "company": "EH-08",
+   "op": "create",
+   "record_type": "customerpayments",
+   "why": "A supermarket chain pays two invoices."
+  },
+  {
+   "seq": 5449,
+   "ts": "2026-11-20T13:05:09+0300",
+   "company": "EH-02",
+   "op": "create",
+   "record_type": "bills",
+   "why": "EH-02 books the intercompany invoice it had missed (story S6): the mismatch with EH-05 clears."
+  },
+  {
+   "seq": 5450,
+   "ts": "2026-11-20T15:30:00+0300",
+   "company": "EH-03",
+   "op": "upload",
+   "record_type": "trial_balance",
+   "why": "The corrected trial balance for August 2026 is uploaded; it ties, so the hold lifts (story S12)."
+  },
+  {
+   "seq": 5451,
+   "ts": "2026-11-21T03:12:05+0300",
+   "company": "EH-14",
+   "op": "create",
+   "record_type": "salesreceipts",
+   "why": "A store's takings for 20 November, posted overnight."
+  },
+  {
+   "seq": 5452,
+   "ts": "2026-11-21T03:13:05+0300",
+   "company": "EH-14",
+   "op": "create",
+   "record_type": "salesreceipts",
+   "why": "A store's takings for 20 November, posted overnight."
+  },
+  {
+   "seq": 5453,
+   "ts": "2026-11-21T03:14:05+0300",
+   "company": "EH-14",
+   "op": "create",
+   "record_type": "salesreceipts",
+   "why": "A store's takings for 20 November, posted overnight."
+  },
+  {
+   "seq": 5454,
+   "ts": "2026-11-21T20:47:03+0300",
+   "company": "EH-21",
+   "op": "update",
+   "record_type": "journals",
+   "why": "A journal in a closed month is edited on a Friday evening (story S7)."
+  }
+ ]
+}

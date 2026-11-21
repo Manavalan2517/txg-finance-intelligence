@@ -1,0 +1,43 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 31/01/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,23251113.62,
+Bank – Collections Account,1020,bank,93163.14,
+Petty Cash,1030,cash,35799.44,
+Accounts Receivable,1040,accounts_receivable,80487015.89,
+Allowance for Expected Credit Losses,1050,other_current_asset,,159209.33
+Inventory,1060,stock,27592469.43,
+Prepayments and Advances,1070,other_current_asset,1915164.35,
+Employee Advances,1090,other_current_asset,2250.00,
+Suspense Account,1100,other_current_asset,,9705.54
+Property and Equipment – Cost,1110,fixed_asset,49293874.16,
+Accumulated Depreciation,1120,fixed_asset,,27945408.45
+Accounts Payable,2010,accounts_payable,,52841542.83
+Accrued Expenses,2020,other_current_liability,,414598.52
+VAT Payable,2050,other_current_liability,,342652.33
+Zakat Payable,2060,other_current_liability,,2039514.40
+GOSI Payable,2070,other_current_liability,,150259.51
+Term Loan,2100,long_term_liability,,24937500.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,8825981.17
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,13419144.09
+Sales,4010,income,,31551038.95
+Sales Returns,4020,income,40502.84,
+Cost of Goods Sold,5010,cost_of_goods_sold,23418527.06,
+Salaries and Allowances,6010,expense,2293371.26,
+GOSI Contributions,6020,expense,92330.04,
+End-of-Service Benefits Expense,6030,expense,103201.70,
+Rent and Service Charges,6040,expense,556067.69,
+Utilities,6050,expense,113570.01,
+Marketing and Advertising,6060,expense,84114.86,
+Delivery and Fuel,6070,expense,807419.68,
+General and Administrative,6080,expense,566829.75,
+Bank Charges,6090,expense,2070.14,
+Depreciation,6100,expense,492938.74,
+Interest Expense,7010,other_expense,168723.95,
+Foreign Exchange Gains and Losses,7020,other_expense,464410.04,
+Zakat Expense,7030,other_expense,161627.33,
+Total,,,212036555.12,212036555.12

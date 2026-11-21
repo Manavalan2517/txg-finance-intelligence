@@ -1,0 +1,44 @@
+Example Industrial Supplies Co. (made-up)
+Trial Balance
+As of 31/05/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,2483247.88,
+Current Account – Bank 2,1020,bank,23183.41,
+Petty Cash Float,1030,cash,16048.09,
+Trade Debtors,1040,accounts_receivable,24987749.34,
+Provision for Doubtful Debts,1050,other_current_asset,,54361.42
+Stock on Hand,1060,stock,13893738.38,
+Prepayments,1070,other_current_asset,88242.21,
+Suspense,1100,other_current_asset,,18843.32
+Fixed Assets – Cost,1110,fixed_asset,16583496.63,
+Fixed Assets – Depreciation,1120,fixed_asset,,11383133.10
+Trade Creditors,2010,accounts_payable,,16124481.98
+Accruals,2020,other_current_liability,,31833.00
+VAT Liability,2050,other_current_liability,204246.93,
+Zakat Liability,2060,other_current_liability,,264063.98
+GOSI Control,2070,other_current_liability,,14553.14
+Dividends Declared,2090,other_current_liability,,500000.00
+Bank Loan,2100,long_term_liability,,4500000.00
+Gratuity Provision,2110,long_term_liability,,2139734.09
+Ordinary Share Capital,3010,equity,,12000000.00
+Statutory Reserve,3020,equity,,3600000.00
+Profit and Loss Reserve,3030,equity,,7038283.67
+Turnover,4010,income,,45354490.73
+Returns Inwards,4020,income,153860.86,
+Cost of Sales,5010,cost_of_goods_sold,40750825.53,
+Wages and Salaries,6010,expense,1223746.79,
+Employer GOSI,6020,expense,45073.51,
+Gratuity Expense,6030,expense,55068.58,
+Rent and Rates,6040,expense,314494.73,
+"Light, Heat and Water",6050,expense,76000.04,
+Advertising and Promotions,6060,expense,59055.17,
+Motor and Delivery Expenses,6070,expense,470333.50,
+Office and Admin Costs,6080,expense,321852.36,
+Bank Charges and Commissions,6090,expense,6345.79,
+Depreciation Charge,6100,expense,824136.64,
+Bad Debt Expense,6110,expense,9664.46,
+Loan Interest,7010,other_expense,217513.83,
+Exchange Gains and Losses,7020,other_expense,,48210.21
+Zakat Charge,7030,other_expense,264063.98,
+Total,,,103071988.64,103071988.64

@@ -1,0 +1,43 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 31/03/2026,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,33944117.95,
+Bank – Collections Account,1020,bank,155021.17,
+Petty Cash,1030,cash,34412.16,
+Accounts Receivable,1040,accounts_receivable,87683082.49,
+Allowance for Expected Credit Losses,1050,other_current_asset,,140932.01
+Inventory,1060,stock,33987611.13,
+Prepayments and Advances,1070,other_current_asset,653710.27,
+Employee Advances,1090,other_current_asset,3916.68,
+Property and Equipment – Cost,1110,fixed_asset,62648767.07,
+Accumulated Depreciation,1120,fixed_asset,,48879381.44
+Accounts Payable,2010,accounts_payable,,55946955.38
+Accrued Expenses,2020,other_current_liability,,205575.70
+VAT Payable,2050,other_current_liability,,587723.70
+Zakat Payable,2060,other_current_liability,,2885934.15
+GOSI Payable,2070,other_current_liability,,174461.35
+Term Loan,2100,long_term_liability,,1781250.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,9434111.02
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,43560079.78
+Sales,4010,income,,95187996.92
+Sales Returns,4020,income,88908.99,
+Cost of Goods Sold,5010,cost_of_goods_sold,71016970.40,
+Salaries and Allowances,6010,expense,7933052.07,
+GOSI Contributions,6020,expense,319328.07,
+End-of-Service Benefits Expense,6030,expense,356987.33,
+Rent and Service Charges,6040,expense,1805785.23,
+Utilities,6050,expense,379782.78,
+Marketing and Advertising,6060,expense,406890.30,
+Delivery and Fuel,6070,expense,2402105.03,
+General and Administrative,6080,expense,1814108.83,
+Bank Charges,6090,expense,6993.37,
+Depreciation,6100,expense,1860143.41,
+Expected Credit Loss Expense,6110,expense,,138630.87
+Interest Expense,7010,other_expense,69656.73,
+Foreign Exchange Gains and Losses,7020,other_expense,157836.18,
+Zakat Expense,7030,other_expense,593844.68,
+Total,,,308323032.32,308323032.32

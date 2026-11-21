@@ -1,0 +1,246 @@
+{
+ "as_of": "2026-11-19",
+ "note": "Made-up listed companies on a made-up exchange.",
+ "peers": [
+  {
+   "name": "Gulf Reefer Logistics Co.",
+   "ticker": "TEST.4101",
+   "exchange": "Example Exchange (made-up)",
+   "sector": "cold chain and logistics",
+   "share_price_sar": 20.25,
+   "shares_outstanding": 59000000.0,
+   "net_debt_excl_leases_sar": 179005000.0,
+   "lease_liabilities_sar": 89109000.0,
+   "statements": {
+    "2023": {
+     "revenue": 659617000.0,
+     "ebitda": 127694000.0,
+     "ebit": 70232000.0,
+     "net_profit": 48524000.0
+    },
+    "2024": {
+     "revenue": 693781000.0,
+     "ebitda": 144317000.0,
+     "ebit": 79374000.0,
+     "net_profit": 54840000.0
+    },
+    "2025": {
+     "revenue": 739376000.0,
+     "ebitda": 143092000.0,
+     "ebit": 78700000.0,
+     "net_profit": 54375000.0
+    }
+   }
+  },
+  {
+   "name": "Polar Freight Holding Co.",
+   "ticker": "TEST.4102",
+   "exchange": "Example Exchange (made-up)",
+   "sector": "cold chain and logistics",
+   "share_price_sar": 22.28,
+   "shares_outstanding": 75000000.0,
+   "net_debt_excl_leases_sar": 462462000.0,
+   "lease_liabilities_sar": 198503000.0,
+   "statements": {
+    "2023": {
+     "revenue": 1321300000.0,
+     "ebitda": 233723000.0,
+     "ebit": 128547000.0,
+     "net_profit": 88815000.0
+    },
+    "2024": {
+     "revenue": 1400761000.0,
+     "ebitda": 228127000.0,
+     "ebit": 125470000.0,
+     "net_profit": 86688000.0
+    },
+    "2025": {
+     "revenue": 1494813000.0,
+     "ebitda": 253981000.0,
+     "ebit": 139690000.0,
+     "net_profit": 96513000.0
+    }
+   }
+  },
+  {
+   "name": "Coastline Freight Services Co.",
+   "ticker": "TEST.4103",
+   "exchange": "Example Exchange (made-up)",
+   "sector": "logistics",
+   "share_price_sar": 14.17,
+   "shares_outstanding": 84000000.0,
+   "net_debt_excl_leases_sar": 194821000.0,
+   "lease_liabilities_sar": 92987000.0,
+   "statements": {
+    "2023": {
+     "revenue": 936616000.0,
+     "ebitda": 142810000.0,
+     "ebit": 78546000.0,
+     "net_profit": 54268000.0
+    },
+    "2024": {
+     "revenue": 1014074000.0,
+     "ebitda": 148681000.0,
+     "ebit": 81775000.0,
+     "net_profit": 56499000.0
+    },
+    "2025": {
+     "revenue": 1048766000.0,
+     "ebitda": 175298000.0,
+     "ebit": 96414000.0,
+     "net_profit": 66613000.0
+    }
+   }
+  },
+  {
+   "name": "Najd Cold Stores Co.",
+   "ticker": "TEST.4104",
+   "exchange": "Example Exchange (made-up)",
+   "sector": "cold chain and logistics",
+   "share_price_sar": 11.52,
+   "shares_outstanding": 78000000.0,
+   "net_debt_excl_leases_sar": 240000000.0,
+   "lease_liabilities_sar": 47813000.0,
+   "statements": {
+    "2023": {
+     "revenue": 344682000.0,
+     "ebitda": 91843000.0,
+     "ebit": 50514000.0,
+     "net_profit": 34900000.0
+    },
+    "2024": {
+     "revenue": 357781000.0,
+     "ebitda": 97513000.0,
+     "ebit": 53632000.0,
+     "net_profit": 37055000.0
+    },
+    "2025": {
+     "revenue": 380500000.0,
+     "ebitda": 105453000.0,
+     "ebit": 57999000.0,
+     "net_profit": 40072000.0
+    }
+   }
+  },
+  {
+   "name": "Oasis Provisions Co.",
+   "ticker": "TEST.4105",
+   "exchange": "Example Exchange (made-up)",
+   "sector": "food distribution",
+   "share_price_sar": 22.66,
+   "shares_outstanding": 87000000.0,
+   "net_debt_excl_leases_sar": 201001000.0,
+   "lease_liabilities_sar": 85941000.0,
+   "statements": {
+    "2023": {
+     "revenue": 2267009000.0,
+     "ebitda": 162962000.0,
+     "ebit": 89629000.0,
+     "net_profit": 61925000.0
+    },
+    "2024": {
+     "revenue": 2397190000.0,
+     "ebitda": 201389000.0,
+     "ebit": 110764000.0,
+     "net_profit": 76528000.0
+    },
+    "2025": {
+     "revenue": 2551091000.0,
+     "ebitda": 188900000.0,
+     "ebit": 103895000.0,
+     "net_profit": 71782000.0
+    }
+   }
+  },
+  {
+   "name": "Red Sea Foods Distribution Co.",
+   "ticker": "TEST.4106",
+   "exchange": "Example Exchange (made-up)",
+   "sector": "food distribution",
+   "share_price_sar": 17.09,
+   "shares_outstanding": 65000000.0,
+   "net_debt_excl_leases_sar": 154927000.0,
+   "lease_liabilities_sar": 61129000.0,
+   "statements": {
+    "2023": {
+     "revenue": 1565375000.0,
+     "ebitda": 105432000.0,
+     "ebit": 57988000.0,
+     "net_profit": 40064000.0
+    },
+    "2024": {
+     "revenue": 1638452000.0,
+     "ebitda": 113468000.0,
+     "ebit": 62407000.0,
+     "net_profit": 43118000.0
+    },
+    "2025": {
+     "revenue": 1782994000.0,
+     "ebitda": 124068000.0,
+     "ebit": 68237000.0,
+     "net_profit": 47146000.0
+    }
+   }
+  },
+  {
+   "name": "Golden Crescent Foods Co.",
+   "ticker": "TEST.4107",
+   "exchange": "Example Exchange (made-up)",
+   "sector": "food distribution",
+   "share_price_sar": 7.41,
+   "shares_outstanding": 130000000.0,
+   "net_debt_excl_leases_sar": 222867000.0,
+   "lease_liabilities_sar": 82852000.0,
+   "statements": {
+    "2023": {
+     "revenue": 1050078000.0,
+     "ebitda": 89304000.0,
+     "ebit": 49117000.0,
+     "net_profit": 33936000.0
+    },
+    "2024": {
+     "revenue": 1128203000.0,
+     "ebitda": 90953000.0,
+     "ebit": 50024000.0,
+     "net_profit": 34562000.0
+    },
+    "2025": {
+     "revenue": 1179267000.0,
+     "ebitda": 95646000.0,
+     "ebit": 52605000.0,
+     "net_profit": 36346000.0
+    }
+   }
+  },
+  {
+   "name": "Al-Bayan Food Services Co.",
+   "ticker": "TEST.4108",
+   "exchange": "Example Exchange (made-up)",
+   "sector": "food distribution",
+   "share_price_sar": 3.01,
+   "shares_outstanding": 144000000.0,
+   "net_debt_excl_leases_sar": 110301000.0,
+   "lease_liabilities_sar": 50720000.0,
+   "statements": {
+    "2023": {
+     "revenue": 812143000.0,
+     "ebitda": 52691000.0,
+     "ebit": 28980000.0,
+     "net_profit": 20023000.0
+    },
+    "2024": {
+     "revenue": 866811000.0,
+     "ebitda": 55027000.0,
+     "ebit": 30265000.0,
+     "net_profit": 20910000.0
+    },
+    "2025": {
+     "revenue": 931522000.0,
+     "ebitda": 59808000.0,
+     "ebit": 32894000.0,
+     "net_profit": 22727000.0
+    }
+   }
+  }
+ ]
+}

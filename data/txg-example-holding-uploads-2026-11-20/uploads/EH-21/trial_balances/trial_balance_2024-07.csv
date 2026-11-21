@@ -1,0 +1,43 @@
+Example Facility Management A Co. (made-up)
+Trial Balance
+As of 31/07/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,44141486.30,
+Petty Cash,1030,cash,40399.07,
+Accounts Receivable,1040,accounts_receivable,80478767.30,
+Unbilled Revenue (Contract Assets),1050,other_current_asset,22517024.05,
+Allowance for Expected Credit Losses,1060,other_current_asset,,317215.66
+Prepayments and Advances,1070,other_current_asset,912879.66,
+Employee Advances,1090,other_current_asset,16500.04,
+Advance – Mr. Khalid,1100,other_current_asset,71502.25,
+Property and Equipment – Cost,1120,fixed_asset,91548370.86,
+Accumulated Depreciation,1130,fixed_asset,,64852237.37
+Accounts Payable,2010,accounts_payable,,17869340.57
+Accrued Expenses,2020,other_current_liability,,220830.50
+VAT Payable,2050,other_current_liability,,1816066.07
+Zakat Payable,2060,other_current_liability,,1523569.02
+GOSI Payable,2070,other_current_liability,,312280.91
+Term Loan,2100,long_term_liability,,49855000.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,23170184.76
+Share Capital,3010,equity,,34667000.00
+Statutory Reserve,3020,equity,,10400000.00
+Retained Earnings,3030,equity,,25536701.63
+Contract Revenue,4010,income,,149206314.52
+Direct Materials,5010,cost_of_goods_sold,26164273.06,
+Direct Labour – Site Staff,5020,cost_of_goods_sold,60736025.04,
+Subcontractor Costs,5030,cost_of_goods_sold,15175111.97,
+Equipment Hire and Site Costs,5040,cost_of_goods_sold,9308482.22,
+Salaries and Allowances,6010,expense,10019045.33,
+GOSI Contributions,6020,expense,1503429.33,
+End-of-Service Benefits Expense,6030,expense,2803733.80,
+Rent and Service Charges,6040,expense,802442.08,
+Utilities,6050,expense,473473.24,
+Marketing and Advertising,6060,expense,103599.08,
+General and Administrative,6070,expense,3287289.16,
+Bank Charges,6080,expense,9036.29,
+Depreciation,6090,expense,6722471.84,
+Expected Credit Loss Expense,6100,expense,,54042.18
+Interest Expense,7010,other_expense,1441872.20,
+Zakat Expense,7030,other_expense,1523569.02,
+Total,,,379800783.19,379800783.19

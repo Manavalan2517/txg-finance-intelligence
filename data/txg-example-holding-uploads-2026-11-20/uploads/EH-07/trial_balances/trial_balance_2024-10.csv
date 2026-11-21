@@ -1,0 +1,45 @@
+Example Industrial Supplies Co. (made-up)
+Trial Balance
+As of 31/10/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,1979452.74,
+Petty Cash Float,1030,cash,16701.86,
+Trade Debtors,1040,accounts_receivable,30170452.96,
+Provision for Doubtful Debts,1050,other_current_asset,,39710.09
+Stock on Hand,1060,stock,11131500.93,
+Prepayments,1070,other_current_asset,109215.65,
+Staff Loans,1090,other_current_asset,1500.00,
+Suspense,1100,other_current_asset,,15789.76
+Fixed Assets – Cost,1110,fixed_asset,17936163.01,
+Fixed Assets – Depreciation,1120,fixed_asset,,12251386.14
+Trade Creditors,2010,accounts_payable,,17365827.67
+Accruals,2020,other_current_liability,,45715.88
+VAT Liability,2050,other_current_liability,,270701.93
+Zakat Liability,2060,other_current_liability,,518361.37
+GOSI Control,2070,other_current_liability,,14541.91
+Bank Overdraft / RCF,2080,other_current_liability,,1000000.00
+Bank Loan,2100,long_term_liability,,3937500.00
+Gratuity Provision,2110,long_term_liability,,2090328.57
+Ordinary Share Capital,3010,equity,,12000000.00
+Statutory Reserve,3020,equity,,3600000.00
+Profit and Loss Reserve,3030,equity,,7038283.67
+Turnover,4010,income,,96447041.54
+Returns Inwards,4020,income,269952.16,
+Sundry Income,4030,other_income,,45124.88
+Cost of Sales,5010,cost_of_goods_sold,87234048.80,
+Wages and Salaries,6010,expense,2450767.61,
+Employer GOSI,6020,expense,90538.06,
+Gratuity Expense,6030,expense,110284.49,
+Rent and Rates,6040,expense,632323.66,
+"Light, Heat and Water",6050,expense,183852.41,
+Advertising and Promotions,6060,expense,136791.96,
+Motor and Delivery Expenses,6070,expense,901554.98,
+Office and Admin Costs,6080,expense,642610.32,
+Bank Charges and Commissions,6090,expense,12265.60,
+Depreciation Charge,6100,expense,1692389.68,
+Bad Debt Expense,6110,expense,,4986.87
+Loan Interest,7010,other_expense,419349.00,
+Exchange Gains and Losses,7020,other_expense,45223.03,
+Zakat Charge,7030,other_expense,518361.37,
+Total,,,156685300.28,156685300.28

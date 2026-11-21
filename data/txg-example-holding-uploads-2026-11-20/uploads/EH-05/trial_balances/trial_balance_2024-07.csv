@@ -1,0 +1,43 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 31/07/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,22854100.71,
+Petty Cash,1030,cash,36602.04,
+Accounts Receivable,1040,accounts_receivable,81871935.04,
+Allowance for Expected Credit Losses,1050,other_current_asset,,150365.97
+Inventory,1060,stock,26025927.95,
+Prepayments and Advances,1070,other_current_asset,1510148.98,
+Employee Advances,1090,other_current_asset,1333.36,
+Property and Equipment – Cost,1110,fixed_asset,54015636.81,
+Accumulated Depreciation,1120,fixed_asset,,37248872.26
+Accounts Payable,2010,accounts_payable,,47199855.35
+Accrued Expenses,2020,other_current_liability,,373785.49
+VAT Payable,2050,other_current_liability,,1382260.75
+Zakat Payable,2060,other_current_liability,,1224326.94
+GOSI Payable,2070,other_current_liability,,153446.75
+Term Loan,2100,long_term_liability,,14250000.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,9123534.37
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,17179258.62
+Sales,4010,income,,201360300.12
+Sales Returns,4020,income,298792.27,
+Other Income,4030,other_income,,4765.01
+Cost of Goods Sold,5010,cost_of_goods_sold,152976180.86,
+Salaries and Allowances,6010,expense,16587887.59,
+GOSI Contributions,6020,expense,662685.58,
+End-of-Service Benefits Expense,6030,expense,746454.90,
+Rent and Service Charges,6040,expense,4015442.44,
+Utilities,6050,expense,1112900.65,
+Marketing and Advertising,6060,expense,1106956.05,
+Delivery and Fuel,6070,expense,5618894.51,
+General and Administrative,6080,expense,3981441.76,
+Bank Charges,6090,expense,15836.85,
+Depreciation,6100,expense,3711521.15,
+Expected Credit Loss Expense,6110,expense,,6107.28
+Interest Expense,7010,other_expense,820483.28,
+Foreign Exchange Gains and Losses,7020,other_expense,,138610.81
+Zakat Expense,7030,other_expense,1224326.94,
+Total,,,379195489.72,379195489.72

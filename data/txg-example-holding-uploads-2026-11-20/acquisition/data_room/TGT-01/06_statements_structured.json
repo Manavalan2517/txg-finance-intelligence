@@ -1,0 +1,155 @@
+{
+ "2023": {
+  "revenue": 152000000.0,
+  "ebitda": 37088000.0,
+  "operating_profit": 16440050.0,
+  "net_profit": 7844050.0,
+  "assets": {
+   "Cash and cash equivalents": 7586169.88,
+   "Property, vehicles and equipment": 181051250.0,
+   "Right-of-use assets": 40690800.0,
+   "Trade receivables": 36396712.32,
+   "Inventories (spares and fuel)": 2280000.0,
+   "Prepayments and other receivables": 4560000.0
+  },
+  "liabilities": {
+   "Borrowings": 58000000.0,
+   "Lease liabilities": 41080000.0,
+   "End-of-service benefits": 11600000.0,
+   "Trade payables": 8878882.19,
+   "Accruals and other payables": 6080000.0,
+   "VAT payable": 1368000.0,
+   "Zakat payable": 1750000.0
+  },
+  "equity": {
+   "Share capital": 60000000.0,
+   "Statutory reserve": 18000000.0,
+   "Retained earnings": 65808050.01
+  },
+  "cash_flow": {
+   "Profit before Zakat": 9594050.0,
+   "Depreciation": 20647950.0,
+   "Finance costs": 6846000.0,
+   "End-of-service benefits charge": 1100000.0,
+   "Change in trade receivables": -3352328.76,
+   "Change in inventories": -210000.0,
+   "Change in prepayments": -420000.0,
+   "Change in payables and accruals": 1503791.79,
+   "Zakat paid": -1750000.0,
+   "Net cash from operating activities": 33959463.03,
+   "Purchase of property, vehicles and equipment": -12920000.0,
+   "Net cash used in investing activities": -12920000.0,
+   "Proceeds from borrowings": 0.0,
+   "Repayment of borrowings": -10000000.0,
+   "Interest paid": -4158000.0,
+   "Lease payments": -9408000.0,
+   "Dividends paid": -3000000.0,
+   "Net cash used in financing activities": -26566000.0,
+   "Net change in cash": -5526536.97,
+   "Cash at the beginning of the year": 13112706.85,
+   "Cash at the end of the year": 7586169.88
+  }
+ },
+ "2024": {
+  "revenue": 166000000.0,
+  "ebitda": 40504000.0,
+  "operating_profit": 19648655.75,
+  "net_profit": 11110855.75,
+  "assets": {
+   "Cash and cash equivalents": 22111832.89,
+   "Property, vehicles and equipment": 190561893.75,
+   "Right-of-use assets": 44224812.0,
+   "Trade receivables": 39749041.09,
+   "Inventories (spares and fuel)": 2490000.0,
+   "Prepayments and other receivables": 4980000.0
+  },
+  "liabilities": {
+   "Borrowings": 73000000.0,
+   "Lease liabilities": 43918000.0,
+   "End-of-service benefits": 12700000.0,
+   "Trade payables": 9696673.97,
+   "Accruals and other payables": 6640000.0,
+   "VAT payable": 1494000.0,
+   "Zakat payable": 1750000.0
+  },
+  "equity": {
+   "Share capital": 60000000.0,
+   "Statutory reserve": 18000000.0,
+   "Retained earnings": 76918905.76
+  },
+  "cash_flow": {
+   "Profit before Zakat": 12860855.75,
+   "Depreciation": 20855344.25,
+   "Finance costs": 6787800.0,
+   "End-of-service benefits charge": 1100000.0,
+   "Change in trade receivables": -3352328.77,
+   "Change in inventories": -210000.0,
+   "Change in prepayments": -420000.0,
+   "Change in payables and accruals": 1503791.78,
+   "Zakat paid": -1750000.0,
+   "Net cash from operating activities": 37375463.01,
+   "Purchase of property, vehicles and equipment": -24900000.0,
+   "Net cash used in investing activities": -24900000.0,
+   "Proceeds from borrowings": 25000000.0,
+   "Repayment of borrowings": -10000000.0,
+   "Interest paid": -4323000.0,
+   "Lease payments": -8626800.0,
+   "Dividends paid": 0.0,
+   "Net cash used in financing activities": 2050200.0,
+   "Net change in cash": 14525663.01,
+   "Cash at the beginning of the year": 7586169.88,
+   "Cash at the end of the year": 22111832.89
+  }
+ },
+ "2025": {
+  "revenue": 181000000.0,
+  "ebitda": 44164000.0,
+  "operating_profit": 22661509.72,
+  "net_profit": 13854429.72,
+  "assets": {
+   "Cash and cash equivalents": 17940477.55,
+   "Property, vehicles and equipment": 189749132.79,
+   "Right-of-use assets": 42920082.68,
+   "Trade receivables": 43340821.91,
+   "Inventories (spares and fuel)": 2715000.0,
+   "Prepayments and other receivables": 5430000.0
+  },
+  "liabilities": {
+   "Borrowings": 61000000.0,
+   "Lease liabilities": 41330300.0,
+   "End-of-service benefits": 13800000.0,
+   "Trade payables": 10572879.45,
+   "Accruals and other payables": 7240000.0,
+   "VAT payable": 1629000.0,
+   "Zakat payable": 1750000.0
+  },
+  "equity": {
+   "Share capital": 60000000.0,
+   "Statutory reserve": 18000000.0,
+   "Retained earnings": 86773335.48
+  },
+  "cash_flow": {
+   "Profit before Zakat": 15604429.72,
+   "Depreciation": 21502490.28,
+   "Finance costs": 7057080.0,
+   "End-of-service benefits charge": 1100000.0,
+   "Change in trade receivables": -3591780.82,
+   "Change in inventories": -225000.0,
+   "Change in prepayments": -450000.0,
+   "Change in payables and accruals": 1611205.48,
+   "Zakat paid": -1750000.0,
+   "Net cash from operating activities": 40858424.66,
+   "Purchase of property, vehicles and equipment": -15385000.0,
+   "Net cash used in investing activities": -15385000.0,
+   "Proceeds from borrowings": 0.0,
+   "Repayment of borrowings": -12000000.0,
+   "Interest paid": -4422000.0,
+   "Lease payments": -9222780.0,
+   "Dividends paid": -4000000.0,
+   "Net cash used in financing activities": -29644780.0,
+   "Net change in cash": -4171355.34,
+   "Cash at the beginning of the year": 22111832.89,
+   "Cash at the end of the year": 17940477.55
+  }
+ }
+}

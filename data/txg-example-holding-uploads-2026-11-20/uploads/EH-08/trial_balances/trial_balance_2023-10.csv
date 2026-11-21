@@ -1,0 +1,46 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 31/10/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,26716400.87,
+Current Account – Bank 2,1020,bank,919108.94,
+Petty Cash Float,1030,cash,37282.62,
+Trade Debtors,1040,accounts_receivable,78576644.53,
+Provision for Doubtful Debts,1050,other_current_asset,,107922.16
+Stock on Hand,1060,stock,29534420.75,
+Prepayments,1070,other_current_asset,1294261.08,
+Staff Loans,1090,other_current_asset,5666.67,
+Suspense,1100,other_current_asset,,18007.12
+Fixed Assets – Cost,1110,fixed_asset,56724395.62,
+Fixed Assets – Depreciation,1120,fixed_asset,,34419496.23
+Trade Creditors,2010,accounts_payable,,43790686.52
+Accruals,2020,other_current_liability,,413263.41
+VAT Liability,2050,other_current_liability,,401794.01
+Zakat Liability,2060,other_current_liability,,1900269.86
+GOSI Control,2070,other_current_liability,,161062.93
+Bank Loan,2100,long_term_liability,,20625000.00
+Gratuity Provision,2110,long_term_liability,,9686825.24
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,19074979.50
+Turnover,4010,income,,301422278.77
+Returns Inwards,4020,income,2880497.37,
+Sundry Income,4030,other_income,,7087.87
+Cost of Sales,5010,cost_of_goods_sold,228578553.84,
+Stock Write-offs,5020,cost_of_goods_sold,222462.49,
+Wages and Salaries,6010,expense,24512127.95,
+Employer GOSI,6020,expense,985491.02,
+Gratuity Expense,6030,expense,1103045.71,
+Rent and Rates,6040,expense,5899610.91,
+"Light, Heat and Water",6050,expense,1729964.95,
+Advertising and Promotions,6060,expense,1307683.58,
+Motor and Delivery Expenses,6070,expense,7988563.24,
+Office and Admin Costs,6080,expense,5814557.30,
+Bank Charges and Commissions,6090,expense,27795.94,
+Depreciation Charge,6100,expense,5447360.31,
+Bad Debt Expense,6110,expense,,9810.35
+Loan Interest,7010,other_expense,1609208.29,
+Exchange Gains and Losses,7020,other_expense,223110.13,
+Zakat Charge,7030,other_expense,1900269.86,
+Total,,,484038483.97,484038483.97

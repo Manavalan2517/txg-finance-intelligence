@@ -1,0 +1,43 @@
+Example Contracting C Co. (made-up)
+Trial Balance
+As of 31/01/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+البنك - الحساب الجاري,100001,bank,43655807.94,
+الصندوق - النثرية,100003,cash,33054.86,
+الذمم المدينة,100004,accounts_receivable,104876465.57,
+إيرادات غير مفوترة,100005,other_current_asset,45132564.38,
+مخصص الخسائر الائتمانية المتوقعة,100006,other_current_asset,,289965.98
+مصروفات مدفوعة مقدماً,100007,other_current_asset,1200694.61,
+سلف الموظفين,100009,other_current_asset,9500.00,
+سلفة - السيد خالد,100010,other_current_asset,111450.25,
+حساب معلق,100011,other_current_asset,,35520.80
+الممتلكات والمعدات - التكلفة,100012,fixed_asset,55288986.91,
+مجمع الاستهلاك,100013,fixed_asset,,40310419.81
+الذمم الدائنة,200001,accounts_payable,,46489813.93
+مصروفات مستحقة,200002,other_current_liability,,197271.79
+VAT مستحقة,200005,other_current_liability,,621937.12
+الزكاة المستحقة,200006,other_current_liability,,3789932.34
+GOSI مستحق,200007,other_current_liability,,156089.80
+قرض لأجل,200010,long_term_liability,,13500000.00
+مخصص EOSB,200011,long_term_liability,,12711669.64
+رأس المال,300001,equity,,24000000.00
+الاحتياطي النظامي,300002,equity,,7200000.00
+الأرباح المبقاة,300003,equity,,97415666.09
+إيرادات العقود,400001,income,,28600943.31
+مواد مباشرة,500001,cost_of_goods_sold,8602044.43,
+عمالة مباشرة - الموقع,500002,cost_of_goods_sold,4554244.44,
+تكاليف مقاولي الباطن,500003,cost_of_goods_sold,7067294.15,
+استئجار معدات وتكاليف الموقع,500004,cost_of_goods_sold,2234853.83,
+الرواتب والبدلات,600001,expense,805054.80,
+مصروف GOSI,600002,expense,111408.77,
+مصروف EOSB,600003,expense,222425.79,
+الإيجار ورسوم الخدمات,600004,expense,78930.02,
+المرافق,600005,expense,34804.34,
+التسويق والإعلان,600006,expense,15145.77,
+مصروفات عمومية وإدارية,600007,expense,278151.19,
+رسوم بنكية,600008,expense,1087.07,
+الاستهلاك,600009,expense,598964.02,
+مصروف الفوائد,700001,other_expense,106842.35,
+مصروف الزكاة,700003,other_expense,299455.12,
+Total,,,275319230.61,275319230.61

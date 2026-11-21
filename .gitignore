@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+engine/runtime/
+.env
+node_modules/
+.next/
+# client data set is large (≈600 MB); keep it out of git
+data/example-holding-*/data/
+.uv-cache/

@@ -1,0 +1,43 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 30/06/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,25541861.96,
+Bank – Collections Account,1020,bank,257330.42,
+Petty Cash,1030,cash,35630.19,
+Accounts Receivable,1040,accounts_receivable,78095008.68,
+Allowance for Expected Credit Losses,1050,other_current_asset,,135121.61
+Inventory,1060,stock,30972381.50,
+Prepayments and Advances,1070,other_current_asset,407072.34,
+Employee Advances,1090,other_current_asset,666.68,
+Property and Equipment – Cost,1110,fixed_asset,58389472.30,
+Accumulated Depreciation,1120,fixed_asset,,43436359.40
+Accounts Payable,2010,accounts_payable,,49029924.08
+Accrued Expenses,2020,other_current_liability,,340740.51
+VAT Payable,2050,other_current_liability,,1009478.06
+Zakat Payable,2060,other_current_liability,,1092442.84
+GOSI Payable,2070,other_current_liability,,163788.07
+Term Loan,2100,long_term_liability,,7125000.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,9435905.76
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,25406966.40
+Sales,4010,income,,173119280.71
+Sales Returns,4020,income,497657.96,
+Cost of Goods Sold,5010,cost_of_goods_sold,130339728.82,
+Salaries and Allowances,6010,expense,15048279.64,
+GOSI Contributions,6020,expense,603849.81,
+End-of-Service Benefits Expense,6030,expense,677172.55,
+Rent and Service Charges,6040,expense,3528983.12,
+Utilities,6050,expense,954574.30,
+Marketing and Advertising,6060,expense,694531.66,
+Delivery and Fuel,6070,expense,4739254.75,
+General and Administrative,6080,expense,3544410.47,
+Bank Charges,6090,expense,13113.94,
+Depreciation,6100,expense,3439128.42,
+Expected Credit Loss Expense,6110,expense,,5270.51
+Interest Expense,7010,other_expense,378614.53,
+Foreign Exchange Gains and Losses,7020,other_expense,449111.07,
+Zakat Expense,7030,other_expense,1092442.84,
+Total,,,359700277.95,359700277.95

@@ -1,0 +1,44 @@
+Example Industrial Supplies Co. (made-up)
+Trial Balance
+As of 31/03/2026,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,1936477.67,
+Petty Cash Float,1030,cash,17195.57,
+Trade Debtors,1040,accounts_receivable,54883185.60,
+Provision for Doubtful Debts,1050,other_current_asset,,79405.96
+Stock on Hand,1060,stock,26325358.72,
+Prepayments,1070,other_current_asset,44593.14,
+Fixed Assets – Cost,1110,fixed_asset,20804983.07,
+Fixed Assets – Depreciation,1120,fixed_asset,,15555281.74
+Trade Creditors,2010,accounts_payable,,36870653.69
+Accruals,2020,other_current_liability,,23696.01
+VAT Liability,2050,other_current_liability,458821.66,
+Zakat Liability,2060,other_current_liability,,830394.55
+GOSI Control,2070,other_current_liability,,20021.47
+Bank Overdraft / RCF,2080,other_current_liability,,16000000.00
+Dividends Declared,2090,other_current_liability,,700000.00
+Bank Loan,2100,long_term_liability,,562500.00
+Gratuity Provision,2110,long_term_liability,,1951124.74
+Ordinary Share Capital,3010,equity,,12000000.00
+Statutory Reserve,3020,equity,,3600000.00
+Profit and Loss Reserve,3030,equity,,13030009.93
+Turnover,4010,income,,55817955.72
+Returns Inwards,4020,income,32473.64,
+Sundry Income,4030,other_income,,11694.57
+Cost of Sales,5010,cost_of_goods_sold,49596297.11,
+Wages and Salaries,6010,expense,868145.14,
+Employer GOSI,6020,expense,36523.44,
+Gratuity Expense,6030,expense,39066.52,
+Rent and Rates,6040,expense,198415.04,
+"Light, Heat and Water",6050,expense,44510.53,
+Advertising and Promotions,6060,expense,39487.03,
+Motor and Delivery Expenses,6070,expense,288573.70,
+Office and Admin Costs,6080,expense,199901.90,
+Bank Charges and Commissions,6090,expense,3810.09,
+Depreciation Charge,6100,expense,619779.53,
+Bad Debt Expense,6110,expense,19543.10,
+Loan Interest,7010,other_expense,295431.57,
+Exchange Gains and Losses,7020,other_expense,123325.29,
+Zakat Charge,7030,other_expense,176839.32,
+Total,,,157052738.38,157052738.38

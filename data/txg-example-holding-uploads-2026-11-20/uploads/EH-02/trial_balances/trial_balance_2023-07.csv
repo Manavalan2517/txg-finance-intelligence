@@ -1,0 +1,43 @@
+Example Contracting B Co. (made-up)
+Trial Balance
+As of 31/07/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,15718637.86,
+Petty Cash,1030,cash,49929.51,
+Accounts Receivable,1040,accounts_receivable,138830909.99,
+Unbilled Revenue (Contract Assets),1050,other_current_asset,40720555.29,
+Allowance for Expected Credit Losses,1060,other_current_asset,,565040.21
+Prepayments and Advances,1070,other_current_asset,1116663.69,
+Employee Advances,1090,other_current_asset,4833.34,
+Advance – Mr. Khalid,1100,other_current_asset,69802.54,
+Property and Equipment – Cost,1120,fixed_asset,89299376.58,
+Accumulated Depreciation,1130,fixed_asset,,61336289.23
+Accounts Payable,2010,accounts_payable,,47901129.21
+Accrued Expenses,2020,other_current_liability,,247965.50
+VAT Payable,2050,other_current_liability,,1707620.62
+Zakat Payable,2060,other_current_liability,,2148559.90
+GOSI Payable,2070,other_current_liability,,202950.61
+Provision for End-of-Service Benefits,2110,long_term_liability,,19539687.51
+Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Retained Earnings,3030,equity,,92636148.64
+Contract Revenue,4010,income,,185326694.86
+Other Income,4020,other_income,,13037.93
+Direct Materials,5010,cost_of_goods_sold,54985580.71,
+Direct Labour – Site Staff,5020,cost_of_goods_sold,35544453.99,
+Subcontractor Costs,5030,cost_of_goods_sold,44914347.56,
+Equipment Hire and Site Costs,5040,cost_of_goods_sold,16457896.40,
+Salaries and Allowances,6010,expense,9295533.33,
+GOSI Contributions,6020,expense,1009326.14,
+End-of-Service Benefits Expense,6030,expense,1874260.84,
+Rent and Service Charges,6040,expense,898943.46,
+Utilities,6050,expense,532474.79,
+Marketing and Advertising,6060,expense,150522.37,
+General and Administrative,6070,expense,3358060.63,
+Bank Charges,6080,expense,9950.37,
+Depreciation,6090,expense,6591844.63,
+Expected Credit Loss Expense,6100,expense,,55536.88
+Interest Expense,7010,other_expense,98197.18,
+Zakat Expense,7030,other_expense,2148559.90,
+Total,,,463680661.10,463680661.10

@@ -1,0 +1,43 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 31/07/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,23140181.69,
+Bank – Collections Account,1020,bank,279292.95,
+Petty Cash,1030,cash,36227.96,
+Accounts Receivable,1040,accounts_receivable,80046675.01,
+Allowance for Expected Credit Losses,1050,other_current_asset,,135121.61
+Inventory,1060,stock,28957389.60,
+Prepayments and Advances,1070,other_current_asset,1518534.89,
+Employee Advances,1090,other_current_asset,1500.02,
+Property and Equipment – Cost,1110,fixed_asset,58389472.30,
+Accumulated Depreciation,1120,fixed_asset,,44020254.12
+Accounts Payable,2010,accounts_payable,,45533759.54
+Accrued Expenses,2020,other_current_liability,,375338.94
+VAT Payable,2050,other_current_liability,,946020.24
+Zakat Payable,2060,other_current_liability,,1271047.88
+GOSI Payable,2070,other_current_liability,,166696.49
+Term Loan,2100,long_term_liability,,7125000.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,9418828.16
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,25406966.40
+Sales,4010,income,,204319074.40
+Sales Returns,4020,income,627279.10,
+Cost of Goods Sold,5010,cost_of_goods_sold,153923546.23,
+Salaries and Allowances,6010,expense,17579695.48,
+GOSI Contributions,6020,expense,706183.67,
+End-of-Service Benefits Expense,6030,expense,791086.26,
+Rent and Service Charges,6040,expense,4122956.22,
+Utilities,6050,expense,1161828.20,
+Marketing and Advertising,6060,expense,855824.16,
+Delivery and Fuel,6070,expense,5567033.67,
+General and Administrative,6080,expense,4124750.24,
+Bank Charges,6090,expense,15371.13,
+Depreciation,6100,expense,4023023.14,
+Expected Credit Loss Expense,6110,expense,,5270.51
+Interest Expense,7010,other_expense,433833.27,
+Foreign Exchange Gains and Losses,7020,other_expense,550645.22,
+Zakat Expense,7030,other_expense,1271047.88,
+Total,,,388123378.29,388123378.29

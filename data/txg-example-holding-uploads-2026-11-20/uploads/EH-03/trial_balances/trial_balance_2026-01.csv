@@ -1,0 +1,42 @@
+Example Contracting C Co. (made-up)
+Trial Balance
+As of 31/01/2026,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+البنك - الحساب الجاري,100001,bank,62008603.03,
+الصندوق - النثرية,100003,cash,32334.69,
+الذمم المدينة,100004,accounts_receivable,109762487.85,
+إيرادات غير مفوترة,100005,other_current_asset,35422556.78,
+مخصص الخسائر الائتمانية المتوقعة,100006,other_current_asset,,402159.44
+مصروفات مدفوعة مقدماً,100007,other_current_asset,1256157.85,
+سلف الموظفين,100009,other_current_asset,6916.69,
+سلفة - السيد خالد,100010,other_current_asset,113104.08,
+الممتلكات والمعدات - التكلفة,100012,fixed_asset,65751789.03,
+مجمع الاستهلاك,100013,fixed_asset,,56278132.38
+الذمم الدائنة,200001,accounts_payable,,42848176.58
+مصروفات مستحقة,200002,other_current_liability,,206762.74
+VAT مستحقة,200005,other_current_liability,,341344.10
+الزكاة المستحقة,200006,other_current_liability,,4291938.59
+GOSI مستحق,200007,other_current_liability,,157918.25
+قرض لأجل,200010,long_term_liability,,1500000.00
+مخصص EOSB,200011,long_term_liability,,14727455.08
+رأس المال,300001,equity,,24000000.00
+الاحتياطي النظامي,300002,equity,,7200000.00
+الأرباح المبقاة,300003,equity,,120788801.06
+إيرادات العقود,400001,income,,22153658.85
+مواد مباشرة,500001,cost_of_goods_sold,6555138.31,
+عمالة مباشرة - الموقع,500002,cost_of_goods_sold,4112225.90,
+تكاليف مقاولي الباطن,500003,cost_of_goods_sold,5302770.68,
+استئجار معدات وتكاليف الموقع,500004,cost_of_goods_sold,1800198.59,
+الرواتب والبدلات,600001,expense,920550.90,
+مصروف GOSI,600002,expense,110668.25,
+مصروف EOSB,600003,expense,211394.16,
+الإيجار ورسوم الخدمات,600004,expense,83692.55,
+المرافق,600005,expense,39465.55,
+التسويق والإعلان,600006,expense,14856.68,
+مصروفات عمومية وإدارية,600007,expense,325511.70,
+رسوم بنكية,600008,expense,998.27,
+الاستهلاك,600009,expense,712311.04,
+مصروف الفوائد,700001,other_expense,17846.52,
+مصروف الزكاة,700003,other_expense,334767.97,
+Total,,,294896347.07,294896347.07

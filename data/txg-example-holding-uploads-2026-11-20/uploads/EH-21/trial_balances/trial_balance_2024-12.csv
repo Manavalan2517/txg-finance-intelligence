@@ -1,0 +1,45 @@
+Example Facility Management A Co. (made-up)
+Trial Balance
+As of 31/12/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,44852267.63,
+Bank – Collections Account,1020,bank,616550.86,
+Petty Cash,1030,cash,37970.62,
+Accounts Receivable,1040,accounts_receivable,80388158.95,
+Unbilled Revenue (Contract Assets),1050,other_current_asset,20345531.83,
+Allowance for Expected Credit Losses,1060,other_current_asset,,379263.78
+Prepayments and Advances,1070,other_current_asset,,101242.75
+Employee Advances,1090,other_current_asset,25791.72,
+Advance – Mr. Khalid,1100,other_current_asset,18669.49,
+Suspense Account,1110,other_current_asset,,21527.15
+Property and Equipment – Cost,1120,fixed_asset,95815510.41,
+Accumulated Depreciation,1130,fixed_asset,,69949570.12
+Accounts Payable,2010,accounts_payable,,17335156.63
+Accrued Expenses,2020,other_current_liability,,267119.85
+VAT Payable,2050,other_current_liability,,1890065.56
+Zakat Payable,2060,other_current_liability,,3087496.12
+GOSI Payable,2070,other_current_liability,,303226.26
+Term Loan,2100,long_term_liability,,41187500.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,24162007.57
+Share Capital,3010,equity,,34667000.00
+Statutory Reserve,3020,equity,,10400000.00
+Retained Earnings,3030,equity,,25536701.63
+Contract Revenue,4010,income,,253394789.41
+Direct Materials,5010,cost_of_goods_sold,44460061.43,
+Direct Labour – Site Staff,5020,cost_of_goods_sold,103956223.57,
+Subcontractor Costs,5030,cost_of_goods_sold,25752699.74,
+Equipment Hire and Site Costs,5040,cost_of_goods_sold,15928428.33,
+Salaries and Allowances,6010,expense,17276009.89,
+GOSI Contributions,6020,expense,2572530.05,
+End-of-Service Benefits Expense,6030,expense,4790759.02,
+Rent and Service Charges,6040,expense,1383576.71,
+Utilities,6050,expense,821281.24,
+Marketing and Advertising,6060,expense,167936.52,
+General and Administrative,6070,expense,5508202.31,
+Bank Charges,6080,expense,15532.79,
+Depreciation,6090,expense,11819804.59,
+Expected Credit Loss Expense,6100,expense,8005.94,
+Interest Expense,7010,other_expense,3033667.07,
+Zakat Expense,7030,other_expense,3087496.12,
+Total,,,482682666.83,482682666.83

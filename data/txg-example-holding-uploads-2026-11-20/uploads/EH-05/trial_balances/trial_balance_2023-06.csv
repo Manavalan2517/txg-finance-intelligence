@@ -1,0 +1,44 @@
+Example Building Materials A Co. (made-up)
+Trial Balance
+As of 30/06/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,21145454.15,
+Bank – Collections Account,1020,bank,137750.06,
+Petty Cash,1030,cash,32384.57,
+Accounts Receivable,1040,accounts_receivable,74037892.82,
+Allowance for Expected Credit Losses,1050,other_current_asset,,128857.04
+Inventory,1060,stock,29138775.86,
+Prepayments and Advances,1070,other_current_asset,419617.50,
+Employee Advances,1090,other_current_asset,3500.02,
+Property and Equipment – Cost,1110,fixed_asset,50906661.04,
+Accumulated Depreciation,1120,fixed_asset,,30451816.51
+Accounts Payable,2010,accounts_payable,,48001043.55
+Accrued Expenses,2020,other_current_liability,,341468.36
+VAT Payable,2050,other_current_liability,,534939.75
+Zakat Payable,2060,other_current_liability,,961749.20
+GOSI Payable,2070,other_current_liability,,152654.41
+Term Loan,2100,long_term_liability,,21375000.00
+Provision for End-of-Service Benefits,2110,long_term_liability,,8903114.12
+Share Capital,3010,equity,,38000000.00
+Statutory Reserve,3020,equity,,11400000.00
+Retained Earnings,3030,equity,,8319144.09
+Sales,4010,income,,169456220.75
+Sales Returns,4020,income,207879.45,
+Other Income,4030,other_income,,9705.54
+Cost of Goods Sold,5010,cost_of_goods_sold,128501312.84,
+Salaries and Allowances,6010,expense,13890899.64,
+GOSI Contributions,6020,expense,557755.96,
+End-of-Service Benefits Expense,6030,expense,625090.44,
+Rent and Service Charges,6040,expense,3347297.63,
+Utilities,6050,expense,878733.09,
+Marketing and Advertising,6060,expense,920155.84,
+Delivery and Fuel,6070,expense,4767062.24,
+General and Administrative,6080,expense,3353175.19,
+Bank Charges,6090,expense,12268.24,
+Depreciation,6100,expense,2999346.80,
+Expected Credit Loss Expense,6110,expense,,30352.29
+Interest Expense,7010,other_expense,931949.96,
+Foreign Exchange Gains and Losses,7020,other_expense,289353.07,
+Zakat Expense,7030,other_expense,961749.20,
+Total,,,338066065.61,338066065.61

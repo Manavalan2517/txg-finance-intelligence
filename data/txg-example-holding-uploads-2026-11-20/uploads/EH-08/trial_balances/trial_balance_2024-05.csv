@@ -1,0 +1,46 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 31/05/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,29420754.93,
+Current Account – Bank 2,1020,bank,134689.28,
+Petty Cash Float,1030,cash,39187.73,
+Trade Debtors,1040,accounts_receivable,82313888.47,
+Provision for Doubtful Debts,1050,other_current_asset,,152423.40
+Stock on Hand,1060,stock,34837271.83,
+Prepayments,1070,other_current_asset,1106723.13,
+Staff Loans,1090,other_current_asset,6375.01,
+Suspense,1100,other_current_asset,,14098.14
+Fixed Assets – Cost,1110,fixed_asset,58738991.56,
+Fixed Assets – Depreciation,1120,fixed_asset,,38487788.21
+Trade Creditors,2010,accounts_payable,,49017877.43
+Accruals,2020,other_current_liability,,314251.15
+VAT Liability,2050,other_current_liability,165585.64,
+Zakat Liability,2060,other_current_liability,,982331.00
+GOSI Control,2070,other_current_liability,,164771.68
+Dividends Declared,2090,other_current_liability,,7400000.00
+Bank Loan,2100,long_term_liability,,15000000.00
+Gratuity Provision,2110,long_term_liability,,9739062.14
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,26476879.91
+Turnover,4010,income,,156420241.95
+Returns Inwards,4020,income,1830027.54,
+Cost of Sales,5010,cost_of_goods_sold,118143058.12,
+Stock Write-offs,5020,cost_of_goods_sold,77070.19,
+Wages and Salaries,6010,expense,12482631.60,
+Employer GOSI,6020,expense,502094.33,
+Gratuity Expense,6030,expense,561718.40,
+Rent and Rates,6040,expense,3012876.27,
+"Light, Heat and Water",6050,expense,726367.92,
+Advertising and Promotions,6060,expense,793310.70,
+Motor and Delivery Expenses,6070,expense,3802509.11,
+Office and Admin Costs,6080,expense,2964135.03,
+Bank Charges and Commissions,6090,expense,14020.52,
+Depreciation Charge,6100,expense,2921421.93,
+Bad Debt Expense,6110,expense,6206.18,
+Loan Interest,7010,other_expense,634916.64,
+Exchange Gains and Losses,7020,other_expense,,48438.05
+Zakat Charge,7030,other_expense,982331.00,
+Total,,,356218163.06,356218163.06

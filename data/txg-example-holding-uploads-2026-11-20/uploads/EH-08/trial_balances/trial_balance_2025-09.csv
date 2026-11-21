@@ -1,0 +1,45 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 30/09/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,19858524.06,
+Current Account – Bank 2,1020,bank,589997.22,
+Petty Cash Float,1030,cash,36481.18,
+Trade Debtors,1040,accounts_receivable,81545083.98,
+Provision for Doubtful Debts,1050,other_current_asset,,183725.91
+Stock on Hand,1060,stock,30426715.22,
+Prepayments,1070,other_current_asset,127201.32,
+Staff Loans,1090,other_current_asset,1500.00,
+Fixed Assets – Cost,1110,fixed_asset,70843726.41,
+Fixed Assets – Depreciation,1120,fixed_asset,,49175562.90
+Trade Creditors,2010,accounts_payable,,38914890.54
+Accruals,2020,other_current_liability,,439458.74
+VAT Liability,2050,other_current_liability,,1272548.91
+Zakat Liability,2060,other_current_liability,,1739495.95
+GOSI Control,2070,other_current_liability,,175978.45
+Bank Loan,2100,long_term_liability,,5625000.00
+Gratuity Provision,2110,long_term_liability,,9946076.97
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,34660760.69
+Turnover,4010,income,,290749461.63
+Returns Inwards,4020,income,2725408.23,
+Sundry Income,4030,other_income,,165446.11
+Cost of Sales,5010,cost_of_goods_sold,221190411.90,
+Stock Write-offs,5020,cost_of_goods_sold,247264.32,
+Wages and Salaries,6010,expense,23955102.05,
+Employer GOSI,6020,expense,956334.65,
+Gratuity Expense,6030,expense,1077979.55,
+Rent and Rates,6040,expense,5590423.60,
+"Light, Heat and Water",6050,expense,1616776.04,
+Advertising and Promotions,6060,expense,1522163.41,
+Motor and Delivery Expenses,6070,expense,7426746.32,
+Office and Admin Costs,6080,expense,5631958.28,
+Bank Charges and Commissions,6090,expense,24263.56,
+Depreciation Charge,6100,expense,6159449.88,
+Bad Debt Expense,6110,expense,51506.68,
+Loan Interest,7010,other_expense,547062.46,
+Exchange Gains and Losses,7020,other_expense,1156830.53,
+Zakat Charge,7030,other_expense,1739495.95,
+Total,,,485048406.80,485048406.80

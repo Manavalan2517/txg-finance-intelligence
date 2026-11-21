@@ -1,0 +1,44 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 31/12/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,30293692.66,
+Petty Cash Float,1030,cash,38814.76,
+Trade Debtors,1040,accounts_receivable,86729787.51,
+Provision for Doubtful Debts,1050,other_current_asset,,146217.22
+Stock on Hand,1060,stock,29018995.57,
+Prepayments,1070,other_current_asset,,70341.21
+Staff Loans,1090,other_current_asset,2333.35,
+Fixed Assets – Cost,1110,fixed_asset,57962610.88,
+Fixed Assets – Depreciation,1120,fixed_asset,,35566366.28
+Trade Creditors,2010,accounts_payable,,50039245.72
+Accruals,2020,other_current_liability,,433592.62
+VAT Liability,2050,other_current_liability,,949592.73
+Zakat Liability,2060,other_current_liability,,2305740.16
+GOSI Control,2070,other_current_liability,,164381.39
+Bank Loan,2100,long_term_liability,,18750000.00
+Gratuity Provision,2110,long_term_liability,,9743877.49
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,19074979.50
+Turnover,4010,income,,366139610.58
+Returns Inwards,4020,income,2946305.84,
+Sundry Income,4030,other_income,,13122.07
+Cost of Sales,5010,cost_of_goods_sold,277857120.05,
+Stock Write-offs,5020,cost_of_goods_sold,265572.17,
+Wages and Salaries,6010,expense,29500179.54,
+Employer GOSI,6020,expense,1187372.98,
+Gratuity Expense,6030,expense,1327508.02,
+Rent and Rates,6040,expense,7093618.13,
+"Light, Heat and Water",6050,expense,2035616.83,
+Advertising and Promotions,6060,expense,1461946.89,
+Motor and Delivery Expenses,6070,expense,9480639.77,
+Office and Admin Costs,6080,expense,6976212.68,
+Bank Charges and Commissions,6090,expense,33660.24,
+Depreciation Charge,6100,expense,6594230.36,
+Bad Debt Expense,6110,expense,28484.71,
+Loan Interest,7010,other_expense,1890062.45,
+Exchange Gains and Losses,7020,other_expense,366561.42,
+Zakat Charge,7030,other_expense,2305740.16,
+Total,,,555397066.97,555397066.97

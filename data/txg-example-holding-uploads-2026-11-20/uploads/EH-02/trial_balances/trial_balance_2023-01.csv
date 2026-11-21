@@ -1,0 +1,42 @@
+Example Contracting B Co. (made-up)
+Trial Balance
+As of 31/01/2023,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Bank – Operating Account,1010,bank,14893036.49,
+Bank – Collections Account,1020,bank,1719247.92,
+Petty Cash,1030,cash,46426.80,
+Accounts Receivable,1040,accounts_receivable,144754276.94,
+Unbilled Revenue (Contract Assets),1050,other_current_asset,41646781.19,
+Allowance for Expected Credit Losses,1060,other_current_asset,,620577.09
+Prepayments and Advances,1070,other_current_asset,2160960.71,
+Employee Advances,1090,other_current_asset,4333.34,
+Advance – Mr. Khalid,1100,other_current_asset,86804.01,
+Property and Equipment – Cost,1120,fixed_asset,83163599.76,
+Accumulated Depreciation,1130,fixed_asset,,55645383.59
+Accounts Payable,2010,accounts_payable,,51688567.56
+Accrued Expenses,2020,other_current_liability,,319877.18
+VAT Payable,2050,other_current_liability,,439225.09
+Zakat Payable,2060,other_current_liability,,3931570.37
+GOSI Payable,2070,other_current_liability,,208217.84
+Provision for End-of-Service Benefits,2110,long_term_liability,,18868667.24
+Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Retained Earnings,3030,equity,,102236148.64
+Contract Revenue,4010,income,,28799281.28
+Direct Materials,5010,cost_of_goods_sold,7913881.17,
+Direct Labour – Site Staff,5020,cost_of_goods_sold,5124525.90,
+Subcontractor Costs,5030,cost_of_goods_sold,7123641.67,
+Equipment Hire and Site Costs,5040,cost_of_goods_sold,2485659.99,
+Salaries and Allowances,6010,expense,1317151.41,
+GOSI Contributions,6020,expense,144844.15,
+End-of-Service Benefits Expense,6030,expense,271568.21,
+Rent and Service Charges,6040,expense,127757.42,
+Utilities,6050,expense,53381.03,
+Marketing and Advertising,6060,expense,30683.46,
+General and Administrative,6070,expense,462999.54,
+Bank Charges,6080,expense,1462.96,
+Depreciation,6090,expense,900938.99,
+Interest Expense,7010,other_expense,14359.02,
+Zakat Expense,7030,other_expense,309193.80,
+Total,,,314757515.88,314757515.88

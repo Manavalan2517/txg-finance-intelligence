@@ -1,0 +1,43 @@
+Example Contracting C Co. (made-up)
+Trial Balance
+As of 31/01/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+البنك - الحساب الجاري,100001,bank,52861818.15,
+الصندوق - النثرية,100003,cash,27893.49,
+الذمم المدينة,100004,accounts_receivable,113250511.02,
+إيرادات غير مفوترة,100005,other_current_asset,35057604.90,
+مخصص الخسائر الائتمانية المتوقعة,100006,other_current_asset,,259632.50
+مصروفات مدفوعة مقدماً,100007,other_current_asset,1198524.01,
+سلف الموظفين,100009,other_current_asset,5166.70,
+سلفة - السيد خالد,100010,other_current_asset,194870.68,
+حساب معلق,100011,other_current_asset,,38806.28
+الممتلكات والمعدات - التكلفة,100012,fixed_asset,60821533.75,
+مجمع الاستهلاك,100013,fixed_asset,,47939509.11
+الذمم الدائنة,200001,accounts_payable,,40920287.29
+مصروفات مستحقة,200002,other_current_liability,,200718.34
+VAT مستحقة,200005,other_current_liability,,1032860.83
+الزكاة المستحقة,200006,other_current_liability,,4148025.36
+GOSI مستحق,200007,other_current_liability,,150413.01
+قرض لأجل,200010,long_term_liability,,7500000.00
+مخصص EOSB,200011,long_term_liability,,13889256.02
+رأس المال,300001,equity,,24000000.00
+الاحتياطي النظامي,300002,equity,,7200000.00
+الأرباح المبقاة,300003,equity,,113609583.46
+إيرادات العقود,400001,income,,24186066.92
+مواد مباشرة,500001,cost_of_goods_sold,7235403.20,
+عمالة مباشرة - الموقع,500002,cost_of_goods_sold,3982309.44,
+تكاليف مقاولي الباطن,500003,cost_of_goods_sold,5773964.36,
+استئجار معدات وتكاليف الموقع,500004,cost_of_goods_sold,1990170.00,
+الرواتب والبدلات,600001,expense,855549.96,
+مصروف GOSI,600002,expense,105923.42,
+مصروف EOSB,600003,expense,204779.43,
+الإيجار ورسوم الخدمات,600004,expense,81279.67,
+المرافق,600005,expense,35850.91,
+التسويق والإعلان,600006,expense,19653.36,
+مصروفات عمومية وإدارية,600007,expense,328335.26,
+رسوم بنكية,600008,expense,1098.03,
+الاستهلاك,600009,expense,658899.94,
+مصروف الفوائد,700001,other_expense,58663.19,
+مصروف الزكاة,700003,other_expense,325356.25,
+Total,,,285075159.12,285075159.12

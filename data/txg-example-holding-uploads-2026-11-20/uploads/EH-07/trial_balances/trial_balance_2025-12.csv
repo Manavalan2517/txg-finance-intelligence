@@ -1,0 +1,44 @@
+Example Industrial Supplies Co. (made-up)
+Trial Balance
+As of 31/12/2025,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,3442649.37,
+Petty Cash Float,1030,cash,17294.76,
+Trade Debtors,1040,accounts_receivable,47757539.62,
+Provision for Doubtful Debts,1050,other_current_asset,,59862.86
+Stock on Hand,1060,stock,20195915.71,
+Prepayments,1070,other_current_asset,,36304.04
+Suspense,1100,other_current_asset,,11694.57
+Fixed Assets – Cost,1110,fixed_asset,20586485.84,
+Fixed Assets – Depreciation,1120,fixed_asset,,14935502.21
+Trade Creditors,2010,accounts_payable,,30927640.87
+Accruals,2020,other_current_liability,,45348.58
+VAT Liability,2050,other_current_liability,101189.42,
+Zakat Liability,2060,other_current_liability,,653555.23
+GOSI Control,2070,other_current_liability,,19414.11
+Bank Overdraft / RCF,2080,other_current_liability,,13000000.00
+Dividends Declared,2090,other_current_liability,,700000.00
+Bank Loan,2100,long_term_liability,,1125000.00
+Gratuity Provision,2110,long_term_liability,,1956742.32
+Ordinary Share Capital,3010,equity,,12000000.00
+Statutory Reserve,3020,equity,,3600000.00
+Profit and Loss Reserve,3030,equity,,7936487.18
+Turnover,4010,income,,170605043.28
+Returns Inwards,4020,income,401206.94,
+Cost of Sales,5010,cost_of_goods_sold,154376760.36,
+Wages and Salaries,6010,expense,3317260.30,
+Employer GOSI,6020,expense,137404.09,
+Gratuity Expense,6030,expense,149276.63,
+Rent and Rates,6040,expense,780647.82,
+"Light, Heat and Water",6050,expense,218776.37,
+Advertising and Promotions,6060,expense,196005.63,
+Motor and Delivery Expenses,6070,expense,1108762.56,
+Office and Admin Costs,6080,expense,817092.74,
+Bank Charges and Commissions,6090,expense,14303.83,
+Depreciation Charge,6100,expense,2320958.83,
+Bad Debt Expense,6110,expense,14843.48,
+Loan Interest,7010,other_expense,823493.79,
+Exchange Gains and Losses,7020,other_expense,181171.93,
+Zakat Charge,7030,other_expense,653555.23,
+Total,,,257612595.25,257612595.25

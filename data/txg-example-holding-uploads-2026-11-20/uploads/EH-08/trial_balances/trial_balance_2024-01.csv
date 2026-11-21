@@ -1,0 +1,42 @@
+Example Food Distribution A Co. (made-up)
+Trial Balance
+As of 31/01/2024,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,24947393.27,
+Petty Cash Float,1030,cash,37928.63,
+Trade Debtors,1040,accounts_receivable,83514836.75,
+Provision for Doubtful Debts,1050,other_current_asset,,146217.22
+Stock on Hand,1060,stock,28185635.43,
+Prepayments,1070,other_current_asset,2030662.98,
+Staff Loans,1090,other_current_asset,9000.02,
+Fixed Assets – Cost,1110,fixed_asset,57962610.88,
+Fixed Assets – Depreciation,1120,fixed_asset,,36145992.38
+Trade Creditors,2010,accounts_payable,,41510756.86
+Accruals,2020,other_current_liability,,441308.87
+VAT Liability,2050,other_current_liability,,532571.51
+Zakat Liability,2060,other_current_liability,,2500795.29
+GOSI Control,2070,other_current_liability,,162395.30
+Bank Loan,2100,long_term_liability,,18750000.00
+Gratuity Provision,2110,long_term_liability,,9746642.09
+Ordinary Share Capital,3010,equity,,40000000.00
+Statutory Reserve,3020,equity,,12000000.00
+Profit and Loss Reserve,3030,equity,,33876879.91
+Turnover,4010,income,,29834024.36
+Returns Inwards,4020,income,781919.10,
+Cost of Sales,5010,cost_of_goods_sold,22249435.03,
+Stock Write-offs,5020,cost_of_goods_sold,8510.89,
+Wages and Salaries,6010,expense,2478792.29,
+Employer GOSI,6020,expense,99788.59,
+Gratuity Expense,6030,expense,111545.65,
+Rent and Rates,6040,expense,600988.25,
+"Light, Heat and Water",6050,expense,120227.60,
+Advertising and Promotions,6060,expense,127217.53,
+Motor and Delivery Expenses,6070,expense,780842.49,
+Office and Admin Costs,6080,expense,603405.60,
+Bank Charges and Commissions,6090,expense,3086.95,
+Depreciation Charge,6100,expense,579626.10,
+Loan Interest,7010,other_expense,142729.16,
+Exchange Gains and Losses,7020,other_expense,76345.47,
+Zakat Charge,7030,other_expense,195055.13,
+Total,,,225647583.79,225647583.79

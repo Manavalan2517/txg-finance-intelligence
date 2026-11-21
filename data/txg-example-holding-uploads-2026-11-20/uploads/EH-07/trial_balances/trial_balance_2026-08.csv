@@ -1,0 +1,45 @@
+Example Industrial Supplies Co. (made-up)
+Trial Balance
+As of 31/08/2026,Basis: Accrual,Run after the close
+
+Account,Account Code,Account Type,Net Debit,Net Credit
+Current Account – Bank 1,1010,bank,2197320.10,
+Current Account – Bank 2,1020,bank,111147.05,
+Petty Cash Float,1030,cash,18112.99,
+Trade Debtors,1040,accounts_receivable,64168062.35,
+Provision for Doubtful Debts,1050,other_current_asset,,84266.32
+Stock on Hand,1060,stock,28874312.73,
+Prepayments,1070,other_current_asset,66659.94,
+Suspense,1100,other_current_asset,,44533.77
+Fixed Assets – Cost,1110,fixed_asset,21307218.06,
+Fixed Assets – Depreciation,1120,fixed_asset,,16610597.94
+Trade Creditors,2010,accounts_payable,,41199995.90
+Accruals,2020,other_current_liability,,46414.94
+VAT Liability,2050,other_current_liability,153442.60,
+Zakat Liability,2060,other_current_liability,,496351.52
+GOSI Control,2070,other_current_liability,,20034.03
+Bank Overdraft / RCF,2080,other_current_liability,,18000000.00
+Dividends Declared,2090,other_current_liability,,3200000.00
+Gratuity Provision,2110,long_term_liability,,1901991.68
+Ordinary Share Capital,3010,equity,,12000000.00
+Statutory Reserve,3020,equity,,3600000.00
+Profit and Loss Reserve,3030,equity,,10530009.93
+Turnover,4010,income,,166823939.21
+Returns Inwards,4020,income,134026.58,
+Sundry Income,4030,other_income,,11694.57
+Cost of Sales,5010,cost_of_goods_sold,149760183.82,
+Wages and Salaries,6010,expense,2336181.92,
+Employer GOSI,6020,expense,97698.61,
+Gratuity Expense,6030,expense,105128.16,
+Rent and Rates,6040,expense,532144.71,
+"Light, Heat and Water",6050,expense,151562.47,
+Advertising and Promotions,6060,expense,113598.65,
+Motor and Delivery Expenses,6070,expense,745484.94,
+Office and Admin Costs,6080,expense,535726.69,
+Bank Charges and Commissions,6090,expense,9686.71,
+Depreciation Charge,6100,expense,1675095.73,
+Bad Debt Expense,6110,expense,24403.46,
+Loan Interest,7010,other_expense,780527.38,
+Exchange Gains and Losses,7020,other_expense,175752.64,
+Zakat Charge,7030,other_expense,496351.52,
+Total,,,274569829.81,274569829.81
